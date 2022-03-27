@@ -1,0 +1,7 @@
+Bất cứ khi nào bạn thấy mình có quá nhiều tab, hãy bấm vào biểu tượng OneTab để chuyển đổi tất cả các tab của bạn vào một danh sách. Khi bạn cần truy nhập các tab này một lần nữa, bạn có thể khôi phục lại riêng từng tab hoặc tất cả cùng một lúc.
+
+Khi các tab của bạn nằm trong danh sách OneTab, bạn sẽ tiết kiệm đến 95% bộ nhớ vì số lượng các tab đang mở trong Safari đã được giảm đi.
+
+Đảm bảo quyền riêng tư
+
+Thông tin về các tab của bạn không bao giờ được truyền tải hoặc tiết lộ cho các nhà phát triển OneTab hoặc bất kỳ bên nào khác. Ngoại lệ duy nhất là khi bạn có chủ đích bấm vào tính năng "chia sẻ dưới dạng trang web" vốn có chức năng cho phép bạn tải lên danh sách các tab của bạn vào một trang web để chia sẻ với những người khác. Các tab không bao giờ được chia sẻ trừ khi bạn sử dụng nút "chia sẻ dưới dạng trang web".

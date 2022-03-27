@@ -1,0 +1,382 @@
+{
+   "1tab": {
+      "description": "Indicating a tab count of 1",
+      "message": "1 sekme"
+   },
+   "2tabs": {
+      "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "2 sekme"
+   },
+   "95PctMemoryReduction": {
+      "description": "",
+      "message": "%95 oranında bellek azaltması"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "description": "",
+      "message": "OneTab Firefox için de mevcuttur"
+   },
+   "about": {
+      "description": "Information about the software",
+      "message": "Hakkında"
+   },
+   "addOneTabNow": {
+      "description": "This means the user can add (install) the OneTab software to their web browser",
+      "message": "Şimdi OneTab'ı yükleyin"
+   },
+   "afterInstantReliefRestoreLater": {
+      "description": "",
+      "message": "Sonra: Hızlıca rahatlama, sekmeleri sonradan hızlıca geri yükleyebilme"
+   },
+   "areYouSureYouWantToDeleteTheseTabs": {
+      "description": "",
+      "message": "Tüm sekmeleri silmek istediğinizden emin misiniz?"
+   },
+   "areYouSureYouWantToDeleteThisTab": {
+      "description": "",
+      "message": "Bu sekmeyi silmek istediğinizden emin misiniz?"
+   },
+   "beforeLostInMessBrowserSlow": {
+      "description": "",
+      "message": "Önce: Sekmeler karmakarışık, tarayıcı yavaş"
+   },
+   "bringAllTabsIntoOneTab": {
+      "description": "Takes all of the user's web browser tabs and stores them into the OneTab software",
+      "message": "Tüm sekmeleri OneTab'e getir"
+   },
+   "convertTabsIntoAList": {
+      "description": "",
+      "message": "Sekmeleri listeye dönüştürün"
+   },
+   "createdPreceedingDate": {
+      "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'",
+      "message": "Oluşturulma tarihi"
+   },
+   "deleteAll": {
+      "description": "",
+      "message": "Tümünü sil"
+   },
+   "displayOneTab": {
+      "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated.",
+      "message": "OneTab'ı görüntüle"
+   },
+   "emptyOneTabInfoMsg": {
+      "description": "",
+      "message": "Açık birçok sekmeniz olduğunda, tarayıcı çubuğunuzdaki OneTab simgesine tıklarsanız açık sekmeleriniz burada görünecektir."
+   },
+   "excludeDomainFromOneTab": {
+      "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder.",
+      "message": "DOMAIN.COM'u OneTab'e dahil etme"
+   },
+   "excludeWebSiteFromOneTab": {
+      "description": "",
+      "message": "Bu web sitesini OneTab'e dahil etme"
+   },
+   "export": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "Dışa Aktar"
+   },
+   "exportImportUrls": {
+      "description": "Referrs to the importing or exporting of URLs into and out of the software",
+      "message": "Bağlantıları Dışa / İçe Aktar"
+   },
+   "exportThenImportNote": {
+      "description": "",
+      "message": "Bu bağlantı listesi bu bilgisayarda ya da başka bir bilgisayarda OneTab'e geri yüklenebilir."
+   },
+   "exportUrls": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "Bağlantıları Dışa Aktar"
+   },
+   "features": {
+      "description": "Display a page with information about features of the software",
+      "message": "Özellikler"
+   },
+   "feedback": {
+      "description": "Displays a page where feedback can be given about the software",
+      "message": "Geri bildirim"
+   },
+   "help": {
+      "description": "gives the user help information",
+      "message": "Yardım"
+   },
+   "import": {
+      "description": "Referrs to the importing of URLs into the software",
+      "message": "İçe Aktar"
+   },
+   "importUrls": {
+      "description": "Referrs to the importing of URLs into and out of the software",
+      "message": "Bağlantıları İçe Aktar"
+   },
+   "languageTitle": {
+      "description": "Title shown above the list of languages the user can choose from",
+      "message": "Dil:"
+   },
+   "lockTabGroup": {
+      "description": "Locked means changes cannot be made",
+      "message": "Bu sekme grubunu kilitleyin"
+   },
+   "manifestDescription": {
+      "description": "The description of the software. Note that 'tab' refers to web browser tabs.",
+      "message": "Bellek kapasitesinde %95 oranında tasarruf sağlayın ve sekme karmaşasını engelleyin"
+   },
+   "memoryAfter99": {
+      "description": "",
+      "message": "Sonra: sadece 99 MB kullanılıyor"
+   },
+   "memoryBefore1981": {
+      "description": "",
+      "message": "Önce: 1981 MB kullanılıyor"
+   },
+   "moreTripleDot": {
+      "description": "Clicking this will reveal more options",
+      "message": "Daha fazla..."
+   },
+   "nameThisTabGroup": {
+      "description": "Allows the user to type a label to describe a group of browser tabs",
+      "message": "Bu sekme grubunu isimlendirin"
+   },
+   "namedTabGroups": {
+      "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)",
+      "message": "İsimlendirilmiş sekme grupları"
+   },
+   "newExclamation": {
+      "description": "",
+      "message": "Yeni!"
+   },
+   "noSignupRegistrationRequired": {
+      "description": "",
+      "message": "Üyelik ya da kayıt gerektirmez"
+   },
+   "noTabsInOneTabYet": {
+      "description": "",
+      "message": "OneTab'de henüz bir sekme bulunmuyor."
+   },
+   "nowAvailableInLanguage": {
+      "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into.",
+      "message": "OneTab artık Türkçe!"
+   },
+   "optionDuplicatesAllow": {
+      "description": "",
+      "message": "Yinelemelere izin ver"
+   },
+   "optionDuplicatesReject": {
+      "description": "",
+      "message": "Yinelemeleri sessizce reddet"
+   },
+   "optionDuplicatesRejectDesc": {
+      "description": "",
+      "message": "OneTab bu sekmenin bağlantısını zaten içeriyorsa bu bağlantı tekrar eklenmeyecektir. Bu sadece OneTab simgesine tıkladığınızda ya da çok sayıda sekmeyi OneTab'e göndermek için sağ tıklama menüsünü kullandığınızda geçerlidir. Eğer belirli bir sekmeyi OneTab'e göndermek için OneTab sağ tıklama menüsünü kullanırsanız, bu belirli sekme için yinelemeye izin verilecektir."
+   },
+   "optionDuplicatesTitle": {
+      "description": "",
+      "message": "Yinelemeler:"
+   },
+   "optionPinnedTabsAllow": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "İğnelenmiş sekmelerin OneTab'e gönderilmesine izin ver"
+   },
+   "optionPinnedTabsDontSend": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "İğnelenmiş sekmeleri OneTab'e gönderme"
+   },
+   "optionPinnedTabsDontSendDesc": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Bir internet sayfasında sağ tıklayıp OneTab menüsüne eriştikten sonra, \"Sadece bu sekmeyi OneTab'e gönder\"e tıklayarak, iğnelenmiş bir sekmeyi OneTab'e gönderebilirsiniz."
+   },
+   "optionPinnedTabsNote": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Not: Bir sekmeye sağ tıklayıp 'Sekmeyi İğnele'ye tıkladığınızda, o sekme sabitlenmiş olur. Çoğu kişi kolayca erişebilmek için Facebook ya da Gmail gibi siteleri sabitlemeyi tercih eder. OneTab, sekmeyi geri yüklediğinizde o sekmenin sabitlenmiş olup olmadığını hatırlayacaktır."
+   },
+   "optionPinnedTabsTitle": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "İğnelenmiş sekmeler:"
+   },
+   "optionRestoreRemovalDefault": {
+      "description": "",
+      "message": "Sekme ya da sekmeleri açın ve OneTab listenizden çıkarın"
+   },
+   "optionRestoreRemovalDefaultDesc": {
+      "description": "",
+      "message": "Sekmelerinizi OneTab'den atmadan sekme ya da sekmeleri geri yüklemek için ctrl, cmd ya da shift'e basabilirsiniz. Sekme gruplarınızdan herhangi birini 'kilitli' durumuna getirdiyseniz, sekme grubunun kilidini açmadığınız sürece sekmeler OneTab'den atılmayacaklardır."
+   },
+   "optionRestoreRemovalKeep": {
+      "description": "",
+      "message": "Sekmeleri OneTab listenizde tutun"
+   },
+   "optionRestoreRemovalKeepDesc": {
+      "description": "",
+      "message": "Fareyi girdilerin üzerine getirerek ve X simgesine tıklayarak ya da 'Tümünü Sil' butonuna tıklayarak girdileri silebilirsiniz."
+   },
+   "optionRestoreRemovalTitle": {
+      "description": "",
+      "message": "'Tümünü Geri Yükle'ye tıklayarak ya da tek bir sekmeyi geri yükleyerek:"
+   },
+   "optionStartupLaunchDisplay": {
+      "description": "",
+      "message": "Web tarayıcısının ilk kez başlatıldığı her seferde OneTab'i göster"
+   },
+   "optionStartupLaunchNone": {
+      "description": "",
+      "message": "OneTab'i otomatik olarak açma"
+   },
+   "optionStartupLaunchNoneDesc": {
+      "description": "",
+      "message": "OneTab'i elle açmak için, sağ tıklama menüsünü kullanın ve \"OneTab'i Göster\"i seçin"
+   },
+   "optionStartupLaunchTitle": {
+      "description": "'Startup' refers to when the user's web browser is started for the first time",
+      "message": "Başlangıç:"
+   },
+   "optionTabGroupRestoreCurrentWindowAlways": {
+      "description": "",
+      "message": "Her zaman mevcut pencerede aç"
+   },
+   "optionTabGroupRestoreNewWindow": {
+      "description": "",
+      "message": "OneTab o anki pencerede tek sekme değilse yeni bir pencere aç"
+   },
+   "optionTabGroupRestoreNewWindowAlways": {
+      "description": "",
+      "message": "Her zaman yeni bir pencere aç"
+   },
+   "optionTabGroupRestoreTitle": {
+      "description": "This is a heading that will be followed by text options like: 'Always a new window'",
+      "message": "Bir sekme grubu geri yüklendiğinde, sekmeleri şuraya yollayın:"
+   },
+   "options": {
+      "description": "Display options, which are settings that can be changed for the software",
+      "message": "Seçenekler"
+   },
+   "pasteInUrlsInstructions": {
+      "description": "Note: ensure the word Import is consistent in the translation",
+      "message": "Bir bağlantı listesine yapıştırın ve sonra aşağıdaki \"İçe Aktar\"a tıklayın"
+   },
+   "pleaseWaitTripleDot": {
+      "description": "Asks the user to wait briefly",
+      "message": "Lütfen bekleyin..."
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "description": "",
+      "message": "Bellek kullanımını %95 oranında azaltın"
+   },
+   "restoreAll": {
+      "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser.",
+      "message": "Tümünü geri yükle"
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "description": "",
+      "message": "Bellek kapasitesinde %95 oranında tasarruf sağlayın ve Google Chrome'da sekme karmaşasını engelleyin"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "description": "",
+      "message": "Tüm pencerelerdeki tüm sekmeleri OneTab'e gönder"
+   },
+   "sendAllTabsAllWindowsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Tüm pencerelerdeki tüm sekmeleri PLACEHOLDER klasörüne gönder"
+   },
+   "sendAllTabsExceptThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Bu sekme dışındaki tüm sekmeleri PLACEHOLDER klasörüne gönder"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "description": "",
+      "message": "Bu sekme dışındaki tüm sekmeleri OneTab'e gönder"
+   },
+   "sendAllTabsToOneTab": {
+      "description": "",
+      "message": "Tüm sekmeleri OneTab'e gönder"
+   },
+   "sendAllTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Tüm sekmeleri PLACEHOLDER klasörüne gönder"
+   },
+   "sendCurrentTabToOneTab": {
+      "description": "",
+      "message": "Mevcut sekmeyi OneTab'e yolla"
+   },
+   "sendLeftTabsToOneTab": {
+      "description": "",
+      "message": "Soldaki sekmeleri OneTab'e gönder"
+   },
+   "sendLeftTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Soldaki sekmeleri PLACEHOLDER klasörüne gönder"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "description": "",
+      "message": "Sadece bu sekmeyi OneTab'e gönder"
+   },
+   "sendOnlyThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Sadece bu sekmeyi PLACEHOLDER klasörüne gönder"
+   },
+   "sendRightTabsToOneTab": {
+      "description": "",
+      "message": "Sağdaki sekmeleri OneTab'e gönder"
+   },
+   "sendRightTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Sağdaki sekmeleri PLACEHOLDER klasörüne gönder"
+   },
+   "sendThisWebLinkToOneTab": {
+      "description": "",
+      "message": "Bu web bağlantısını OneTab'e gönder"
+   },
+   "sendThisWebLinkToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Bu web bağlatısını PLACEHOLDER klasörüne gönder"
+   },
+   "shareAllAsWebPage": {
+      "description": "All tabs will be shared as a web page for other users to see",
+      "message": "Tümünü web sayfası olarak paylaş"
+   },
+   "shareAsWebPage": {
+      "description": "The selected tabs will be shared as a web page for other users to see",
+      "message": "Web sayfası olarak paylaş"
+   },
+   "starTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "Bu sekme grubunu yıldızlayın"
+   },
+   "tab": {
+      "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'",
+      "message": "sekme"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "description": "",
+      "message": "Çok fazla sekme mi var? Sekmelerinizi bir listeye dönüştürün ve Firefox'u hızlandırın"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "description": "",
+      "message": "Çok fazla sekme mi var? Sekmelerinizi bir listeye dönüştürün ve Safari'u hızlandırın"
+   },
+   "total0Tabs": {
+      "description": "Indicating a total count of 0 tabs stored",
+      "message": "Toplam: 0 sekme"
+   },
+   "total1Tab": {
+      "description": "Indicating a total count of 1 tab stored",
+      "message": "Toplam: 1 sekme"
+   },
+   "total2Tabs": {
+      "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "Toplam: 2 sekme"
+   },
+   "unlockBeforeDeleting": {
+      "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation",
+      "message": "Bu sekme grubunu silmek için önce 'Daha fazla...' butonu aracılığıyla kilidini açmalısınız."
+   },
+   "unlockTabGroup": {
+      "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)",
+      "message": "Bu sekme grubunun kilidini açın"
+   },
+   "unstarTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "Bu sekme grubundan yıldızı kaldırın"
+   },
+   "userLanguage": {
+      "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into.",
+      "message": "Türkçe"
+   }
+}

@@ -1,0 +1,7 @@
+Çok fazla sekmenin arasında kaldıysanız, OneTab simgesine tıklayarak tüm sekmeleri tek bir listeye dönüştürebilirsiniz. Sekmelere tekrar ulaşmak istediğinizde teker teker ya da tamamını bir seferde geri yükleyebilirsiniz.
+
+Sekmeleriniz OneTab listesinde olduğunda, Safari'daki açık sekmeleri azalttığınız için bellek kapasitesinden %95 oranında tasarruf sağlayacaksınız.
+
+Gizlilik teminatı
+
+Sekmeleriniz hakkındaki bilgiler ne OneTab geliştiricilerine ne de başka kişilere iletilmeyecek ya da ifşa edilmeyecektir. Bunun tek istisnası sekmeler listenizi başkalarıyla paylaşmak için bir web sayfasına yüklenmesine izin verecek 'web sayfasında paylaş' özelliğine kasıtlı olarak tıklamanızdır. Siz özellikle 'web sayfası olarak paylaş' butonuna basmadığınız sürece sekmeleriniz asla paylaşılmayacaktır.

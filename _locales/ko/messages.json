@@ -1,0 +1,382 @@
+{
+   "1tab": {
+      "description": "Indicating a tab count of 1",
+      "message": "1개 탭"
+   },
+   "2tabs": {
+      "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "2개 탭"
+   },
+   "95PctMemoryReduction": {
+      "description": "",
+      "message": "95% 메모리 절감"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "description": "",
+      "message": "OneTab은 Firefox에서도 이용 가능합니다."
+   },
+   "about": {
+      "description": "Information about the software",
+      "message": "정보"
+   },
+   "addOneTabNow": {
+      "description": "This means the user can add (install) the OneTab software to their web browser",
+      "message": "지금 OneTab 추가"
+   },
+   "afterInstantReliefRestoreLater": {
+      "description": "",
+      "message": "이후: 즉각 문제 해소. 나중에 신속하게 탭 복원"
+   },
+   "areYouSureYouWantToDeleteTheseTabs": {
+      "description": "",
+      "message": "이 탭들을 정말로 삭제하시겠습니까?"
+   },
+   "areYouSureYouWantToDeleteThisTab": {
+      "description": "",
+      "message": "이 탭을 정말로 삭제하시겠습니까?"
+   },
+   "beforeLostInMessBrowserSlow": {
+      "description": "",
+      "message": "이전: 탭의 홍수 속에서 길을 잃음. 브라우저 속도 저하"
+   },
+   "bringAllTabsIntoOneTab": {
+      "description": "Takes all of the user's web browser tabs and stores them into the OneTab software",
+      "message": "모든 탭을 OneTab으로 가져오세요"
+   },
+   "convertTabsIntoAList": {
+      "description": "",
+      "message": "탭을 목록으로 변환"
+   },
+   "createdPreceedingDate": {
+      "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'",
+      "message": "생성됨"
+   },
+   "deleteAll": {
+      "description": "",
+      "message": "모두 삭제"
+   },
+   "displayOneTab": {
+      "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated.",
+      "message": "OneTab 표시"
+   },
+   "emptyOneTabInfoMsg": {
+      "description": "",
+      "message": "여러 탭이 열려 있을 때, 브라우저 툴바의 OneTab 아이콘을 클릭하면 열려 있는 탭들이 여기에 나타납니다."
+   },
+   "excludeDomainFromOneTab": {
+      "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder.",
+      "message": "OneTab에서 DOMAIN.COM 제외"
+   },
+   "excludeWebSiteFromOneTab": {
+      "description": "",
+      "message": "OneTab에서 이 웹사이트 제외"
+   },
+   "export": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "내보내기"
+   },
+   "exportImportUrls": {
+      "description": "Referrs to the importing or exporting of URLs into and out of the software",
+      "message": "URL 내보내기/가져오기"
+   },
+   "exportThenImportNote": {
+      "description": "",
+      "message": "또한 URL의 다음 목록을 이 컴퓨터 또는 다른 컴퓨터의 OneTab으로 가져올 수 있습니다."
+   },
+   "exportUrls": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "URL 내보내기"
+   },
+   "features": {
+      "description": "Display a page with information about features of the software",
+      "message": "기능"
+   },
+   "feedback": {
+      "description": "Displays a page where feedback can be given about the software",
+      "message": "피드백"
+   },
+   "help": {
+      "description": "gives the user help information",
+      "message": "도움말"
+   },
+   "import": {
+      "description": "Referrs to the importing of URLs into the software",
+      "message": "가져오기"
+   },
+   "importUrls": {
+      "description": "Referrs to the importing of URLs into and out of the software",
+      "message": "URL 가져오기"
+   },
+   "languageTitle": {
+      "description": "Title shown above the list of languages the user can choose from",
+      "message": "언어:"
+   },
+   "lockTabGroup": {
+      "description": "Locked means changes cannot be made",
+      "message": "탭 그룹 잠금"
+   },
+   "manifestDescription": {
+      "description": "The description of the software. Note that 'tab' refers to web browser tabs.",
+      "message": "최대 95%의 메모리를 절감하고 탭 클러터를 줄이세요."
+   },
+   "memoryAfter99": {
+      "description": "",
+      "message": "이후: 불과 99 MB 사용"
+   },
+   "memoryBefore1981": {
+      "description": "",
+      "message": "이전: 1981 MB 사용"
+   },
+   "moreTripleDot": {
+      "description": "Clicking this will reveal more options",
+      "message": "추가 기능..."
+   },
+   "nameThisTabGroup": {
+      "description": "Allows the user to type a label to describe a group of browser tabs",
+      "message": "탭 그룹 이름 지정"
+   },
+   "namedTabGroups": {
+      "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)",
+      "message": "이름이 지정된 탭 그룹"
+   },
+   "newExclamation": {
+      "description": "",
+      "message": "신규!"
+   },
+   "noSignupRegistrationRequired": {
+      "description": "",
+      "message": "가입이나 등록이 필요없습니다."
+   },
+   "noTabsInOneTabYet": {
+      "description": "",
+      "message": "OneTab에 아직 탭이 없습니다."
+   },
+   "nowAvailableInLanguage": {
+      "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into.",
+      "message": "OneTab을 이제 한국어로도 사용할 수 있습니다!"
+   },
+   "optionDuplicatesAllow": {
+      "description": "",
+      "message": "중복 허용"
+   },
+   "optionDuplicatesReject": {
+      "description": "",
+      "message": "중복 거부"
+   },
+   "optionDuplicatesRejectDesc": {
+      "description": "",
+      "message": "OneTab에는 이미 탭의 URL이 포함되어 있으며, 다시 추가되지 않습니다. 이는 OneTab 아이콘을 클릭하거나 마우스 오른쪽 클릭 메뉴를 사용하여 다수의 탭을 OneTab에 보내는 경우에만 적용됩니다. 오른쪽 클릭 OneTab 메뉴로 특정 탭을 OneTab에 보내기만 할 경우, 해당 특정 탭에 대해서만 중복이 허용됩니다."
+   },
+   "optionDuplicatesTitle": {
+      "description": "",
+      "message": "중복:"
+   },
+   "optionPinnedTabsAllow": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "핀 고정 탭을 OneTab으로 전송합니다."
+   },
+   "optionPinnedTabsDontSend": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "핀 고정 탭을 OneTab으로 보내지 마십시오."
+   },
+   "optionPinnedTabsDontSendDesc": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "웹페이지 내에서 오른쪽 클릭하여 OneTab 메뉴에 들어간 다음, '이 탭만 OneTab에 보내기'를 클릭하여 핀 고정 탭을 OneTab으로 보낼 수 있습니다."
+   },
+   "optionPinnedTabsNote": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "주: 탭을 오른쪽 클릭하고 '핀 탭'을 클릭하면 탭이 '핀 고정'됩니다. 어떤 분들은 페이스북이나 Gmail을 핀 고정하여 쉽게 찾을 수 있도록 합니다. OneTab은 복원할 때 핀 고정된 탭이 있는지를 기억합니다."
+   },
+   "optionPinnedTabsTitle": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "핀 고정 탭:"
+   },
+   "optionRestoreRemovalDefault": {
+      "description": "",
+      "message": "탭을 연 다음 OneTab 목록에서 제거"
+   },
+   "optionRestoreRemovalDefaultDesc": {
+      "description": "",
+      "message": "탭을 OneTab에서 제거하지 않고, Ctrl +Cmd 또는 시프트를 눌러 탭을 복원할 수 있습니다. 임의의 탭 그룹을 \"잠금\"으로 설정한 경우, 해당 탭은 먼저 그 탭 그룹을 잠금 해제하지 않는 한 OneTab에서 제거되지 않습니다."
+   },
+   "optionRestoreRemovalKeep": {
+      "description": "",
+      "message": "OneTab 목록에 유지"
+   },
+   "optionRestoreRemovalKeepDesc": {
+      "description": "",
+      "message": "마우스를 위에 갖다 대고 X 아이콘을 클릭하거나, '모두 삭제' 버튼을 클릭하여 수작업으로 입력을 삭제할 수 있습니다."
+   },
+   "optionRestoreRemovalTitle": {
+      "description": "",
+      "message": "'모두 복원'을 클릭하거나 하나의 탭을 복원:"
+   },
+   "optionStartupLaunchDisplay": {
+      "description": "",
+      "message": "웹브라우저를 처음 시작할 때마다 OneTab 표시"
+   },
+   "optionStartupLaunchNone": {
+      "description": "",
+      "message": "OneTab을 자동으로 열지 마십시오."
+   },
+   "optionStartupLaunchNoneDesc": {
+      "description": "",
+      "message": "OneTab을 수동으로 열려면, 오른쪽 클릭으로 메뉴를 연 다음, 'OneTab 표시'를 선택하십시오."
+   },
+   "optionStartupLaunchTitle": {
+      "description": "'Startup' refers to when the user's web browser is started for the first time",
+      "message": "시작:"
+   },
+   "optionTabGroupRestoreCurrentWindowAlways": {
+      "description": "",
+      "message": "항상 현재 창"
+   },
+   "optionTabGroupRestoreNewWindow": {
+      "description": "",
+      "message": "OneTab이 현재 창의 유일한 탭이 아니라면, 새로운 창이 열림."
+   },
+   "optionTabGroupRestoreNewWindowAlways": {
+      "description": "",
+      "message": "항상 새로운 창"
+   },
+   "optionTabGroupRestoreTitle": {
+      "description": "This is a heading that will be followed by text options like: 'Always a new window'",
+      "message": "탭 그룹이 복원되면, 이 탭들을 다음으로 보낼 수 있습니다:"
+   },
+   "options": {
+      "description": "Display options, which are settings that can be changed for the software",
+      "message": "옵션"
+   },
+   "pasteInUrlsInstructions": {
+      "description": "Note: ensure the word Import is consistent in the translation",
+      "message": "URL 목록에 붙여 넣은 다음 아래의 가져오기를 클릭하세요."
+   },
+   "pleaseWaitTripleDot": {
+      "description": "Asks the user to wait briefly",
+      "message": "잠시 기다려주십시오 ..."
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "description": "",
+      "message": "메모리 사용 95% 감소"
+   },
+   "restoreAll": {
+      "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser.",
+      "message": "모두 복원"
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "description": "",
+      "message": "최대 95%의 메모리를 절약하고 Google Chrome에서 탭 클러터를 줄이세요."
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "description": "",
+      "message": "모든 창의 모든 탭을 OneTab에 보내기"
+   },
+   "sendAllTabsAllWindowsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "모든 창에서 모든 탭을 PLACEHOLDER에 보내기"
+   },
+   "sendAllTabsExceptThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "이 탭을 제외한 모든 탭을 PLACEHOLDER에 보내기"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "description": "",
+      "message": "이 탭을 제외한 모든 탭을 OneTab에 보내기"
+   },
+   "sendAllTabsToOneTab": {
+      "description": "",
+      "message": "모든 탭을 OneTab에 보내기"
+   },
+   "sendAllTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "모든 탭을 PLACEHOLDER에 보내기"
+   },
+   "sendCurrentTabToOneTab": {
+      "description": "",
+      "message": "현재의 탭을 OneTab으로 보내기"
+   },
+   "sendLeftTabsToOneTab": {
+      "description": "",
+      "message": "왼쪽의 탭을 OneTab에 보내기"
+   },
+   "sendLeftTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "왼쪽의 탭을 PLACEHOLDER에 보내기"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "description": "",
+      "message": "이 탭만 OneTab에 보내기"
+   },
+   "sendOnlyThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "이 탭만 PLACEHOLDER에 보내기"
+   },
+   "sendRightTabsToOneTab": {
+      "description": "",
+      "message": "오른쪽의 탭을 OneTab에 보내기"
+   },
+   "sendRightTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "오른쪽의 탭을 PLACEHOLDER에 보내기"
+   },
+   "sendThisWebLinkToOneTab": {
+      "description": "",
+      "message": "이 웹 링크를 OneTab에 보내기"
+   },
+   "sendThisWebLinkToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "이 웹 링크를 PLACEHOLDER에 보내기"
+   },
+   "shareAllAsWebPage": {
+      "description": "All tabs will be shared as a web page for other users to see",
+      "message": "모두 웹 페이지로 공유"
+   },
+   "shareAsWebPage": {
+      "description": "The selected tabs will be shared as a web page for other users to see",
+      "message": "웹 페이지로 공유"
+   },
+   "starTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "탭 그룹 별표 지정"
+   },
+   "tab": {
+      "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'",
+      "message": "탭"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "description": "",
+      "message": "탭이 너무 많으신가요? 탭을 목록으로 변환하고 Firefox의 속도를 높이세요."
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "description": "",
+      "message": "탭이 너무 많으신가요? 탭을 목록으로 변환하고 Safari의 속도를 높이세요."
+   },
+   "total0Tabs": {
+      "description": "Indicating a total count of 0 tabs stored",
+      "message": "전체: 0 개 탭"
+   },
+   "total1Tab": {
+      "description": "Indicating a total count of 1 tab stored",
+      "message": "전체: 1개 탭"
+   },
+   "total2Tabs": {
+      "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "전체: 2개 탭"
+   },
+   "unlockBeforeDeleting": {
+      "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation",
+      "message": "이 탭 그룹을 삭제하려면, 먼저 잠금을 해제해야 합니다 ('추가 기능' 버튼 사용)"
+   },
+   "unlockTabGroup": {
+      "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)",
+      "message": "탭 그룹 잠금 해제"
+   },
+   "unstarTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "탭 그룹 별표 해제"
+   },
+   "userLanguage": {
+      "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into.",
+      "message": "한국어"
+   }
+}

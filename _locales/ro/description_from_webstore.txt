@@ -1,0 +1,7 @@
+Ori de câte ori constați că ai prea multe file, apasă pe pictograma OneTab să convertești toate filele într-o listă. Când trebuie să accesezi din nou filele, poți să le restaurezi  fie separat, fie pe toate odată.
+
+Când filele se află în lista OneTab, vei salva până la 95% din memorie deoarece numărul de file deschise în Google Chrome se va reduce.
+
+Asigurarea confidențialității
+
+Informațiile despre file nu sunt transmise sau dezvăluite nici către dezvoltatorii OneTab, nici către alte părți. Singura excepție este dacă apeși intenționat pe butonul nostru„distribuie ca pagină web”, care îți permite să încarci lista tab-urilor tale pe o pagină web pentru a le împărtăși cu alții. Filele nu sunt partajate niciodată dacă nu folosești, în mod specific, butonul „distribuie ca pagină web”.

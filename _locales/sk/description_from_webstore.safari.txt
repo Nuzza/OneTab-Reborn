@@ -1,0 +1,7 @@
+Keď máte pocit, že máte otvorených priveľa kariet, kliknite na ikonu OneTab a preveďte všetky svoje karty do jedného zoznamu. Ak sa ku kartám potrebujete znovu dostať, môžete ich obnoviť postupne po jednej alebo všetky naraz.
+
+So svojimi kartami uloženými v zozname OneTab môžete ušetriť až 95% pamäte, pretože počet otvorených kariet v prehliadači Safari sa zníži.
+
+Zabezpečenie ochrany osobných údajov
+
+Informácie o kartách nie sú v nijakom prípade odovzdávané alebo sprístupňované vývojárom aplikácie OneTab alebo iným tretím stranám. Jedinou výnimkou je, ak zámerne kliknite na funkciu "zdieľať ako webovú stránku", ktorá vám umožní nahrať váš zoznam kariet na webovú stránku za účelom ich zdieľania s ostatnými. Karty nebudú v nijakom prípade zdieľané, pokiaľ výslovne nestlačíte tlačidlo "zdieľať ako webovú stránku".

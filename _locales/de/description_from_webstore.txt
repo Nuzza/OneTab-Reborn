@@ -1,0 +1,7 @@
+Wenn Ihnen zu viele Tabs angezeigt werden, klicken Sie einfach auf das OneTab-Symbol, um alle Ihre Tabs in eine Liste umzuwandeln. Wenn Sie die Tabs erneut aufrufen müssen, können Sie sie entweder einzeln oder alle auf einmal wiederherstellen.
+
+Wenn sich Ihre Tabs in der OneTab-Liste befinden, sparen Sie bis zu 95 % Arbeitsspeicher, denn in Google Chrome sind weniger Tabs geöffnet.
+
+Datenschutz
+
+Informationen über Ihre Tabs werden keinesfalls übertragen oder gegenüber den Entwicklern von OneTab oder Dritten offengelegt. Die einzige Ausnahme besteht darin, dass Sie auf unsere Funktion „Als Webseite teilen“ klicken, mit der Sie Ihre Tab-Liste in eine Webseite hochladen und sie mit anderen teilen können. Tabs werden keinesfalls geteilt, sofern Sie nicht ausdrücklich die Schaltfläche „Als Webseite teilen“ anklicken.

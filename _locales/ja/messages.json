@@ -1,0 +1,382 @@
+{
+   "1tab": {
+      "description": "Indicating a tab count of 1",
+      "message": "1個のタブ"
+   },
+   "2tabs": {
+      "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "2個のタブ"
+   },
+   "95PctMemoryReduction": {
+      "description": "",
+      "message": "95％のメモリ使用量の減少"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "description": "",
+      "message": "OneTabはFirefoxでも利用可能です"
+   },
+   "about": {
+      "description": "Information about the software",
+      "message": "OneTabについて"
+   },
+   "addOneTabNow": {
+      "description": "This means the user can add (install) the OneTab software to their web browser",
+      "message": "今すぐOneTabを追加する"
+   },
+   "afterInstantReliefRestoreLater": {
+      "description": "",
+      "message": "後：問題解決、すぐにタブを復元できます"
+   },
+   "areYouSureYouWantToDeleteTheseTabs": {
+      "description": "",
+      "message": "本当にこれらのタブを削除してもよろしいですか？"
+   },
+   "areYouSureYouWantToDeleteThisTab": {
+      "description": "",
+      "message": "本当にこのタブを削除してもよろしいですか？"
+   },
+   "beforeLostInMessBrowserSlow": {
+      "description": "",
+      "message": "前：タブが多すぎて、ブラウザの動作が遅い"
+   },
+   "bringAllTabsIntoOneTab": {
+      "description": "Takes all of the user's web browser tabs and stores them into the OneTab software",
+      "message": "OneTabで全てのタブを整理しましょう"
+   },
+   "convertTabsIntoAList": {
+      "description": "",
+      "message": "タブをリスト化できます"
+   },
+   "createdPreceedingDate": {
+      "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'",
+      "message": "作成日時"
+   },
+   "deleteAll": {
+      "description": "",
+      "message": "すべて削除する"
+   },
+   "displayOneTab": {
+      "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated.",
+      "message": "OneTabを表示する"
+   },
+   "emptyOneTabInfoMsg": {
+      "description": "",
+      "message": "複数のタブが開いている際は、ブラウザにあるツールバー上のOneTabアイコンをクリックすると、開いているタブがここに表示されます。"
+   },
+   "excludeDomainFromOneTab": {
+      "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder.",
+      "message": "OneTabからDOMAIN.COMを削除する"
+   },
+   "excludeWebSiteFromOneTab": {
+      "description": "",
+      "message": "OneTabからこのWebサイトを削除する"
+   },
+   "export": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "書き出し"
+   },
+   "exportImportUrls": {
+      "description": "Referrs to the importing or exporting of URLs into and out of the software",
+      "message": "URLの読み込み/書き出し"
+   },
+   "exportThenImportNote": {
+      "description": "",
+      "message": "以下のURLリストを、他のコンピュータもしくはこのOneTabへ復元できます。"
+   },
+   "exportUrls": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "URLの書き出し"
+   },
+   "features": {
+      "description": "Display a page with information about features of the software",
+      "message": "特徴"
+   },
+   "feedback": {
+      "description": "Displays a page where feedback can be given about the software",
+      "message": "フィードバック"
+   },
+   "help": {
+      "description": "gives the user help information",
+      "message": "ヘルプ"
+   },
+   "import": {
+      "description": "Referrs to the importing of URLs into the software",
+      "message": "読み込み"
+   },
+   "importUrls": {
+      "description": "Referrs to the importing of URLs into and out of the software",
+      "message": "URLを読み込む"
+   },
+   "languageTitle": {
+      "description": "Title shown above the list of languages the user can choose from",
+      "message": "言語："
+   },
+   "lockTabGroup": {
+      "description": "Locked means changes cannot be made",
+      "message": "このタブグループをロックする"
+   },
+   "manifestDescription": {
+      "description": "The description of the software. Note that 'tab' refers to web browser tabs.",
+      "message": "メモリ使用量を95％減少させ、タブを整理します"
+   },
+   "memoryAfter99": {
+      "description": "",
+      "message": "後：99メガバイトのみ使用されています"
+   },
+   "memoryBefore1981": {
+      "description": "",
+      "message": "前：1981メガバイト使用されています"
+   },
+   "moreTripleDot": {
+      "description": "Clicking this will reveal more options",
+      "message": "その他..."
+   },
+   "nameThisTabGroup": {
+      "description": "Allows the user to type a label to describe a group of browser tabs",
+      "message": "このタブグループに名前を付ける"
+   },
+   "namedTabGroups": {
+      "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)",
+      "message": "名前付きのタブグループ"
+   },
+   "newExclamation": {
+      "description": "",
+      "message": "NEW！"
+   },
+   "noSignupRegistrationRequired": {
+      "description": "",
+      "message": "サインアップや登録の必要はありません"
+   },
+   "noTabsInOneTabYet": {
+      "description": "",
+      "message": "OneTabで管理されているタブはありません"
+   },
+   "nowAvailableInLanguage": {
+      "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into.",
+      "message": "OneTabが日本語でも利用可能になりました！"
+   },
+   "optionDuplicatesAllow": {
+      "description": "",
+      "message": "重複を許可する"
+   },
+   "optionDuplicatesReject": {
+      "description": "",
+      "message": "重複を拒否する"
+   },
+   "optionDuplicatesRejectDesc": {
+      "description": "",
+      "message": "OneTabに既に含まれているURLは追加されません。これは、OneTabアイコンをクリックするか、右クリックメニューを使用してOneTabに複数のタブを送る場合にのみ適用されます。右クリックして[OneTab]メニューから特定のタブのみをOneTabに送ると、そのタブを複製できます。"
+   },
+   "optionDuplicatesTitle": {
+      "description": "",
+      "message": "重複："
+   },
+   "optionPinnedTabsAllow": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "固定されたタブをOneTabへ送る"
+   },
+   "optionPinnedTabsDontSend": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "固定されたタブをOneTabに送らない"
+   },
+   "optionPinnedTabsDontSendDesc": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Webページ内で右クリックしてOneTabメニューを開き、[このタブのみをOneTabに送る]をクリックすることで、手動で固定タブをOneTabに送信することもできます。"
+   },
+   "optionPinnedTabsNote": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "注：タブの上を右クリックして「タブを固定」をクリックすると、タブが「固定」されます。 FacebookやGmailなどのサイトを固定して、簡単に見つけることができるようにする人もいます。OneTabは、タブが固定されたまま復元できます。"
+   },
+   "optionPinnedTabsTitle": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "固定されているタブ："
+   },
+   "optionRestoreRemovalDefault": {
+      "description": "",
+      "message": "タブを開いてOneTabリストから削除する"
+   },
+   "optionRestoreRemovalDefaultDesc": {
+      "description": "",
+      "message": "ctrl や cmd、shiftキーを押して、OneTabから削除することなくタブを復元できます。タブグループを「ロック済み」に設定すると、タブグループがアンロックされない限り、OneTabからタブが削除されることはありません。"
+   },
+   "optionRestoreRemovalKeep": {
+      "description": "",
+      "message": "これらをOneTabリストに保存する"
+   },
+   "optionRestoreRemovalKeepDesc": {
+      "description": "",
+      "message": "カーソルをタブの上に合わせてXアイコンをクリックするか、「全てを削除」ボタンをクリックすると、手動でエントリーを削除できます。"
+   },
+   "optionRestoreRemovalTitle": {
+      "description": "",
+      "message": "「すべて復元」をクリックするか、または単一のタブを復元する場合："
+   },
+   "optionStartupLaunchDisplay": {
+      "description": "",
+      "message": "ブラウザ起動時にOneTabを開く"
+   },
+   "optionStartupLaunchNone": {
+      "description": "",
+      "message": "自動的にOneTabを開かない"
+   },
+   "optionStartupLaunchNoneDesc": {
+      "description": "",
+      "message": "OneTabを手動で開くときは、右クリックメニューから「OneTabを表示する」を選択してください"
+   },
+   "optionStartupLaunchTitle": {
+      "description": "'Startup' refers to when the user's web browser is started for the first time",
+      "message": "起動："
+   },
+   "optionTabGroupRestoreCurrentWindowAlways": {
+      "description": "",
+      "message": "常に現在のウィンドウで開く"
+   },
+   "optionTabGroupRestoreNewWindow": {
+      "description": "",
+      "message": "現在のウィンドウでOneTabのみ開いている場合以外、新しいウィンドウで開く"
+   },
+   "optionTabGroupRestoreNewWindowAlways": {
+      "description": "",
+      "message": "常に新しいウィンドウで開く"
+   },
+   "optionTabGroupRestoreTitle": {
+      "description": "This is a heading that will be followed by text options like: 'Always a new window'",
+      "message": "タブグループの復元方法："
+   },
+   "options": {
+      "description": "Display options, which are settings that can be changed for the software",
+      "message": "オプション"
+   },
+   "pasteInUrlsInstructions": {
+      "description": "Note: ensure the word Import is consistent in the translation",
+      "message": "URLリストを貼り付けてから、下の「読み込む」ボタンをクリックしてください"
+   },
+   "pleaseWaitTripleDot": {
+      "description": "Asks the user to wait briefly",
+      "message": "お待ちください..."
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "description": "",
+      "message": "メモリの使用量を95％減少させます"
+   },
+   "restoreAll": {
+      "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser.",
+      "message": "すべて復元する"
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "description": "",
+      "message": "Google Chromeでタブを整理し、メモリ使用量を95％減少できます。"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "description": "",
+      "message": "全ウィンドウのタブをOneTabに送る"
+   },
+   "sendAllTabsAllWindowsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "全ウィンドウのタブをPLACEHOLDERに送る"
+   },
+   "sendAllTabsExceptThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "このタブ以外のすべてのタブをPLACEHOLDERに送る"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "description": "",
+      "message": "このタブ以外のすべてのタブをOneTabに送る"
+   },
+   "sendAllTabsToOneTab": {
+      "description": "",
+      "message": "すべてのタブをOneTabに送る"
+   },
+   "sendAllTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "すべてのタブをPLACEHOLDERに送る"
+   },
+   "sendCurrentTabToOneTab": {
+      "description": "",
+      "message": "現在のタブをOneTabに送る"
+   },
+   "sendLeftTabsToOneTab": {
+      "description": "",
+      "message": "左側のタブをOneTabに送る"
+   },
+   "sendLeftTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "左側のタブをPLACEHOLDERに送る"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "description": "",
+      "message": "このタブをOneTabに送る"
+   },
+   "sendOnlyThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "このタブをPLACEHOLDERに送る"
+   },
+   "sendRightTabsToOneTab": {
+      "description": "",
+      "message": "右側のタブをOneTabに送る"
+   },
+   "sendRightTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "右側のタブをPLACEHOLDERに送る"
+   },
+   "sendThisWebLinkToOneTab": {
+      "description": "",
+      "message": "このWebリンクをOneTabに送る"
+   },
+   "sendThisWebLinkToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "このWebリンクをPLACEHOLDERに送る"
+   },
+   "shareAllAsWebPage": {
+      "description": "All tabs will be shared as a web page for other users to see",
+      "message": "すべてのタブをWebページとしてシェアする"
+   },
+   "shareAsWebPage": {
+      "description": "The selected tabs will be shared as a web page for other users to see",
+      "message": "Webページとしてシェアする"
+   },
+   "starTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "このタブグループに星を付ける"
+   },
+   "tab": {
+      "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'",
+      "message": "タブ"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "description": "",
+      "message": "タブが多すぎてお困りですか？タブをリスト化してFirefoxの実行速度をスピードアップさせましょう"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "description": "",
+      "message": "タブが多すぎてお困りですか？タブをリスト化してSafariの実行速度をスピードアップさせましょう"
+   },
+   "total0Tabs": {
+      "description": "Indicating a total count of 0 tabs stored",
+      "message": "合計：0個のタブ"
+   },
+   "total1Tab": {
+      "description": "Indicating a total count of 1 tab stored",
+      "message": "合計：1個のタブ"
+   },
+   "total2Tabs": {
+      "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "合計：2個のタブ"
+   },
+   "unlockBeforeDeleting": {
+      "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation",
+      "message": "このタブグループを削除するには、最初にロックを解除する必要があります (「その他...」ボタンから、[このタブをアンロックする]をクリック)"
+   },
+   "unlockTabGroup": {
+      "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)",
+      "message": "このタブグループをアンロックする"
+   },
+   "unstarTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "このタブグループから星を削除する"
+   },
+   "userLanguage": {
+      "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into.",
+      "message": "日本語"
+   }
+}

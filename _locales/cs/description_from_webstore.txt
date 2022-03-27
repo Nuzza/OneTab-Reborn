@@ -1,0 +1,7 @@
+Kdykoli se vám bude zdát, že máte příliš mnoho karet, můžete kliknutím na ikonu OneTab všechny karty převést na seznam. Když se pak budete chtít ke kartám znovu dostat, můžete je obnovit buď jednotlivě, nebo všechny najednou.
+
+Když budete mít karty v seznamu OneTab, ušetříte až 95 % paměti, protože zmenšíte počet karet otevřených v prohlížeči Google Chrome.
+
+Zajištění ochrany osobních údajů
+
+Informace o kartách se nikdy neodesílají ani neodhalují vývojářům aplikace OneTab ani nikomu jinému. Jedinou výjimkou je případ, kdy záměrně kliknete na naši funkci Sdílet jako webovou stránku, která vám umožňuje nahrát seznam karet na webovou stránku za účelem jejich sdílení s ostatními uživateli. Pokud vyloženě nepoužijete tlačítko Sdílet jako webovou stránku, karty se nikdy nesdílejí.

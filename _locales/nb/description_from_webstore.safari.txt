@@ -1,0 +1,7 @@
+Klikk på OneTab-ikonet for å konvertere alle fanene til èn liste når du har altfor mange åpne faner. Når du trenger fanene igjen, kan du enten åpne dem en og en, eller alle samtidig.
+
+Du sparer opptil 95 % minne ved å plassere fanene i OneTab-listen, fordi du ha færre åpne faner i Safari.
+
+Personverngaranti
+
+OneTabs utviklere eller en tredjepart vil aldri få tilgang til informasjonen om fanene dine, med mindre du klikker på "del som en nettside", en funksjon som tillater deg til å laste opp listen med fanene dine til en nettside for å dele dem med andre. Fanene blir aldri delt, med mindre du bruker "del som en nettside"-knappen.

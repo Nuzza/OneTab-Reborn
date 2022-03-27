@@ -1,0 +1,382 @@
+{
+   "1tab": {
+      "description": "Indicating a tab count of 1",
+      "message": "1 karta"
+   },
+   "2tabs": {
+      "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "2 karty"
+   },
+   "95PctMemoryReduction": {
+      "description": "",
+      "message": "Oszczędność pamięci o 95%"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "description": "",
+      "message": "Aplikacja OneTab jest również dostępna dla Firefoksa"
+   },
+   "about": {
+      "description": "Information about the software",
+      "message": "Informacje"
+   },
+   "addOneTabNow": {
+      "description": "This means the user can add (install) the OneTab software to their web browser",
+      "message": "Dodaj OneTab teraz"
+   },
+   "afterInstantReliefRestoreLater": {
+      "description": "",
+      "message": "Teraz: natychmiastowa ulga, szybkie przywracanie kart"
+   },
+   "areYouSureYouWantToDeleteTheseTabs": {
+      "description": "",
+      "message": "Czy na pewno chcesz usunąć te karty?"
+   },
+   "areYouSureYouWantToDeleteThisTab": {
+      "description": "",
+      "message": "Czy na pewno chcesz usunąć tę kartę?"
+   },
+   "beforeLostInMessBrowserSlow": {
+      "description": "",
+      "message": "Wcześniej: za dużo kart, wolna przeglądarka"
+   },
+   "bringAllTabsIntoOneTab": {
+      "description": "Takes all of the user's web browser tabs and stores them into the OneTab software",
+      "message": "Przenieś wszystkie karty do OneTab"
+   },
+   "convertTabsIntoAList": {
+      "description": "",
+      "message": "Zamień karty w listę"
+   },
+   "createdPreceedingDate": {
+      "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'",
+      "message": "Data utworzenia"
+   },
+   "deleteAll": {
+      "description": "",
+      "message": "Usuń wszystko"
+   },
+   "displayOneTab": {
+      "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated.",
+      "message": "Wyświetl OneTab"
+   },
+   "emptyOneTabInfoMsg": {
+      "description": "",
+      "message": "Gdy masz wiele otwartych kart, kliknij ikonę OneTab na pasku przeglądarki, aby je wyświetlić."
+   },
+   "excludeDomainFromOneTab": {
+      "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder.",
+      "message": "Wyklucz DOMAIN.COM z OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "description": "",
+      "message": "Wyklucz tę witrynę z OneTab"
+   },
+   "export": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "Eksportuj"
+   },
+   "exportImportUrls": {
+      "description": "Referrs to the importing or exporting of URLs into and out of the software",
+      "message": "Eksportuj/importuj adresy URL"
+   },
+   "exportThenImportNote": {
+      "description": "",
+      "message": "Poniższą listę adresów URL można też zaimportować z powrotem do OneTab na tym lub innym komputerze"
+   },
+   "exportUrls": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "Eksportuj adresy URL"
+   },
+   "features": {
+      "description": "Display a page with information about features of the software",
+      "message": "Funkcje"
+   },
+   "feedback": {
+      "description": "Displays a page where feedback can be given about the software",
+      "message": "Opinie"
+   },
+   "help": {
+      "description": "gives the user help information",
+      "message": "Pomoc"
+   },
+   "import": {
+      "description": "Referrs to the importing of URLs into the software",
+      "message": "Importuj"
+   },
+   "importUrls": {
+      "description": "Referrs to the importing of URLs into and out of the software",
+      "message": "Importuj adresy URL"
+   },
+   "languageTitle": {
+      "description": "Title shown above the list of languages the user can choose from",
+      "message": "Język:"
+   },
+   "lockTabGroup": {
+      "description": "Locked means changes cannot be made",
+      "message": "Zablokuj tę grupę kart"
+   },
+   "manifestDescription": {
+      "description": "The description of the software. Note that 'tab' refers to web browser tabs.",
+      "message": "Zyskaj do 95% pamięci i zmniejsz liczbę kart"
+   },
+   "memoryAfter99": {
+      "description": "",
+      "message": "Teraz: używana pamięć – tylko 99 MB"
+   },
+   "memoryBefore1981": {
+      "description": "",
+      "message": "Wcześniej: używana pamięć – 1981 MB"
+   },
+   "moreTripleDot": {
+      "description": "Clicking this will reveal more options",
+      "message": "Więcej..."
+   },
+   "nameThisTabGroup": {
+      "description": "Allows the user to type a label to describe a group of browser tabs",
+      "message": "Nazwij tę grupę kart"
+   },
+   "namedTabGroups": {
+      "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)",
+      "message": "Nazwane grupy kart"
+   },
+   "newExclamation": {
+      "description": "",
+      "message": "Nowość!"
+   },
+   "noSignupRegistrationRequired": {
+      "description": "",
+      "message": "Nie jest wymagana rejestracja"
+   },
+   "noTabsInOneTabYet": {
+      "description": "",
+      "message": "Nie masz jeszcze żadnych kart w OneTab"
+   },
+   "nowAvailableInLanguage": {
+      "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into.",
+      "message": "Aplikacja OneTab jest teraz dostępna w języku polskim!"
+   },
+   "optionDuplicatesAllow": {
+      "description": "",
+      "message": "Zezwalaj na duplikaty"
+   },
+   "optionDuplicatesReject": {
+      "description": "",
+      "message": "Dyskretnie odrzucaj duplikaty"
+   },
+   "optionDuplicatesRejectDesc": {
+      "description": "",
+      "message": "Jeśli OneTab już zawiera adres URL karty, nie zostanie on dodany ponownie. Dotyczy to tylko kliknięcia ikony OneTab lub użycia menu wywoływanego prawym przyciskiem myszy w celu wysłania wielu kart do OneTab. Jeśli użyjesz menu OneTab wywoływanego prawym przyciskiem myszy, by wysłać tylko konkretną kartę do OneTab, jej duplikat będzie dozwolony."
+   },
+   "optionDuplicatesTitle": {
+      "description": "",
+      "message": "Duplikaty:"
+   },
+   "optionPinnedTabsAllow": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Zezwalaj na wysyłanie przypiętych kart do OneTab"
+   },
+   "optionPinnedTabsDontSend": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Nie wysyłaj przypiętych kart do OneTab"
+   },
+   "optionPinnedTabsDontSendDesc": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Możesz też samodzielnie wysłać przypiętą kartę do OneTab, klikając prawym przyciskiem myszy w obrębie strony, by przejść do menu OneTab, a następnie klikając „Wyślij tylko tę kartę do OneTab”"
+   },
+   "optionPinnedTabsNote": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Uwaga: aby przypiąć kartę, należy kliknąć ją prawym przyciskiem myszy, a następnie kliknąć opcję „Przypnij kartę”. Wielu użytkowników przypina popularne witryny, jak Facebook czy Gmail, aby łatwo je odnaleźć. Po przywróceniu karty OneTab pamięta, czy była przypięta."
+   },
+   "optionPinnedTabsTitle": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Przypięte karty:"
+   },
+   "optionRestoreRemovalDefault": {
+      "description": "",
+      "message": "Otwórz kartę (karty) i usuń ją (je) z listy OneTab"
+   },
+   "optionRestoreRemovalDefaultDesc": {
+      "description": "",
+      "message": "Możesz też nacisnąć klawisz ctrl, cmd lub shift, aby przywrócić kartę (karty) bez usuwania jej (ich) z OneTab. Jeśli ustawisz daną grupę kart jako „zablokowaną”, znajdujących się w niej kart nie będzie można usunąć z OneTab, dopóki nie odblokujesz danej grupy kart."
+   },
+   "optionRestoreRemovalKeep": {
+      "description": "",
+      "message": "Przechowuj na liście OneTab"
+   },
+   "optionRestoreRemovalKeepDesc": {
+      "description": "",
+      "message": "Możesz też samodzielnie usuwać pozycje, najeżdżając na nie kursorem i klikając ikonę X lub klikając przycisk „usuń wszystko”"
+   },
+   "optionRestoreRemovalTitle": {
+      "description": "",
+      "message": "Po kliknięciu „przywróć wszystko” lub przywróceniu pojedynczej karty:"
+   },
+   "optionStartupLaunchDisplay": {
+      "description": "",
+      "message": "Wyświetlaj OneTab po każdym uruchomieniu przeglądarki po raz pierwszy"
+   },
+   "optionStartupLaunchNone": {
+      "description": "",
+      "message": "Nie otwieraj OneTab automatycznie"
+   },
+   "optionStartupLaunchNoneDesc": {
+      "description": "",
+      "message": "Aby otworzyć OneTab samodzielnie, użyj menu wywoływanego prawym przyciskiem myszy i wybierz „Wyświetl OneTab”"
+   },
+   "optionStartupLaunchTitle": {
+      "description": "'Startup' refers to when the user's web browser is started for the first time",
+      "message": "Uruchamianie:"
+   },
+   "optionTabGroupRestoreCurrentWindowAlways": {
+      "description": "",
+      "message": "Zawsze bieżące okno"
+   },
+   "optionTabGroupRestoreNewWindow": {
+      "description": "",
+      "message": "Nowe okno, chyba że OneTab to jedyna karta w bieżącym oknie"
+   },
+   "optionTabGroupRestoreNewWindowAlways": {
+      "description": "",
+      "message": "Zawsze nowe okno"
+   },
+   "optionTabGroupRestoreTitle": {
+      "description": "This is a heading that will be followed by text options like: 'Always a new window'",
+      "message": "Po przywróceniu grupy kart wysyłaj karty do:"
+   },
+   "options": {
+      "description": "Display options, which are settings that can be changed for the software",
+      "message": "Opcje"
+   },
+   "pasteInUrlsInstructions": {
+      "description": "Note: ensure the word Import is consistent in the translation",
+      "message": "Wklej listę adresów URL i kliknij poniższy przycisk Importuj"
+   },
+   "pleaseWaitTripleDot": {
+      "description": "Asks the user to wait briefly",
+      "message": "Czekaj..."
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "description": "",
+      "message": "Zmniejsz zużycie pamięci o 95%"
+   },
+   "restoreAll": {
+      "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser.",
+      "message": "Przywróć wszystko"
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "description": "",
+      "message": "Zyskaj do 95% pamięci i zmniejsz liczbę kart w Google Chrome"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "description": "",
+      "message": "Wyślij wszystkie karty ze wszystkich okien do OneTab"
+   },
+   "sendAllTabsAllWindowsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Wyślij wszystkie karty ze wszystkich okien do PLACEHOLDER"
+   },
+   "sendAllTabsExceptThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Wyślij wszystkie karty oprócz tej karty do PLACEHOLDER"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "description": "",
+      "message": "Wyślij wszystkie karty oprócz tej karty do OneTab"
+   },
+   "sendAllTabsToOneTab": {
+      "description": "",
+      "message": "Wyślij wszystkie karty do OneTab"
+   },
+   "sendAllTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Wyślij wszystkie karty do PLACEHOLDER"
+   },
+   "sendCurrentTabToOneTab": {
+      "description": "",
+      "message": "Wyślij bieżącą kartę do OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "description": "",
+      "message": "Wyślij karty po lewej stronie do OneTab"
+   },
+   "sendLeftTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Wyślij karty po lewej stronie do PLACEHOLDER"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "description": "",
+      "message": "Wyślij tylko tę kartę do OneTab"
+   },
+   "sendOnlyThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Wyślij tylko tę kartę do PLACEHOLDER"
+   },
+   "sendRightTabsToOneTab": {
+      "description": "",
+      "message": "Wyślij karty po prawej stronie do OneTab"
+   },
+   "sendRightTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Wyślij karty po prawej stronie do PLACEHOLDER"
+   },
+   "sendThisWebLinkToOneTab": {
+      "description": "",
+      "message": "Wyślij ten link do witryny do OneTab"
+   },
+   "sendThisWebLinkToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Wyślij ten link do witryny do PLACEHOLDER"
+   },
+   "shareAllAsWebPage": {
+      "description": "All tabs will be shared as a web page for other users to see",
+      "message": "Udostępnij wszystko jako stronę internetową"
+   },
+   "shareAsWebPage": {
+      "description": "The selected tabs will be shared as a web page for other users to see",
+      "message": "Udostępnij jako stronę internetową"
+   },
+   "starTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "Oznacz tę grupę kart"
+   },
+   "tab": {
+      "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'",
+      "message": "karta"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "description": "",
+      "message": "Za dużo kart? Zamień karty w listę i przyspiesz Firefoksa"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "description": "",
+      "message": "Za dużo kart? Zamień karty w listę i przyspiesz Safari"
+   },
+   "total0Tabs": {
+      "description": "Indicating a total count of 0 tabs stored",
+      "message": "Łącznie: 0 kart"
+   },
+   "total1Tab": {
+      "description": "Indicating a total count of 1 tab stored",
+      "message": "Łącznie: 1 karta"
+   },
+   "total2Tabs": {
+      "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "Łącznie: 2 karty"
+   },
+   "unlockBeforeDeleting": {
+      "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation",
+      "message": "Aby usunąć tę grupę kart, najpierw ją odblokuj (klikając przycisk „Więcej...”)"
+   },
+   "unlockTabGroup": {
+      "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)",
+      "message": "Odblokuj tę grupę kart"
+   },
+   "unstarTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "Odznacz tę grupę kart"
+   },
+   "userLanguage": {
+      "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into.",
+      "message": "polski"
+   }
+}

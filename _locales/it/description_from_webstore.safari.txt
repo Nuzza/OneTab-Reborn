@@ -1,0 +1,7 @@
+Ogni volta che ti ritrovi con troppe schede, fai clic sull'icona OneTab per convertire tutte le schede in un elenco. Quando dovrai accedere nuovamente alle schede, puoi ripristinarle singolarmente o tutte in una volta.
+
+Quando le schede sono nell'elenco OneTab, risparmierai fino al 95% di memoria perché ridurrai il numero di schede aperte in Safari.
+
+Garanzia della privacy
+
+Le informazioni riguardanti le schede aperte non sono mai trasmesse o divulgate né agli sviluppatori OneTab né a qualsiasi altra parte. L'unica eccezione, è quando si fa clic intenzionalmente sulla nostra funzione 'condividi come pagina web' che consente di caricare il proprio elenco di schede in una pagina web per condividerlo con altri. Le schede non vengono mai condivise se non si utilizza il pulsante della funzione 'condividi come pagina web'.

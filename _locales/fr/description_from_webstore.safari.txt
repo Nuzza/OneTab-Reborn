@@ -1,0 +1,7 @@
+Chaque fois que vous vous retrouvez avec trop d'onglets, cliquez sur l'icône OneTab pour convertir tous vos onglets en une liste. Lorsque vous avez besoin d'accéder à nouveau aux onglets, vous avez la possibilité de les restaurer individuellement ou tous à la fois.
+
+Lorsque vos onglets sont dans la liste de OneTab, vous pouvez économiser jusqu'à 95% de la mémoire en réduisant le nombre d'onglets ouverts dans Safari.
+
+Assurance de confidentialité
+
+Les informations à propos de vos onglets ne sont jamais transmises ou divulguées ni aux développeurs OneTab ni à toute autre partie. La seule exception à cela est si vous cliquez intentionnellement sur notre fonction «partager en tant que page Web»  qui vous permet de charger votre liste d'onglets dans une page Web afin de les partager avec d'autres. Les onglets ne sont jamais partagés, sauf si vous utilisez spécifiquement le bouton «partager en tant que page Web».

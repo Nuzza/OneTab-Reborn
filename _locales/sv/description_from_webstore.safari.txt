@@ -1,0 +1,7 @@
+Om du ibland känner att du har för många flikar, är det bara att klicka på OneTab-ikonen för att omvandla alla flikarna till en lista. När du behöver flikarna igen kan du antingen återställa dem en och en, eller alla samtidigt.
+
+När flikarna är i en OneTab-lista sparar du upp till 95 % minne, då det minskar antalet flikar som är öppna i Safari.
+
+Sekretessförsäkran
+
+Information om dina flikar överförs aldrig och lämnas aldrig ut, vare sig till OneTab-utvecklare eller någon annan part. Det enda unadantaget till detta är om du avsiktligen klickar på funktionen ”dela som en webbsida”, vilket gör att du kan omvandla din lista med flikar till en webbsida för att dela dem med andra. Flikar delas aldrig om du inte specifikt använder knappen ”dela som en webbsida”.

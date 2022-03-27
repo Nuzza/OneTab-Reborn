@@ -1,0 +1,382 @@
+{
+   "1tab": {
+      "description": "Indicating a tab count of 1",
+      "message": "1 tab"
+   },
+   "2tabs": {
+      "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "2 tab"
+   },
+   "95PctMemoryReduction": {
+      "description": "",
+      "message": "Pengurangan memori 95%"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "description": "",
+      "message": "OneTab juga tersedia untuk Firefox"
+   },
+   "about": {
+      "description": "Information about the software",
+      "message": "Tentang"
+   },
+   "addOneTabNow": {
+      "description": "This means the user can add (install) the OneTab software to their web browser",
+      "message": "Tambahkan OneTab sekarang"
+   },
+   "afterInstantReliefRestoreLater": {
+      "description": "",
+      "message": "Sesudah: Bantuan seketika, memulihkan tab dengan cepat"
+   },
+   "areYouSureYouWantToDeleteTheseTabs": {
+      "description": "",
+      "message": "Apakah Anda yakin ingin menghapus beberapa tab ini?"
+   },
+   "areYouSureYouWantToDeleteThisTab": {
+      "description": "",
+      "message": "Apakah Anda yakin ingin menghapus tab ini?"
+   },
+   "beforeLostInMessBrowserSlow": {
+      "description": "",
+      "message": "Sebelum: Tab berantakan, browser lambat"
+   },
+   "bringAllTabsIntoOneTab": {
+      "description": "Takes all of the user's web browser tabs and stores them into the OneTab software",
+      "message": "Masukkan semua tab ke dalam OneTab"
+   },
+   "convertTabsIntoAList": {
+      "description": "",
+      "message": "Ubah tab-tab menjadi sebuah daftar"
+   },
+   "createdPreceedingDate": {
+      "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'",
+      "message": "Dibuat"
+   },
+   "deleteAll": {
+      "description": "",
+      "message": "Hapus semua"
+   },
+   "displayOneTab": {
+      "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated.",
+      "message": "Tampilkan OneTab"
+   },
+   "emptyOneTabInfoMsg": {
+      "description": "",
+      "message": "Ketika Anda membuka beberapa tab, klik ikon OneTab pada toolbar browser Anda dan tab Anda yang terbuka akan muncul di sini."
+   },
+   "excludeDomainFromOneTab": {
+      "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder.",
+      "message": "Kecualikan DOMAIN.COM dari OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "description": "",
+      "message": "Kecualikan situs web ini dari OneTab"
+   },
+   "export": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "Ekspor"
+   },
+   "exportImportUrls": {
+      "description": "Referrs to the importing or exporting of URLs into and out of the software",
+      "message": "Ekspor/Impor URL"
+   },
+   "exportThenImportNote": {
+      "description": "",
+      "message": "Daftar URL berikut juga dapat diimpor kembali ke dalam OneTab pada komputer ini atau komputer lainnya"
+   },
+   "exportUrls": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "Ekspor URL"
+   },
+   "features": {
+      "description": "Display a page with information about features of the software",
+      "message": "Fitur"
+   },
+   "feedback": {
+      "description": "Displays a page where feedback can be given about the software",
+      "message": "Masukan"
+   },
+   "help": {
+      "description": "gives the user help information",
+      "message": "Bantuan"
+   },
+   "import": {
+      "description": "Referrs to the importing of URLs into the software",
+      "message": "Impor"
+   },
+   "importUrls": {
+      "description": "Referrs to the importing of URLs into and out of the software",
+      "message": "Impor URL"
+   },
+   "languageTitle": {
+      "description": "Title shown above the list of languages the user can choose from",
+      "message": "Bahasa:"
+   },
+   "lockTabGroup": {
+      "description": "Locked means changes cannot be made",
+      "message": "Kunci kelompok tab ini"
+   },
+   "manifestDescription": {
+      "description": "The description of the software. Note that 'tab' refers to web browser tabs.",
+      "message": "Hematlah 95% memori dan kurangi kekacauan pengaturan tab"
+   },
+   "memoryAfter99": {
+      "description": "",
+      "message": "Sesudah: hanya 99 MB digunakan"
+   },
+   "memoryBefore1981": {
+      "description": "",
+      "message": "Sebelum: 1981 MB digunakan"
+   },
+   "moreTripleDot": {
+      "description": "Clicking this will reveal more options",
+      "message": "Lainnya..."
+   },
+   "nameThisTabGroup": {
+      "description": "Allows the user to type a label to describe a group of browser tabs",
+      "message": "Beri nama pada kelompok tab ini"
+   },
+   "namedTabGroups": {
+      "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)",
+      "message": "Kelompok tab bernama"
+   },
+   "newExclamation": {
+      "description": "",
+      "message": "Baru!"
+   },
+   "noSignupRegistrationRequired": {
+      "description": "",
+      "message": "Tanpa pendaftaran atau registrasi"
+   },
+   "noTabsInOneTabYet": {
+      "description": "",
+      "message": "Anda belum memiliki tab di OneTab"
+   },
+   "nowAvailableInLanguage": {
+      "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into.",
+      "message": "OneTab kini tersedia dalam bahasa Indonesia!"
+   },
+   "optionDuplicatesAllow": {
+      "description": "",
+      "message": "Izinkan duplikat"
+   },
+   "optionDuplicatesReject": {
+      "description": "",
+      "message": "Tolak duplikat secara senyap"
+   },
+   "optionDuplicatesRejectDesc": {
+      "description": "",
+      "message": "Jika OneTab telah memuat URL dari suatu tab, maka tab tersebut tidak akan ditambahkan lagi. Hal ini hanya berlaku jika Anda mengklik ikon OneTab atau menggunakan menu klik kanan untuk mengirimkan beberapa tab ke OneTab. Jika Anda menggunakan menu OneTab klik kanan untuk mengirimkan hanya suatu tab tertentu ke OneTab, maka tab duplikat akan diizinkan untuk tab tertentu tersebut."
+   },
+   "optionDuplicatesTitle": {
+      "description": "",
+      "message": "Duplikat:"
+   },
+   "optionPinnedTabsAllow": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Izinkan tab yang disematkan untuk dikirimkan ke OneTab"
+   },
+   "optionPinnedTabsDontSend": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Jangan kirimkan tab yang disematkan ke OneTab"
+   },
+   "optionPinnedTabsDontSendDesc": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Anda masih dapat mengirimkan tab yang disematkan ke OneTab secara manual dengan mengklik kanan di dalam halaman web untuk mengakses menu OneTab, lalu mengklik ‘Kirim hanya tab ini ke OneTab’"
+   },
+   "optionPinnedTabsNote": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Catatan: Suatu tab menjadi ‘disematkan’ ketika Anda mengklik kanan pada tab, lalu mengklik ‘Sematkan tab’. Sebagian orang senang menjadikan situs-situs seperti Facebook atau Gmail disematkan agar mereka dapat menemukannya kembali dengan mudah. OneTab akan mengingat tab yang disematkan ketika Anda memulihkannya kembali."
+   },
+   "optionPinnedTabsTitle": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Tab yang disematkan:"
+   },
+   "optionRestoreRemovalDefault": {
+      "description": "",
+      "message": "Buka tab dan hapus dari daftar OneTab Anda"
+   },
+   "optionRestoreRemovalDefaultDesc": {
+      "description": "",
+      "message": "Anda tetap dapat menekan Ctrl, Cmd, atau Shift untuk memulihkan tab tanpa menghapusnya dari OneTab. Jika Anda mengatur kelompok tab Anda sebagai ‘terkunci’, maka tab tersebut tidak akan dihapus dari OneTab, kecuali Anda membuka kunci kelompok tab tersebut terlebih dahulu."
+   },
+   "optionRestoreRemovalKeep": {
+      "description": "",
+      "message": "Tetap simpan dalam daftar OneTab Anda"
+   },
+   "optionRestoreRemovalKeepDesc": {
+      "description": "",
+      "message": "Anda dapat menghapus entri secara manual dengan melayangkan kursor di atas entri dan mengklik ikon X, atau dengan mengklik tombol ‘hapus semua’"
+   },
+   "optionRestoreRemovalTitle": {
+      "description": "",
+      "message": "Ketika mengklik ‘pulihkan semua’ atau memulihkan tab tunggal:"
+   },
+   "optionStartupLaunchDisplay": {
+      "description": "",
+      "message": "Tampilkan OneTab setiap kali Anda memulai browser web Anda untuk pertama kalinya"
+   },
+   "optionStartupLaunchNone": {
+      "description": "",
+      "message": "Jangan buka OneTab secara otomatis"
+   },
+   "optionStartupLaunchNoneDesc": {
+      "description": "",
+      "message": "Untuk membuka OneTab secara manual, gunakan menu klik kanan, lalu pilihlah ‘Tampilkan OneTab’"
+   },
+   "optionStartupLaunchTitle": {
+      "description": "'Startup' refers to when the user's web browser is started for the first time",
+      "message": "Memulai:"
+   },
+   "optionTabGroupRestoreCurrentWindowAlways": {
+      "description": "",
+      "message": "Selalu jendela saat ini"
+   },
+   "optionTabGroupRestoreNewWindow": {
+      "description": "",
+      "message": "Jendela baru, kecuali OneTab merupakan satu-satunya tab di jendela saat ini"
+   },
+   "optionTabGroupRestoreNewWindowAlways": {
+      "description": "",
+      "message": "Selalu jendela baru"
+   },
+   "optionTabGroupRestoreTitle": {
+      "description": "This is a heading that will be followed by text options like: 'Always a new window'",
+      "message": "Ketika kelompok tab dipulihkan, kirimkan tab ke:"
+   },
+   "options": {
+      "description": "Display options, which are settings that can be changed for the software",
+      "message": "Opsi"
+   },
+   "pasteInUrlsInstructions": {
+      "description": "Note: ensure the word Import is consistent in the translation",
+      "message": "Rekatkan dalam daftar URL, kemudian klik Impor di bawah"
+   },
+   "pleaseWaitTripleDot": {
+      "description": "Asks the user to wait briefly",
+      "message": "Harap tunggu..."
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "description": "",
+      "message": "Mengurangi penggunaan memori hingga 95%"
+   },
+   "restoreAll": {
+      "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser.",
+      "message": "Pulihkan semua"
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "description": "",
+      "message": "Berhemat 95% memori dan mengurangi kekacauan pengaturan tab di Google Chrome"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "description": "",
+      "message": "Kirim semua tab dari semua jendela ke OneTab"
+   },
+   "sendAllTabsAllWindowsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Kirim semua tab dari semua jendela ke PLACEHOLDER"
+   },
+   "sendAllTabsExceptThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Kirim semua tab kecuali tab ini ke PLACEHOLDER"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "description": "",
+      "message": "Kirim semua tab kecuali tab ini ke OneTab"
+   },
+   "sendAllTabsToOneTab": {
+      "description": "",
+      "message": "Kirim semua tab ke OneTab"
+   },
+   "sendAllTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Kirim semua tab ke PLACEHOLDER"
+   },
+   "sendCurrentTabToOneTab": {
+      "description": "",
+      "message": "Kirim tab saat ini ke OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "description": "",
+      "message": "Kirim tab di kiri ke OneTab"
+   },
+   "sendLeftTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Kirim tab di kiri ke PLACEHOLDER"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "description": "",
+      "message": "Kirim hanya tab ini ke OneTab"
+   },
+   "sendOnlyThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Kirim hanya tab ini ke PLACEHOLDER"
+   },
+   "sendRightTabsToOneTab": {
+      "description": "",
+      "message": "Kirim tab di kanan ke OneTab"
+   },
+   "sendRightTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Kirim tab di kanan ke PLACEHOLDER"
+   },
+   "sendThisWebLinkToOneTab": {
+      "description": "",
+      "message": "Kirim tautan web ini ke OneTab"
+   },
+   "sendThisWebLinkToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Kirim tautan web ini ke PLACEHOLDER"
+   },
+   "shareAllAsWebPage": {
+      "description": "All tabs will be shared as a web page for other users to see",
+      "message": "Bagikan semua sebagai halaman web"
+   },
+   "shareAsWebPage": {
+      "description": "The selected tabs will be shared as a web page for other users to see",
+      "message": "Bagikan sebagai halaman web"
+   },
+   "starTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "Beri bintang untuk kelompok tab ini"
+   },
+   "tab": {
+      "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'",
+      "message": "tab"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "description": "",
+      "message": "Terlalu banyak tab? Ubahlah tab Anda menjadi suatu daftar untuk meningkatkan kecepatan Firefox"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "description": "",
+      "message": "Terlalu banyak tab? Ubahlah tab Anda menjadi suatu daftar untuk meningkatkan kecepatan Safari"
+   },
+   "total0Tabs": {
+      "description": "Indicating a total count of 0 tabs stored",
+      "message": "Total: 0 tab"
+   },
+   "total1Tab": {
+      "description": "Indicating a total count of 1 tab stored",
+      "message": "Total: 1 tab"
+   },
+   "total2Tabs": {
+      "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "Total: 2 tab"
+   },
+   "unlockBeforeDeleting": {
+      "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation",
+      "message": "Untuk menghapus kelompok tab ini, Anda harus membuka kuncinya terlebih dahulu (melalui tombol ‘Lainnya...’)"
+   },
+   "unlockTabGroup": {
+      "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)",
+      "message": "Buka kunci kelompok tab ini"
+   },
+   "unstarTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "Hapus bintang dari kelompok tab ini"
+   },
+   "userLanguage": {
+      "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into.",
+      "message": "Indonesia"
+   }
+}

@@ -1,0 +1,7 @@
+Cuando tenga muchas pestañas, haga clic el ícono OneTab para convertirlas en una lista. Cuando desee tener acceso de nuevo a las pestañas, puede restaurarlas individualmente o todas a la vez.
+
+Cuando las pestañas están en la lista de OneTab, ahorrará el 95% de la memoria debido a que tendrá un número reducido de pestañas abiertas en Safari.
+
+Garantía de privacidad
+
+La información de sus pestañas nunca se transmite o divulga, ni a los desarrolladores de OneTab ni a terceros. La única excepción a esto es cuando intencionalmente hace clic en la función 'Compartir como página web' que permite que cargue su lista de pestañas en una página web para compartirlas con otras personas. Las pestañas nunca se comparten a menos que específicamente use el botón 'Compartir como página web'.

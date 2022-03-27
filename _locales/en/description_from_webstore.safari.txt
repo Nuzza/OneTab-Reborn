@@ -1,0 +1,8 @@
+Save up to 95% memory and reduce tab clutter
+Whenever you find yourself with too many tabs, click the OneTab icon to convert all of your tabs into a list. When you need to access the tabs again, you can either restore them individually or all at once.
+
+When your tabs are in the OneTab list, you will save up to 95% of memory because you will have reduced the number of tabs open in Safari.
+
+Privacy assurance
+
+Information about your tabs are never transmitted or disclosed to either the OneTab developers or any other party. The only exception to this is if you intentionally click on our 'share as a web page' feature that allows you to upload your list of tabs into a web page in order to share them with others. Tabs are never shared unless you specifically use the 'share as a web page' button.

@@ -1,0 +1,382 @@
+{
+   "1tab": {
+      "description": "Indicating a tab count of 1",
+      "message": "1 flik"
+   },
+   "2tabs": {
+      "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "2 flikar"
+   },
+   "95PctMemoryReduction": {
+      "description": "",
+      "message": "95 % mindre minne används"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "description": "",
+      "message": "OneTab är också tillgängligt för Firefox"
+   },
+   "about": {
+      "description": "Information about the software",
+      "message": "Om"
+   },
+   "addOneTabNow": {
+      "description": "This means the user can add (install) the OneTab software to their web browser",
+      "message": "Hämta OneTab nu"
+   },
+   "afterInstantReliefRestoreLater": {
+      "description": "",
+      "message": "Efter: omedelbar lindring, återställ snabbt flikar senare"
+   },
+   "areYouSureYouWantToDeleteTheseTabs": {
+      "description": "",
+      "message": "Är du säker på att du vill ta bort dessa flikar?"
+   },
+   "areYouSureYouWantToDeleteThisTab": {
+      "description": "",
+      "message": "Är du säker på att du vill ta bort denna flik?"
+   },
+   "beforeLostInMessBrowserSlow": {
+      "description": "",
+      "message": "Före: en enda röra av flikar, och webbläsaren är långsam"
+   },
+   "bringAllTabsIntoOneTab": {
+      "description": "Takes all of the user's web browser tabs and stores them into the OneTab software",
+      "message": "Tar alla flikar till OneTab"
+   },
+   "convertTabsIntoAList": {
+      "description": "",
+      "message": "Omvandla flikar till en lista"
+   },
+   "createdPreceedingDate": {
+      "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'",
+      "message": "Skapad"
+   },
+   "deleteAll": {
+      "description": "",
+      "message": "Ta bort alla"
+   },
+   "displayOneTab": {
+      "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated.",
+      "message": "Visa OneTab"
+   },
+   "emptyOneTabInfoMsg": {
+      "description": "",
+      "message": "När du har flera flikar öppna klickar du på OneTab-ikonen i webbläsarens verktygsfält, så visas dina öppna flikar här."
+   },
+   "excludeDomainFromOneTab": {
+      "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder.",
+      "message": "Uteslut DOMAIN.COM från OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "description": "",
+      "message": "Uteslut denna webbplats från OneTab"
+   },
+   "export": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "Exportera"
+   },
+   "exportImportUrls": {
+      "description": "Referrs to the importing or exporting of URLs into and out of the software",
+      "message": "Exportera/importera webbadresser"
+   },
+   "exportThenImportNote": {
+      "description": "",
+      "message": "Följande lista över webbadresser kan också importeras tillbaka till OneTab på denna eller en annan dator"
+   },
+   "exportUrls": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "Exportera webbadresser"
+   },
+   "features": {
+      "description": "Display a page with information about features of the software",
+      "message": "Funktioner"
+   },
+   "feedback": {
+      "description": "Displays a page where feedback can be given about the software",
+      "message": "Feedback"
+   },
+   "help": {
+      "description": "gives the user help information",
+      "message": "Hjälp"
+   },
+   "import": {
+      "description": "Referrs to the importing of URLs into the software",
+      "message": "Importera"
+   },
+   "importUrls": {
+      "description": "Referrs to the importing of URLs into and out of the software",
+      "message": "Importera webbadresser"
+   },
+   "languageTitle": {
+      "description": "Title shown above the list of languages the user can choose from",
+      "message": "Språk:"
+   },
+   "lockTabGroup": {
+      "description": "Locked means changes cannot be made",
+      "message": "Lås denna flikgrupp"
+   },
+   "manifestDescription": {
+      "description": "The description of the software. Note that 'tab' refers to web browser tabs.",
+      "message": "Spara upp till 95 % minne och slipp röran"
+   },
+   "memoryAfter99": {
+      "description": "",
+      "message": "Efter: endast 99 MB används"
+   },
+   "memoryBefore1981": {
+      "description": "",
+      "message": "Före: 1 981 MB används"
+   },
+   "moreTripleDot": {
+      "description": "Clicking this will reveal more options",
+      "message": "Mer ..."
+   },
+   "nameThisTabGroup": {
+      "description": "Allows the user to type a label to describe a group of browser tabs",
+      "message": "Namnge denna flikgrupp"
+   },
+   "namedTabGroups": {
+      "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)",
+      "message": "Namngivna flikgrupper"
+   },
+   "newExclamation": {
+      "description": "",
+      "message": "Nyhet!"
+   },
+   "noSignupRegistrationRequired": {
+      "description": "",
+      "message": "Ingen registrering krävs"
+   },
+   "noTabsInOneTabYet": {
+      "description": "",
+      "message": "Du har ännu inte några flikar i OneTab"
+   },
+   "nowAvailableInLanguage": {
+      "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into.",
+      "message": "OneTab finns nu på svenska!"
+   },
+   "optionDuplicatesAllow": {
+      "description": "",
+      "message": "Tillåt dubbletter"
+   },
+   "optionDuplicatesReject": {
+      "description": "",
+      "message": "Avvisa dubbletter ljudlöst"
+   },
+   "optionDuplicatesRejectDesc": {
+      "description": "",
+      "message": "Om OneTab redan innehåller webbadressen till en flik läggs den inte till igen. Detta gäller endast när du klickar på OneTab-ikonen eller använder högerklicksmenyn för att skicka flera flikar till OneTab. Om du använder OneTabs högerklicksmeny för att skicka en specifik flik till OneTab tillåts dubbletten för den specifika fliken."
+   },
+   "optionDuplicatesTitle": {
+      "description": "",
+      "message": "Dubbletter:"
+   },
+   "optionPinnedTabsAllow": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Tillåt fästa flikar att skickas till OneTab"
+   },
+   "optionPinnedTabsDontSend": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Skicka inte fästa flikar till OneTab"
+   },
+   "optionPinnedTabsDontSendDesc": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Det går fortfarande att skicka en fäst flik manuellt till OneTab genom att högerklicka på webbsidan för att öppna OneTab-menyn, och sedan klicka på ”Skicka bara denna flik till OneTab”"
+   },
+   "optionPinnedTabsNote": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Obs: En flik blir ”fäst” när du högerklickar på fliken och klickar på ”Fäst flik”. En del tycker om att fästa sidor som Facebook eller Gmail, så att de är lätta att hitta. OneTab kommer ihåg om en flik var fäst när du återställer den."
+   },
+   "optionPinnedTabsTitle": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Fästa flikar:"
+   },
+   "optionRestoreRemovalDefault": {
+      "description": "",
+      "message": "Öppna flikarna och ta bort dem från din OneTab-lista"
+   },
+   "optionRestoreRemovalDefaultDesc": {
+      "description": "",
+      "message": "Det går fortfarande att trycka på ctrl, cmd eller shift för att återställa flikarna utan att ta bort dem från OneTab. Om du anger någon av dina flikgrupper som ”låst” tas flikarna inte bort från OneTab, om du inte låser upp flikgruppen först."
+   },
+   "optionRestoreRemovalKeep": {
+      "description": "",
+      "message": "Ha dem i din OneTab-lista"
+   },
+   "optionRestoreRemovalKeepDesc": {
+      "description": "",
+      "message": "Du kan ta bort poster manuellt genom att hovra över dem och klicka på X-ikonen, eller genom att klicka på knappen ”ta bort alla”"
+   },
+   "optionRestoreRemovalTitle": {
+      "description": "",
+      "message": "När du klickar på ”återställ alla” eller när du återställer en flik:"
+   },
+   "optionStartupLaunchDisplay": {
+      "description": "",
+      "message": "Visa OneTab när du startar webbläsaren för första gången"
+   },
+   "optionStartupLaunchNone": {
+      "description": "",
+      "message": "Öppna inte OneTab automatiskt"
+   },
+   "optionStartupLaunchNoneDesc": {
+      "description": "",
+      "message": "Om du vill öppna OneTab manuellt väljer du ”Visa OneTab” i högerklicksmenyn"
+   },
+   "optionStartupLaunchTitle": {
+      "description": "'Startup' refers to when the user's web browser is started for the first time",
+      "message": "Start:"
+   },
+   "optionTabGroupRestoreCurrentWindowAlways": {
+      "description": "",
+      "message": "Alltid det aktuella fönstret"
+   },
+   "optionTabGroupRestoreNewWindow": {
+      "description": "",
+      "message": "Ett nytt fönster, såvida inte OneTab är den enda fliken i det aktuella fönstret"
+   },
+   "optionTabGroupRestoreNewWindowAlways": {
+      "description": "",
+      "message": "Alltid ett nytt fönster"
+   },
+   "optionTabGroupRestoreTitle": {
+      "description": "This is a heading that will be followed by text options like: 'Always a new window'",
+      "message": "När en flikgrupp har återställts skickas flikarna till:"
+   },
+   "options": {
+      "description": "Display options, which are settings that can be changed for the software",
+      "message": "Alternativ"
+   },
+   "pasteInUrlsInstructions": {
+      "description": "Note: ensure the word Import is consistent in the translation",
+      "message": "Klistra in en lista över webbadresser och klicka sedan på Importera nedan"
+   },
+   "pleaseWaitTripleDot": {
+      "description": "Asks the user to wait briefly",
+      "message": "Vänta ..."
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "description": "",
+      "message": "Minska minnesanvändningen med 95 %"
+   },
+   "restoreAll": {
+      "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser.",
+      "message": "Återställ alla"
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "description": "",
+      "message": "Spara upp till 95 % minne och slipp röran i Google Chrome"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "description": "",
+      "message": "Skicka alla flikar från alla fönster till OneTab"
+   },
+   "sendAllTabsAllWindowsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Skicka alla flikar från alla fönster till PLACEHOLDER"
+   },
+   "sendAllTabsExceptThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Skicka alla flikar utom denna till PLACEHOLDER"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "description": "",
+      "message": "Skicka alla flikar utom denna till OneTab"
+   },
+   "sendAllTabsToOneTab": {
+      "description": "",
+      "message": "Skicka alla flikar till OneTab"
+   },
+   "sendAllTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Skicka alla flikar till PLACEHOLDER"
+   },
+   "sendCurrentTabToOneTab": {
+      "description": "",
+      "message": "Skicka den aktuella fliken till OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "description": "",
+      "message": "Skicka flikar till vänster till OneTab"
+   },
+   "sendLeftTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Skicka flikar till vänster till PLACEHOLDER"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "description": "",
+      "message": "Skicka bara denna flik till OneTab"
+   },
+   "sendOnlyThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Skicka bara denna flik till PLACEHOLDER"
+   },
+   "sendRightTabsToOneTab": {
+      "description": "",
+      "message": "Skicka flikar till höger till OneTab"
+   },
+   "sendRightTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Skicka flikar till höger till PLACEHOLDER"
+   },
+   "sendThisWebLinkToOneTab": {
+      "description": "",
+      "message": "Skicka denna webblänk till OneTab"
+   },
+   "sendThisWebLinkToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Skicka denna webblänk till PLACEHOLDER"
+   },
+   "shareAllAsWebPage": {
+      "description": "All tabs will be shared as a web page for other users to see",
+      "message": "Dela alla som en webbsida"
+   },
+   "shareAsWebPage": {
+      "description": "The selected tabs will be shared as a web page for other users to see",
+      "message": "Dela som en webbsida"
+   },
+   "starTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "Bokmärk denna flikgrupp"
+   },
+   "tab": {
+      "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'",
+      "message": "flik"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "description": "",
+      "message": "Alltför många flikar? Omvandla dem till en lista och gör Firefox snabbare"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "description": "",
+      "message": "Alltför många flikar? Omvandla dem till en lista och gör Safari snabbare"
+   },
+   "total0Tabs": {
+      "description": "Indicating a total count of 0 tabs stored",
+      "message": "Totalt: 0 flikar"
+   },
+   "total1Tab": {
+      "description": "Indicating a total count of 1 tab stored",
+      "message": "Totalt: 1 flik"
+   },
+   "total2Tabs": {
+      "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "Totalt: 2 flikar"
+   },
+   "unlockBeforeDeleting": {
+      "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation",
+      "message": "Om du vill ta bort denna flikgrupp måste du låsa upp den först (via knappen ”Mer ...”)"
+   },
+   "unlockTabGroup": {
+      "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)",
+      "message": "Lås upp denna flikgrupp"
+   },
+   "unstarTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "Ta bort bokmärke från denna flikgrupp"
+   },
+   "userLanguage": {
+      "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into.",
+      "message": "Svenska"
+   }
+}

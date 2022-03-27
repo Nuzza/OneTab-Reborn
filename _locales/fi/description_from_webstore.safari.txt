@@ -1,0 +1,7 @@
+Kun välilehtiä näyttää olevan käytössä ihan liikaa, napsauta OneTab-kuvaketta - ja kaikki välilehdet siirtyvät luetteloon. Kun haluat käyttää välilehtiä uudelleen, voit joko palauttaa ne yksitellen tai kaikki kerralla.
+
+Kun välilehdet ovat OneTab-luettelossa, voit säästää jopa 95 % muistia, koska Safaria avoinna olevien välilehtien määrä on pienempi.
+
+Yksityisyystakuu
+
+Tietoja välilehdistäsi ei koskaan siirretä tai luovuteta OneTabin kehittäjille eikä muille osapuolille. Ainoa poikkeus tähän on, jos napsautat tarkoituksella "jaa verkkosivuna" -ominaisuutta, jonka avulla voit ladata välilehtiluettelosi verkkosivulle voidaksesi jakaa välilehtiä muiden kanssa. Välilehtiä ei koskaan jaeta, ellet nimenomaan käytä "jaa verkkosivuna"-painiketta.

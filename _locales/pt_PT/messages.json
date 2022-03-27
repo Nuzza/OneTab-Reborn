@@ -1,0 +1,382 @@
+{
+   "1tab": {
+      "description": "Indicating a tab count of 1",
+      "message": "1 separador"
+   },
+   "2tabs": {
+      "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "2 separadores"
+   },
+   "95PctMemoryReduction": {
+      "description": "",
+      "message": "Redução de memória de 95%"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "description": "",
+      "message": "OneTab também está disponível para Firefox"
+   },
+   "about": {
+      "description": "Information about the software",
+      "message": "Acerca de"
+   },
+   "addOneTabNow": {
+      "description": "This means the user can add (install) the OneTab software to their web browser",
+      "message": "Adicionar OneTab agora"
+   },
+   "afterInstantReliefRestoreLater": {
+      "description": "",
+      "message": "Depois: Melhoria imediata, restaure rapidamente os separadores mais tarde"
+   },
+   "areYouSureYouWantToDeleteTheseTabs": {
+      "description": "",
+      "message": "Tem a certeza que deseja excluir estes separadores?"
+   },
+   "areYouSureYouWantToDeleteThisTab": {
+      "description": "",
+      "message": "Tem a certeza que deseja excluir este separador?"
+   },
+   "beforeLostInMessBrowserSlow": {
+      "description": "",
+      "message": "Antes: Perdido numa confusão de separadores, o navegador fica lento"
+   },
+   "bringAllTabsIntoOneTab": {
+      "description": "Takes all of the user's web browser tabs and stores them into the OneTab software",
+      "message": "Importar todos os separadores para OneTab"
+   },
+   "convertTabsIntoAList": {
+      "description": "",
+      "message": "Converter separadores numa lista"
+   },
+   "createdPreceedingDate": {
+      "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'",
+      "message": "Criado"
+   },
+   "deleteAll": {
+      "description": "",
+      "message": "Apagar tudo"
+   },
+   "displayOneTab": {
+      "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated.",
+      "message": "Mostrar OneTab"
+   },
+   "emptyOneTabInfoMsg": {
+      "description": "",
+      "message": "Quando tiver vários separadores abertos, clique no ícone OneTab na barra de ferramentas do seu navegador e os seus separadores abertos aparecerão aqui."
+   },
+   "excludeDomainFromOneTab": {
+      "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder.",
+      "message": "Excluir DOMAIN.COM de OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "description": "",
+      "message": "Excluir este website de OneTab"
+   },
+   "export": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "Exportar"
+   },
+   "exportImportUrls": {
+      "description": "Referrs to the importing or exporting of URLs into and out of the software",
+      "message": "Exportar / Importar URLs"
+   },
+   "exportThenImportNote": {
+      "description": "",
+      "message": "A seguinte lista de URLs também pode ser importada novamente para o OneTab neste ou noutro computador"
+   },
+   "exportUrls": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "Exportar URLs"
+   },
+   "features": {
+      "description": "Display a page with information about features of the software",
+      "message": "Características"
+   },
+   "feedback": {
+      "description": "Displays a page where feedback can be given about the software",
+      "message": "Comentários"
+   },
+   "help": {
+      "description": "gives the user help information",
+      "message": "Ajuda"
+   },
+   "import": {
+      "description": "Referrs to the importing of URLs into the software",
+      "message": "Importar"
+   },
+   "importUrls": {
+      "description": "Referrs to the importing of URLs into and out of the software",
+      "message": "Importar URLs"
+   },
+   "languageTitle": {
+      "description": "Title shown above the list of languages the user can choose from",
+      "message": "Idioma:"
+   },
+   "lockTabGroup": {
+      "description": "Locked means changes cannot be made",
+      "message": "Bloquear este grupo de separadors"
+   },
+   "manifestDescription": {
+      "description": "The description of the software. Note that 'tab' refers to web browser tabs.",
+      "message": "Economize até 95% de memória e reduza a confusão de separadores"
+   },
+   "memoryAfter99": {
+      "description": "",
+      "message": "Depois: apenas 99 MB utilizados"
+   },
+   "memoryBefore1981": {
+      "description": "",
+      "message": "Antes: 1981 MB utilizados"
+   },
+   "moreTripleDot": {
+      "description": "Clicking this will reveal more options",
+      "message": "Mais..."
+   },
+   "nameThisTabGroup": {
+      "description": "Allows the user to type a label to describe a group of browser tabs",
+      "message": "Dê nome a este grupo de separadores"
+   },
+   "namedTabGroups": {
+      "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)",
+      "message": "Grupos de separadores com nome"
+   },
+   "newExclamation": {
+      "description": "",
+      "message": "Novo!"
+   },
+   "noSignupRegistrationRequired": {
+      "description": "",
+      "message": "Nenhuma inscrição ou registro obrigatório"
+   },
+   "noTabsInOneTabYet": {
+      "description": "",
+      "message": "Ainda não tem nenhuns separadores em OneTab"
+   },
+   "nowAvailableInLanguage": {
+      "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into.",
+      "message": "OneTab está agora disponível em Português!"
+   },
+   "optionDuplicatesAllow": {
+      "description": "",
+      "message": "Permitir duplicados"
+   },
+   "optionDuplicatesReject": {
+      "description": "",
+      "message": "Rejeitar duplicados silenciosamente"
+   },
+   "optionDuplicatesRejectDesc": {
+      "description": "",
+      "message": "Se o URL de um separador já constar em OneTab, este não será adicionado novamente. Isto só se aplica quando clicar no ícone de OneTab ou usar o menu do botão direito para enviar vários separadores para OneTab. Se usar o menu de botão direito de OneTab para enviar apenas um separador específico para OneTab, então a duplicação será permitida para esse separador em específico."
+   },
+   "optionDuplicatesTitle": {
+      "description": "",
+      "message": "Duplicados:"
+   },
+   "optionPinnedTabsAllow": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Permitir que separadores fixos sejam enviados para OneTab"
+   },
+   "optionPinnedTabsDontSend": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Não enviar separadores fixos para OneTab"
+   },
+   "optionPinnedTabsDontSendDesc": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Continua a poder enviar um separador fixo para o OneTab ao clicar com o botão direito dentro da página web, acedendo assim ao menu OneTab, e então clicar em 'Enviar apenas este separador para OneTab'"
+   },
+   "optionPinnedTabsNote": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Nota: Um separador torna-se 'fixo' quando clica com o botão direito nele e depois clica em 'Fixar separador'. Algumas pessoas gostam de tornar alguns sites como Facebook ou Gmail fixos, para que possam localizá-los facilmente. OneTab vai lembrar-se se um deteminado separador estava fixo quando o restaurar."
+   },
+   "optionPinnedTabsTitle": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Separadores Fixos:"
+   },
+   "optionRestoreRemovalDefault": {
+      "description": "",
+      "message": "Abrir o(s) separador(es) e removê-los da sua lista OneTab"
+   },
+   "optionRestoreRemovalDefaultDesc": {
+      "description": "",
+      "message": "Pode ainda premir ctrl, cmd ou shift para restaurar o(s) separador(es) sem os remover de OneTab. Se definir algum dos seus grupos de separadores como 'bloqueado', então os separadores não serão removidos de OneTab a menos que desbloqueie esse grupo de separadores primeiro."
+   },
+   "optionRestoreRemovalKeep": {
+      "description": "",
+      "message": "Mantenha-os na sua lista OneTab"
+   },
+   "optionRestoreRemovalKeepDesc": {
+      "description": "",
+      "message": "Pode apagar entradas manualmente passando o rato sobre elas e clicando no ícone X, ou ao clicar no botão 'apagar tudo'"
+   },
+   "optionRestoreRemovalTitle": {
+      "description": "",
+      "message": "Ao clicar em 'restaurar tudo' ou restaurar um único separador:"
+   },
+   "optionStartupLaunchDisplay": {
+      "description": "",
+      "message": "Mostrar OneTab sempre que iniciar o navegador pela primeira vez"
+   },
+   "optionStartupLaunchNone": {
+      "description": "",
+      "message": "Não abrir OneTab automaticamente"
+   },
+   "optionStartupLaunchNoneDesc": {
+      "description": "",
+      "message": "Para abrir OneTab manualmente, use o menu do botão direito e selecione 'Mostrar OneTab'"
+   },
+   "optionStartupLaunchTitle": {
+      "description": "'Startup' refers to when the user's web browser is started for the first time",
+      "message": "Arranque:"
+   },
+   "optionTabGroupRestoreCurrentWindowAlways": {
+      "description": "",
+      "message": "Sempre para a janela atual"
+   },
+   "optionTabGroupRestoreNewWindow": {
+      "description": "",
+      "message": "Uma nova janela, a menos que OneTab seja o único separador na janela atual"
+   },
+   "optionTabGroupRestoreNewWindowAlways": {
+      "description": "",
+      "message": "Sempre para uma nova janela"
+   },
+   "optionTabGroupRestoreTitle": {
+      "description": "This is a heading that will be followed by text options like: 'Always a new window'",
+      "message": "Quando um grupo de separadores for restaurado, enviá-los para:"
+   },
+   "options": {
+      "description": "Display options, which are settings that can be changed for the software",
+      "message": "Opções"
+   },
+   "pasteInUrlsInstructions": {
+      "description": "Note: ensure the word Import is consistent in the translation",
+      "message": "Cole numa lista de URLs e, seguidamente, clique abaixo em Importar"
+   },
+   "pleaseWaitTripleDot": {
+      "description": "Asks the user to wait briefly",
+      "message": "Por favor, aguarde..."
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "description": "",
+      "message": "Reduzir o uso de memória em 95%"
+   },
+   "restoreAll": {
+      "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser.",
+      "message": "Restaurar tudo"
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "description": "",
+      "message": "Economize até 95% de memória e reduza a confusão de separadores no Google Chrome"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "description": "",
+      "message": "Enviar todos os separadores de todas as janelas para OneTab"
+   },
+   "sendAllTabsAllWindowsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Enviar todos os separadores de todas as janelas para PLACEHOLDER"
+   },
+   "sendAllTabsExceptThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Enviar todos os separadores, exceptuando este, para PLACEHOLDER"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "description": "",
+      "message": "Enviar todos os separadores, exceptuando deste, para OneTab"
+   },
+   "sendAllTabsToOneTab": {
+      "description": "",
+      "message": "Enviar todos os separadores para OneTab"
+   },
+   "sendAllTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Enviar todos os separadores para PLACEHOLDER"
+   },
+   "sendCurrentTabToOneTab": {
+      "description": "",
+      "message": "Enviar o separador atual para OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "description": "",
+      "message": "Enviar os separadores à esquerda para OneTab"
+   },
+   "sendLeftTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Enviar os separadores à esquerda para PLACEHOLDER"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "description": "",
+      "message": "Enviar apenas este separador para OneTab"
+   },
+   "sendOnlyThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Enviar apenas este separador para PLACEHOLDER"
+   },
+   "sendRightTabsToOneTab": {
+      "description": "",
+      "message": "Enviar os separadores à direita para OneTab"
+   },
+   "sendRightTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Enviar os separadores à direita para PLACEHOLDER"
+   },
+   "sendThisWebLinkToOneTab": {
+      "description": "",
+      "message": "Enviar esta ligação web para OneTab"
+   },
+   "sendThisWebLinkToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Enviar esta ligação web para PLACEHOLDER"
+   },
+   "shareAllAsWebPage": {
+      "description": "All tabs will be shared as a web page for other users to see",
+      "message": "Partilhar tudo como página web"
+   },
+   "shareAsWebPage": {
+      "description": "The selected tabs will be shared as a web page for other users to see",
+      "message": "Partilhar como página web"
+   },
+   "starTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "Dar Estrela a este grupo de separadores"
+   },
+   "tab": {
+      "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'",
+      "message": "separador"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "description": "",
+      "message": "Demasiados separadores? Converta os seus separadores numa lista e acelere o Firefox"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "description": "",
+      "message": "Demasiados separadores? Converta os seus separadores numa lista e acelere o Safari"
+   },
+   "total0Tabs": {
+      "description": "Indicating a total count of 0 tabs stored",
+      "message": "Total: 0 separadores"
+   },
+   "total1Tab": {
+      "description": "Indicating a total count of 1 tab stored",
+      "message": "Total: 1 separador"
+   },
+   "total2Tabs": {
+      "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "Total: 2 separadores"
+   },
+   "unlockBeforeDeleting": {
+      "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation",
+      "message": "Para eliminar este grupo de separadores, deve desbloqueá-lo primeiro (através do botão \"Mais...\")"
+   },
+   "unlockTabGroup": {
+      "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)",
+      "message": "Desbloquear este grupo de separadores"
+   },
+   "unstarTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "Tirar Estrela a este grupo de separadores"
+   },
+   "userLanguage": {
+      "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into.",
+      "message": "Português"
+   }
+}

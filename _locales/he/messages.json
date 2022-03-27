@@ -1,0 +1,382 @@
+{
+   "1tab": {
+      "description": "Indicating a tab count of 1",
+      "message": "1 כרטיסייה"
+   },
+   "2tabs": {
+      "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "2 כרטיסיות"
+   },
+   "95PctMemoryReduction": {
+      "description": "",
+      "message": "הפחתה של 95% בשימוש הזיכרון"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "description": "",
+      "message": "OneTab זמין גם עבור Firefox"
+   },
+   "about": {
+      "description": "Information about the software",
+      "message": "אודות"
+   },
+   "addOneTabNow": {
+      "description": "This means the user can add (install) the OneTab software to their web browser",
+      "message": "הוסף את OneTab כעת"
+   },
+   "afterInstantReliefRestoreLater": {
+      "description": "",
+      "message": "אחרי: הקלה מיידית, שחזר במהירות כרטיסיות מאוחר יותר"
+   },
+   "areYouSureYouWantToDeleteTheseTabs": {
+      "description": "",
+      "message": "אתה בטוח שאתה רוצה למחוק כרטיסיות אלו?"
+   },
+   "areYouSureYouWantToDeleteThisTab": {
+      "description": "",
+      "message": "אתה בטוח שאתה רוצה למחוק כרטיסייה זו?"
+   },
+   "beforeLostInMessBrowserSlow": {
+      "description": "",
+      "message": "לפני: אבוד בבלאגן שלם של כרטיסיות, הדפדפן איטי"
+   },
+   "bringAllTabsIntoOneTab": {
+      "description": "Takes all of the user's web browser tabs and stores them into the OneTab software",
+      "message": "הבא את כל הכרטיסיות ל-OneTab"
+   },
+   "convertTabsIntoAList": {
+      "description": "",
+      "message": "הפוך כרטיסיות לרשימה אחת"
+   },
+   "createdPreceedingDate": {
+      "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'",
+      "message": "נוצר ב-"
+   },
+   "deleteAll": {
+      "description": "",
+      "message": "מחק הכול"
+   },
+   "displayOneTab": {
+      "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated.",
+      "message": "הצג את OneTab"
+   },
+   "emptyOneTabInfoMsg": {
+      "description": "",
+      "message": "כשיש לך מספר כרטיסיות פתוחות, לחץ על הסמל של OneTab שבסרגל הכלים בדפדפן שלך וכל הכרטיסיות הפתוחות שלך יופיעו כאן."
+   },
+   "excludeDomainFromOneTab": {
+      "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder.",
+      "message": "אל תכלול את DOMAIN.COM ב-OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "description": "",
+      "message": "אל תכלול אתר זה ב-OneTab"
+   },
+   "export": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "ייצא"
+   },
+   "exportImportUrls": {
+      "description": "Referrs to the importing or exporting of URLs into and out of the software",
+      "message": "ייצוא / ייבוא כתובות אינטרנט"
+   },
+   "exportThenImportNote": {
+      "description": "",
+      "message": "רשימת כתובות האינטרנט הבאה ניתנת לייבוא חזרה ל-OneTab במחשב זו או במחשב אחר"
+   },
+   "exportUrls": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "ייצוא כתובות אינטרנט"
+   },
+   "features": {
+      "description": "Display a page with information about features of the software",
+      "message": "מאפיינים"
+   },
+   "feedback": {
+      "description": "Displays a page where feedback can be given about the software",
+      "message": "משוב"
+   },
+   "help": {
+      "description": "gives the user help information",
+      "message": "עזרה"
+   },
+   "import": {
+      "description": "Referrs to the importing of URLs into the software",
+      "message": "ייבא"
+   },
+   "importUrls": {
+      "description": "Referrs to the importing of URLs into and out of the software",
+      "message": "ייבוא כתובות אינטרנט"
+   },
+   "languageTitle": {
+      "description": "Title shown above the list of languages the user can choose from",
+      "message": "שפה:"
+   },
+   "lockTabGroup": {
+      "description": "Locked means changes cannot be made",
+      "message": "נעל קבוצת כרטיסיות זו"
+   },
+   "manifestDescription": {
+      "description": "The description of the software. Note that 'tab' refers to web browser tabs.",
+      "message": "חסוך עד 95% מזיכרון המכשיר והפחת את עומס הכרטיסיות"
+   },
+   "memoryAfter99": {
+      "description": "",
+      "message": "אחרי: רק 99MB בשימוש"
+   },
+   "memoryBefore1981": {
+      "description": "",
+      "message": "לפני: 1981MB בשימוש"
+   },
+   "moreTripleDot": {
+      "description": "Clicking this will reveal more options",
+      "message": "עוד..."
+   },
+   "nameThisTabGroup": {
+      "description": "Allows the user to type a label to describe a group of browser tabs",
+      "message": "תן שם לקבוצת כרטיסיות זו"
+   },
+   "namedTabGroups": {
+      "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)",
+      "message": "קבוצות כרטיסיות בעלות שם"
+   },
+   "newExclamation": {
+      "description": "",
+      "message": "חדש!"
+   },
+   "noSignupRegistrationRequired": {
+      "description": "",
+      "message": "אין צורך בהרשמה"
+   },
+   "noTabsInOneTabYet": {
+      "description": "",
+      "message": "עדיין אין לך כרטיסיות ב-OneTab"
+   },
+   "nowAvailableInLanguage": {
+      "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into.",
+      "message": "OneTab זמין כעת גם בעברית!"
+   },
+   "optionDuplicatesAllow": {
+      "description": "",
+      "message": "אפשר כפילויות"
+   },
+   "optionDuplicatesReject": {
+      "description": "",
+      "message": "דחה כפילויות ללא התראה"
+   },
+   "optionDuplicatesRejectDesc": {
+      "description": "",
+      "message": "אם OneTab כבר כולל את כתובת האינטרנט של הכרטיסייה, הכתובת לא תתווסף שנית. אפשרות זו תקפה במקרה שתלחץ על הסמל של OneTab או שתיכנס לתפריט OneTab באמצעות לחיצה ימנית על העכבר ותשלח מספר כרטיסיות ל-OneTab. אם תשתמש בתפריט OneTab כדי לשלוח רק כרטיסייה ספציפית ל-OneTab, הכפילות תאושר עבור אותה כרטיסייה ספציפית."
+   },
+   "optionDuplicatesTitle": {
+      "description": "",
+      "message": "כפילויות:"
+   },
+   "optionPinnedTabsAllow": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "אפשר לכרטיסיות מוצמדות להישלח ל-OneTab"
+   },
+   "optionPinnedTabsDontSend": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "אל תשלח כרטיסיות מוצמדות ל-OneTab"
+   },
+   "optionPinnedTabsDontSendDesc": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "עדיין תוכל לשלוח כרטיסייה מוצמדת ל-OneTab על ידי כניסה לתפריט OneTab באמצעות לחיצה ימנית בעכבר בדף האינטרנט, ולאחר מכן לחיצה על \"שלח רק כרטיסייה זו ל-OneTab\""
+   },
+   "optionPinnedTabsNote": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "שים לב: הצמדת כרטיסיות נעשית באמצעות לחיצה ימנית על הכרטיסייה ולחיצה על \"הצמד כרטיסייה\". יש אנשים שאוהבים להצמיד אתרים כמו Facebook או Gmail כדי שהם יוכלו לגשת אליהם ביתר קלות. OneTab יזכור האם הכרטיסייה שלך היתה מוצמדת או לא ברגע שתשחזר אותה."
+   },
+   "optionPinnedTabsTitle": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "כרטיסיות מוצמדות:"
+   },
+   "optionRestoreRemovalDefault": {
+      "description": "",
+      "message": "פתח את הכרטיסיות והסר אותן מרשימת ה-OneTab שלך"
+   },
+   "optionRestoreRemovalDefaultDesc": {
+      "description": "",
+      "message": "עדיין תוכל ללחוץ על המקשים Ctrl, Cmd או Shift כדי לשחזר את הכרטיסיות שלך ללא הסרתן מ-OneTab. במידה שתנעל את אחת מקבוצות הכרטיסיות שלך, הכרטיסיות לא יוסרו מ-OneTab אלא אם כן תבטל את נעילת הקבוצה לפני כן."
+   },
+   "optionRestoreRemovalKeep": {
+      "description": "",
+      "message": "שמור אותן ברשימת ה-OneTab שלך"
+   },
+   "optionRestoreRemovalKeepDesc": {
+      "description": "",
+      "message": "אתה יכול למחוק ערכים ידנית על ידי ריחוף מעליהם עם העכבר ולחיצה על סמל ה-X, או על ידי לחיצה על הכפתור \"מחק הכול\""
+   },
+   "optionRestoreRemovalTitle": {
+      "description": "",
+      "message": "בלחיצה על \"שחזר הכול\" או בשחזור כרטיסייה בודדת:"
+   },
+   "optionStartupLaunchDisplay": {
+      "description": "",
+      "message": "הפעל את OneTab בכל פעם שאתה פותח את דפדפן האינטרנט שלך בפעם הראשונה"
+   },
+   "optionStartupLaunchNone": {
+      "description": "",
+      "message": "אל תפעיל את OneTab אוטומטית"
+   },
+   "optionStartupLaunchNoneDesc": {
+      "description": "",
+      "message": "להפעלת OneTab בצורה ידנית, לחץ לחיצה ימנית בעכבר לפתיחת התפריט ובחר באפשרות \"הצג את OneTab\""
+   },
+   "optionStartupLaunchTitle": {
+      "description": "'Startup' refers to when the user's web browser is started for the first time",
+      "message": "הפעלה:"
+   },
+   "optionTabGroupRestoreCurrentWindowAlways": {
+      "description": "",
+      "message": "תמיד בחלון הנוכחי"
+   },
+   "optionTabGroupRestoreNewWindow": {
+      "description": "",
+      "message": "חלון חדש, אלא אם כן OneTab היא הכרטיסייה היחידה בחלון הנוכחי"
+   },
+   "optionTabGroupRestoreNewWindowAlways": {
+      "description": "",
+      "message": "תמיד בחלון חדש"
+   },
+   "optionTabGroupRestoreTitle": {
+      "description": "This is a heading that will be followed by text options like: 'Always a new window'",
+      "message": "בעת שחזור קבוצת כרטיסיות, שלח את הכרטיסיות אל:"
+   },
+   "options": {
+      "description": "Display options, which are settings that can be changed for the software",
+      "message": "אפשרויות"
+   },
+   "pasteInUrlsInstructions": {
+      "description": "Note: ensure the word Import is consistent in the translation",
+      "message": "הדבק רשימת כתובות אינטרנט ולאחר מכן לחץ על הכפתור \"ייבא\""
+   },
+   "pleaseWaitTripleDot": {
+      "description": "Asks the user to wait briefly",
+      "message": "אנא המתן..."
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "description": "",
+      "message": "הפחת את השימוש בזיכרון ב-95%"
+   },
+   "restoreAll": {
+      "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser.",
+      "message": "שחזר הכול"
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "description": "",
+      "message": "חסוך עד 95% מזיכרון המכשיר והפחת את עומס הכרטיסיות בדפדפן Google Chrome"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "description": "",
+      "message": "שלח את כל הכרטיסיות מכל החלונות אל OneTab"
+   },
+   "sendAllTabsAllWindowsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "שלח את כל הכרטיסיות מכל החלונות אל PLACEHOLDER"
+   },
+   "sendAllTabsExceptThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "שלח את כל הכרטיסיות פרט לכרטיסיה זו אל PLACEHOLDER"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "description": "",
+      "message": "שלח את כל הכרטיסיות פרט לכרטיסיה זו אל OneTab"
+   },
+   "sendAllTabsToOneTab": {
+      "description": "",
+      "message": "שלח את כל הכרטיסיות אל OneTab"
+   },
+   "sendAllTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "שלח את כל הכרטיסיות אל PLACEHOLDER"
+   },
+   "sendCurrentTabToOneTab": {
+      "description": "",
+      "message": "שלח את הכרטיסייה הנוכחית ל-OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "description": "",
+      "message": "שלח את הכרטיסיות שמשמאל אל OneTab"
+   },
+   "sendLeftTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "שלח את הכרטיסיות שמשמאל אל PLACEHOLDER"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "description": "",
+      "message": "שלח רק כרטיסייה זו אל OneTab"
+   },
+   "sendOnlyThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "שלח רק כרטיסייה זו אל PLACEHOLDER"
+   },
+   "sendRightTabsToOneTab": {
+      "description": "",
+      "message": "שלח את הכרטיסיות שמימין אל OneTab"
+   },
+   "sendRightTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "שלח את הכרטיסיות שמימין אל PLACEHOLDER"
+   },
+   "sendThisWebLinkToOneTab": {
+      "description": "",
+      "message": "שלח קישור אינטרנט זה אל OneTab"
+   },
+   "sendThisWebLinkToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "שלח קישור אינטרנט זה אל PLACEHOLDER"
+   },
+   "shareAllAsWebPage": {
+      "description": "All tabs will be shared as a web page for other users to see",
+      "message": "שתף הכול כדף אינטרנט"
+   },
+   "shareAsWebPage": {
+      "description": "The selected tabs will be shared as a web page for other users to see",
+      "message": "שתף כדף אינטרנט"
+   },
+   "starTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "סמן בכוכב קבוצת כרטיסיות זו"
+   },
+   "tab": {
+      "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'",
+      "message": "כרטיסייה"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "description": "",
+      "message": "מוצף בכרטיסיות? הפוך את הכרטיסיות שלך לרשימה אחת ושפר את מהירות הדפדפן של Firefox"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "description": "",
+      "message": "מוצף בכרטיסיות? הפוך את הכרטיסיות שלך לרשימה אחת ושפר את מהירות הדפדפן של Safari"
+   },
+   "total0Tabs": {
+      "description": "Indicating a total count of 0 tabs stored",
+      "message": "סה\"כ: 0 כרטיסיות"
+   },
+   "total1Tab": {
+      "description": "Indicating a total count of 1 tab stored",
+      "message": "סה\"כ: 1 כרטיסייה"
+   },
+   "total2Tabs": {
+      "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "סה\"כ: 2 כרטיסיות"
+   },
+   "unlockBeforeDeleting": {
+      "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation",
+      "message": "למחיקת קבוצת כרטיסיות זו, ראשית עליך לבטל את הנעילה שלה (באמצעות הכפתור \"עוד...\")"
+   },
+   "unlockTabGroup": {
+      "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)",
+      "message": "בטל נעילה מקבוצת כרטיסיות זו"
+   },
+   "unstarTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "בטל סימון כוכב מקבוצת כרטיסיות זו"
+   },
+   "userLanguage": {
+      "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into.",
+      "message": "עברית"
+   }
+}

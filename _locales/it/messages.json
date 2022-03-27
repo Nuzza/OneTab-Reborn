@@ -1,0 +1,382 @@
+{
+   "1tab": {
+      "description": "Indicating a tab count of 1",
+      "message": "1 scheda"
+   },
+   "2tabs": {
+      "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "2 schede"
+   },
+   "95PctMemoryReduction": {
+      "description": "",
+      "message": "Riduzione del 95% della memoria"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "description": "",
+      "message": "OneTab è disponibile anche per Firefox"
+   },
+   "about": {
+      "description": "Information about the software",
+      "message": "Informazioni"
+   },
+   "addOneTabNow": {
+      "description": "This means the user can add (install) the OneTab software to their web browser",
+      "message": "Aggiungi subito OneTab"
+   },
+   "afterInstantReliefRestoreLater": {
+      "description": "",
+      "message": "Dopo: beneficio immediato, ripristini rapidamente le schede in un secondo momento"
+   },
+   "areYouSureYouWantToDeleteTheseTabs": {
+      "description": "",
+      "message": "Sicuro di voler eliminare queste schede?"
+   },
+   "areYouSureYouWantToDeleteThisTab": {
+      "description": "",
+      "message": "Sicuro di voler eliminare questa scheda?"
+   },
+   "beforeLostInMessBrowserSlow": {
+      "description": "",
+      "message": "Prima: perso in un groviglio di schede, il browser è lento"
+   },
+   "bringAllTabsIntoOneTab": {
+      "description": "Takes all of the user's web browser tabs and stores them into the OneTab software",
+      "message": "Porta tutte le schede su OneTab"
+   },
+   "convertTabsIntoAList": {
+      "description": "",
+      "message": "Converte le schede in un elenco"
+   },
+   "createdPreceedingDate": {
+      "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'",
+      "message": "Creato"
+   },
+   "deleteAll": {
+      "description": "",
+      "message": "Elimina tutto"
+   },
+   "displayOneTab": {
+      "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated.",
+      "message": "Visualizza OneTab"
+   },
+   "emptyOneTabInfoMsg": {
+      "description": "",
+      "message": "Quando ci sono più schede aperte, fai clic sull'icona OneTab sulla barra degli strumenti del browser per visualizzare le schede aperte in questa posizione."
+   },
+   "excludeDomainFromOneTab": {
+      "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder.",
+      "message": "Escludi DOMAIN.COM da OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "description": "",
+      "message": "Escludi questo sito da OneTab"
+   },
+   "export": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "Esporta"
+   },
+   "exportImportUrls": {
+      "description": "Referrs to the importing or exporting of URLs into and out of the software",
+      "message": "Esporta/Importa URL"
+   },
+   "exportThenImportNote": {
+      "description": "",
+      "message": "Il seguente elenco di URL può anche essere reimportato su OneTab su questo o un altro computer"
+   },
+   "exportUrls": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "Esporta URL"
+   },
+   "features": {
+      "description": "Display a page with information about features of the software",
+      "message": "Funzioni"
+   },
+   "feedback": {
+      "description": "Displays a page where feedback can be given about the software",
+      "message": "Commenti"
+   },
+   "help": {
+      "description": "gives the user help information",
+      "message": "Aiuto"
+   },
+   "import": {
+      "description": "Referrs to the importing of URLs into the software",
+      "message": "Importa"
+   },
+   "importUrls": {
+      "description": "Referrs to the importing of URLs into and out of the software",
+      "message": "Importa URL"
+   },
+   "languageTitle": {
+      "description": "Title shown above the list of languages the user can choose from",
+      "message": "Lingua:"
+   },
+   "lockTabGroup": {
+      "description": "Locked means changes cannot be made",
+      "message": "Blocca questo gruppo di schede"
+   },
+   "manifestDescription": {
+      "description": "The description of the software. Note that 'tab' refers to web browser tabs.",
+      "message": "Consente di risparmiare fino al 95% di memoria e riduce l'ingombro delle schede"
+   },
+   "memoryAfter99": {
+      "description": "",
+      "message": "Dopo: solo 99 MB utilizzati"
+   },
+   "memoryBefore1981": {
+      "description": "",
+      "message": "Prima: 1981 MB utilizzati"
+   },
+   "moreTripleDot": {
+      "description": "Clicking this will reveal more options",
+      "message": "Altro..."
+   },
+   "nameThisTabGroup": {
+      "description": "Allows the user to type a label to describe a group of browser tabs",
+      "message": "Rinomina questo gruppo di schede"
+   },
+   "namedTabGroups": {
+      "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)",
+      "message": "Gruppi di schede rinominati"
+   },
+   "newExclamation": {
+      "description": "",
+      "message": "Nuovo!"
+   },
+   "noSignupRegistrationRequired": {
+      "description": "",
+      "message": "Non è richiesta la registrazione o l'iscrizione"
+   },
+   "noTabsInOneTabYet": {
+      "description": "",
+      "message": "Non hai ancora nessuna scheda su OneTab"
+   },
+   "nowAvailableInLanguage": {
+      "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into.",
+      "message": "OneTab è ora disponibile in italiano!"
+   },
+   "optionDuplicatesAllow": {
+      "description": "",
+      "message": "Consenti duplicati"
+   },
+   "optionDuplicatesReject": {
+      "description": "",
+      "message": "Rifiuta duplicati implicitamente"
+   },
+   "optionDuplicatesRejectDesc": {
+      "description": "",
+      "message": "Se OneTab contiene già l'URL di una scheda, non verrà aggiunto di nuovo. Questo vale solo quando si fa clic sull'icona OneTab o si utilizza il menu del tasto destro per inviare più schede a OneTab. Se si utilizza il menu del tasto destro OneTab per inviare solo una scheda specifica a OneTab, sarà consentito creare il duplicato per quella scheda specifica."
+   },
+   "optionDuplicatesTitle": {
+      "description": "",
+      "message": "Duplica:"
+   },
+   "optionPinnedTabsAllow": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Consenti l'invio di schede bloccate a OneTab"
+   },
+   "optionPinnedTabsDontSend": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Non inviare le schede bloccate a OneTab"
+   },
+   "optionPinnedTabsDontSendDesc": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "È ancora possibile inviare manualmente una scheda bloccata a OneTab, facendo clic con il tasto destro all'interno della pagina web per accedere al menu OneTab, quindi facendo clic su 'Invia solo questa scheda a OneTab'"
+   },
+   "optionPinnedTabsNote": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Nota: una scheda viene 'bloccata' quando si fa clic sulla scheda e facendo clic su 'Blocca scheda'. Ad alcune persone piace bloccare siti come Facebook o Gmail in modo che possano facilmente individuarli. Al momento di ripristinare una scheda, OneTab ricorderà se la scheda era bloccata."
+   },
+   "optionPinnedTabsTitle": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Blocca schede:"
+   },
+   "optionRestoreRemovalDefault": {
+      "description": "",
+      "message": "Apri una o più schede e le rimuovi dall'elenco OneTab"
+   },
+   "optionRestoreRemovalDefaultDesc": {
+      "description": "",
+      "message": "Puoi comunque premere CTRL, CDM o passare a ripristinare una o più schede senza rimuoverle da OneTab. Se imposti uno qualsiasi dei tuoi gruppi di schede come 'bloccate', le schede non saranno rimosse da OneTab, a meno che prima non sblocchi quel gruppo di schede."
+   },
+   "optionRestoreRemovalKeep": {
+      "description": "",
+      "message": "Lasciale nel tuo elenco OneTab"
+   },
+   "optionRestoreRemovalKeepDesc": {
+      "description": "",
+      "message": "Puoi eliminare manualmente le voci passandoci sopra e facendo clic sull'icona X, oppure facendo clic sul pulsante 'elimina tutto'"
+   },
+   "optionRestoreRemovalTitle": {
+      "description": "",
+      "message": "Facendo clic su 'Ripristina tutte' o ripristinando una singola scheda:"
+   },
+   "optionStartupLaunchDisplay": {
+      "description": "",
+      "message": "Visualizza OneTab ad ogni primo avvio del browser"
+   },
+   "optionStartupLaunchNone": {
+      "description": "",
+      "message": "Non aprire OneTab automaticamente"
+   },
+   "optionStartupLaunchNoneDesc": {
+      "description": "",
+      "message": "Per aprire OneTab manualmente, utilizza il menu del tasto destro e scegli 'Mostra OneTab'"
+   },
+   "optionStartupLaunchTitle": {
+      "description": "'Startup' refers to when the user's web browser is started for the first time",
+      "message": "Avvio:"
+   },
+   "optionTabGroupRestoreCurrentWindowAlways": {
+      "description": "",
+      "message": "Sempre alla finestra corrente"
+   },
+   "optionTabGroupRestoreNewWindow": {
+      "description": "",
+      "message": "Una nuova finestra, a meno che OneTab sia l'unica scheda nella finestra corrente"
+   },
+   "optionTabGroupRestoreNewWindowAlways": {
+      "description": "",
+      "message": "Sempre a una nuova finestra"
+   },
+   "optionTabGroupRestoreTitle": {
+      "description": "This is a heading that will be followed by text options like: 'Always a new window'",
+      "message": "Al ripristino di un gruppo di schede, invia le schede a:"
+   },
+   "options": {
+      "description": "Display options, which are settings that can be changed for the software",
+      "message": "Opzioni"
+   },
+   "pasteInUrlsInstructions": {
+      "description": "Note: ensure the word Import is consistent in the translation",
+      "message": "Incolla in un elenco di URL e quindi fai clic su Importa qui sotto"
+   },
+   "pleaseWaitTripleDot": {
+      "description": "Asks the user to wait briefly",
+      "message": "Attendere prego..."
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "description": "",
+      "message": "Riduce l'utilizzo della memoria del 95%"
+   },
+   "restoreAll": {
+      "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser.",
+      "message": "Ripristina tutto"
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "description": "",
+      "message": "Risparmi fino al 95% di memoria e riduci l'ingombro di schede in Google Chrome"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "description": "",
+      "message": "Invia tutte le schede da tutte le finestre a OneTab"
+   },
+   "sendAllTabsAllWindowsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Invia tutte le schede da tutte le finestre a PLACEHOLDER"
+   },
+   "sendAllTabsExceptThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Invia tutte le schede ad eccezione di questa scheda a PLACEHOLDER"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "description": "",
+      "message": "Invia tutte le schede ad eccezione di questa scheda a OneTab"
+   },
+   "sendAllTabsToOneTab": {
+      "description": "",
+      "message": "Invia tutte le schede a OneTab"
+   },
+   "sendAllTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Invia tutte le schede a PLACEHOLDER"
+   },
+   "sendCurrentTabToOneTab": {
+      "description": "",
+      "message": "Invia la scheda corrente a OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "description": "",
+      "message": "Invia le schede a sinistra a OneTab"
+   },
+   "sendLeftTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Invia le schede a sinistra a PLACEHOLDER"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "description": "",
+      "message": "Invia solo questa scheda a OneTab"
+   },
+   "sendOnlyThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Invia solo questa scheda a PLACEHOLDER"
+   },
+   "sendRightTabsToOneTab": {
+      "description": "",
+      "message": "Invia le schede a destra a OneTab"
+   },
+   "sendRightTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Invia schede a destra a PLACEHOLDER"
+   },
+   "sendThisWebLinkToOneTab": {
+      "description": "",
+      "message": "Invia questo link a OneTab"
+   },
+   "sendThisWebLinkToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Invia questo link a PLACEHOLDER"
+   },
+   "shareAllAsWebPage": {
+      "description": "All tabs will be shared as a web page for other users to see",
+      "message": "Condividi tutte come pagina web"
+   },
+   "shareAsWebPage": {
+      "description": "The selected tabs will be shared as a web page for other users to see",
+      "message": "Condividi come pagina web"
+   },
+   "starTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "Aggiungi questo gruppo di schede ai Preferiti"
+   },
+   "tab": {
+      "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'",
+      "message": "scheda"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "description": "",
+      "message": "Troppe schede? Converti le schede in un elenco e velocizza Firefox"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "description": "",
+      "message": "Troppe schede? Converti le schede in un elenco e velocizza Safari"
+   },
+   "total0Tabs": {
+      "description": "Indicating a total count of 0 tabs stored",
+      "message": "Totale: 0 schede"
+   },
+   "total1Tab": {
+      "description": "Indicating a total count of 1 tab stored",
+      "message": "Totale: 1 scheda"
+   },
+   "total2Tabs": {
+      "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "Totale: 2 schede"
+   },
+   "unlockBeforeDeleting": {
+      "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation",
+      "message": "Per eliminare questo gruppo di schede, è necessario innanzittutto sbloccarlo (con il pulsante 'Altro...' )"
+   },
+   "unlockTabGroup": {
+      "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)",
+      "message": "Sblocca questo gruppo di schede"
+   },
+   "unstarTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "Rimuovi questo gruppo di schede dai Preferiti"
+   },
+   "userLanguage": {
+      "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into.",
+      "message": "Italiano"
+   }
+}

@@ -1,0 +1,7 @@
+Ha úgy találja, hogy túl sok lap van megnyitva a böngészőjében, kattintson a OneTab ikonra, és rendezze listába az összes lapot. Ha újra el szeretné érni őket, állítsa vissza a lapokat egyesével vagy mindet egyszerre.
+
+Amikor a lapok a OneTab listájában vannak, akár 95%-kal mérsékelheti a Safari memóriaigényét a megnyitott lapok számának csökkentésével.
+
+Adatbiztonság
+
+A lapokról szóló információkat soha nem adjuk át vagy fedjük fel a OneTab fejlesztőinek vagy harmadik félnek. Ez alól kivételt jelent, ha Ön szándékosan rákattint az „Oszd meg weboldalként” funkcióra, amely lehetővé teszi, hogy a lapok listáját feltöltse egy weboldalra, és azt mások is megtekinthessék. A lapokat soha nem osztjuk meg, kivéve, ha Ön használja az „Oszd meg weboldalként” funkciót.

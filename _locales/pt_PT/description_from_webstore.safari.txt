@@ -1,0 +1,7 @@
+Sempre que se encontrar-se com muitos separadores, clique no ícone OneTab para converter todos os seus separadores numa lista. Quando precisar de aceder novamente a eles, pode restaurá-los individualmente ou todos de uma vez.
+
+Quando os separadores estão na lista OneTab, isto economiza-lhe até 95% de memória, porque vai reduzir o número de separadores abertos no Safari.
+
+Garantia de privacidade
+
+Jamais serão transmitidas ou reveladas informações sobre os seus separadores aos desenvolvedores de OneTab ou a qualquer outra parte. A única excepção a isto é se clicar intencionalmente na nossa função 'partilhar como página web', que lhe permite fazer upload da sua lista de separadores para uma página web, de modo a que possa partilhá-la com outros. Os separadores nunca serão partilhados a menos que use o botão 'partilhar como página web'

@@ -1,0 +1,58 @@
+@font-face {
+  font-family: SegoeIcons;
+  src: url(../fonts/SegoeIcons.ttf);
+}
+
+@font-face {
+  font-family: SegoeUI;
+  src: url(../fonts/segoeui.ttf);
+}
+
+* {
+  font-family: SegoeUI;
+  border-radius: 6px;
+  color: black;
+  box-sizing: border-box;
+
+  user-select:none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select:none;
+  -o-user-select:none;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+textarea, #settingsDiv {
+  background-color: rgb(240, 240, 240);
+}
+
+.clickable {
+  cursor:pointer;
+}
+
+input[type=text] {
+  padding: 4px 4px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 2px 2px 3px #ddd;
+  -moz-box-shadow: 2px 2px 3px #ddd;
+  outline: 0;
+  -webkit-appearance: textfield;
+}
+
+@media (prefers-color-scheme: dark) {
+  * {
+    color: white;
+  }
+
+  body {
+    background-color: rgb(30, 30, 30);
+  }
+
+  textarea, #settingsDiv {
+    background-color: rgb(0, 0, 0);
+  }
+}

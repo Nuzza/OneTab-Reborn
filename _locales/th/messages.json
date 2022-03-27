@@ -1,0 +1,382 @@
+{
+   "1tab": {
+      "description": "Indicating a tab count of 1",
+      "message": "1 แท็บ"
+   },
+   "2tabs": {
+      "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "2 แท็บ"
+   },
+   "95PctMemoryReduction": {
+      "description": "",
+      "message": "หน่วยความจำลดลง 95%"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "description": "",
+      "message": "OneTab ยังสามารถใช้กับสำหรับ Firefox ได้ด้วย"
+   },
+   "about": {
+      "description": "Information about the software",
+      "message": "เกี่ยวกับ"
+   },
+   "addOneTabNow": {
+      "description": "This means the user can add (install) the OneTab software to their web browser",
+      "message": "เพิ่ม OneTab ตอนนี้เลย"
+   },
+   "afterInstantReliefRestoreLater": {
+      "description": "",
+      "message": "หลังใช้: โล่งอกทันที เรียกคืนแท็บได้อย่างรวดเร็วในภายหลัง"
+   },
+   "areYouSureYouWantToDeleteTheseTabs": {
+      "description": "",
+      "message": "คุณแน่ใจว่าคุณต้องการลบแท็บเหล่านี้หรือไม่"
+   },
+   "areYouSureYouWantToDeleteThisTab": {
+      "description": "",
+      "message": "คุณแน่ใจว่าคุณต้องการลบแท็บนี้หรือไม่?"
+   },
+   "beforeLostInMessBrowserSlow": {
+      "description": "",
+      "message": "ก่อนใช้: หายไปในกองแท็บที่ยุ่งเหยิง เบราว์เซอร์ช้า"
+   },
+   "bringAllTabsIntoOneTab": {
+      "description": "Takes all of the user's web browser tabs and stores them into the OneTab software",
+      "message": "นำแท็บทั้งหมดลงใน OneTab"
+   },
+   "convertTabsIntoAList": {
+      "description": "",
+      "message": "แปลงแท็บเป็นรายการ"
+   },
+   "createdPreceedingDate": {
+      "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'",
+      "message": "สร้างแล้ว"
+   },
+   "deleteAll": {
+      "description": "",
+      "message": "ลบทั้งหมด"
+   },
+   "displayOneTab": {
+      "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated.",
+      "message": "แสดง OneTab"
+   },
+   "emptyOneTabInfoMsg": {
+      "description": "",
+      "message": "เมื่อคุณมีหลายแท็บเปิดอยู่ ให้คลิกที่ไอคอน OneTab บนแถบเครื่องมือเบราว์เซอร์ของคุณและแท็บที่เปิดอยู่ของคุณจะปรากฏที่นี่"
+   },
+   "excludeDomainFromOneTab": {
+      "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder.",
+      "message": "ไม่รวม DOMAIN.COM ใน OneTab"
+   },
+   "excludeWebSiteFromOneTab": {
+      "description": "",
+      "message": "ไม่รวมเว็บไซต์นี้ใน OneTab"
+   },
+   "export": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "การส่งออก"
+   },
+   "exportImportUrls": {
+      "description": "Referrs to the importing or exporting of URLs into and out of the software",
+      "message": "ส่งออก / นำเข้า URL"
+   },
+   "exportThenImportNote": {
+      "description": "",
+      "message": "นอกจากนั้นรายการต่อไปนี้ของ URL ยังสามารถนำเข้ากลับเข้ามาใน OneTab ในเครื่องนี้หรือคอมพิวเตอร์อื่นได้"
+   },
+   "exportUrls": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "ส่งออก URL"
+   },
+   "features": {
+      "description": "Display a page with information about features of the software",
+      "message": "คุณสมบัติ"
+   },
+   "feedback": {
+      "description": "Displays a page where feedback can be given about the software",
+      "message": "ข้อเสนอแนะ"
+   },
+   "help": {
+      "description": "gives the user help information",
+      "message": "ความช่วยเหลือ"
+   },
+   "import": {
+      "description": "Referrs to the importing of URLs into the software",
+      "message": "นำเข้า"
+   },
+   "importUrls": {
+      "description": "Referrs to the importing of URLs into and out of the software",
+      "message": "นำเข้า URL"
+   },
+   "languageTitle": {
+      "description": "Title shown above the list of languages the user can choose from",
+      "message": "ภาษา:"
+   },
+   "lockTabGroup": {
+      "description": "Locked means changes cannot be made",
+      "message": "ล็อคกลุ่มแท็บนี้"
+   },
+   "manifestDescription": {
+      "description": "The description of the software. Note that 'tab' refers to web browser tabs.",
+      "message": "ประหยัดหน่วยความจำสูงสุดถึง 95% และลดความยุ่งเหยิงของแท็บ"
+   },
+   "memoryAfter99": {
+      "description": "",
+      "message": "หลังใช้: ใช้เพียง 99 MB"
+   },
+   "memoryBefore1981": {
+      "description": "",
+      "message": "ก่อนใช้: ใช้ 1981 MB"
+   },
+   "moreTripleDot": {
+      "description": "Clicking this will reveal more options",
+      "message": "อื่น ๆ ..."
+   },
+   "nameThisTabGroup": {
+      "description": "Allows the user to type a label to describe a group of browser tabs",
+      "message": "ตั้งชื่อกลุ่มแท็บนี้"
+   },
+   "namedTabGroups": {
+      "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)",
+      "message": "กลุ่มแท็บที่ตั้งชื่อแล้ว"
+   },
+   "newExclamation": {
+      "description": "",
+      "message": "ใหม่!"
+   },
+   "noSignupRegistrationRequired": {
+      "description": "",
+      "message": "ไม่จำเป็นต้องสมัครหรือลงทะเบียน"
+   },
+   "noTabsInOneTabYet": {
+      "description": "",
+      "message": "คุณยังไม่ได้มีแท็บใด ๆ ใน OneTab"
+   },
+   "nowAvailableInLanguage": {
+      "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into.",
+      "message": "ตอนนี้มี OneTab ภาษาไทยแล้ว!"
+   },
+   "optionDuplicatesAllow": {
+      "description": "",
+      "message": "อนุญาตรายการที่ซ้ำกัน"
+   },
+   "optionDuplicatesReject": {
+      "description": "",
+      "message": "ปฏิเสธรายการที่ซ้ำกันอย่างเงียบ ๆ"
+   },
+   "optionDuplicatesRejectDesc": {
+      "description": "",
+      "message": "หาก OneTab มี URL ของแท็บแล้ว จะไม่สามารถเพิ่มURL นั้นได้อีก นี่จะมีผลเฉพาะเมื่อคุณคลิกไอคอน OneTab หรือใช้เมนูคลิกขวาเพื่อส่งแท็บหลายแท็บไปยัง OneTab  หากคุณใช้การคลิกขวาที่เมนู OneTab เพื่อส่งเพียงแท็บที่เฉพาะเจาะจงไปที่ OneTab จะมีการอนุญาตให้มีรายการที่ซ้ำกันได้เฉพาะแท็บนั้นเท่านั้น"
+   },
+   "optionDuplicatesTitle": {
+      "description": "",
+      "message": "รายการที่ซ้ำกัน:"
+   },
+   "optionPinnedTabsAllow": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "อนุญาตให้ส่งแท็บที่ปักหมุดไว้ไปที่ OneTab"
+   },
+   "optionPinnedTabsDontSend": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "ห้ามส่งแท็บที่ปักหมุดเอาไว้ไปที่ OneTab"
+   },
+   "optionPinnedTabsDontSendDesc": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "คุณยังสามารถส่งแท็บที่ปักหมุดเอาไว้ไปที่ OneTab ได้โดยคลิกขวาในหน้าเว็บเพื่อเข้าถึงเมนู OneTab แล้วคลิก 'ส่งเพียงแค่แท็บนี้แท็บเดียวไปที่ OneTab'"
+   },
+   "optionPinnedTabsNote": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "หมายเหตุ: แท็บจะกลายเป็น 'ปักหมุดไว้' เมื่อคุณคลิกขวาที่แท็บและคลิก 'ปักหมุดที่แท็บ' บางคนชอบที่จะให้เว็บไซต์ เช่น Facebook หรือ Gmail ปักหมุดไว้ เพื่อให้พวกเขาหาได้ง่าย OneTab จะจำไว้ว่าแท็บนั้นถูกปักหมุดไว้เมื่อคุณเรียกคืน"
+   },
+   "optionPinnedTabsTitle": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "แท็บที่ปักหมุดเอาไว้:"
+   },
+   "optionRestoreRemovalDefault": {
+      "description": "",
+      "message": "เปิดแท็บเดียว (หรือหลายแท็บ) และลบแท็บออกจากรายการ OneTab ของคุณ"
+   },
+   "optionRestoreRemovalDefaultDesc": {
+      "description": "",
+      "message": "คุณยังสามารถกด Ctrl cmd หรือเปลี่ยนไปเรียกคืนแท็บเดียว (หรือหลายแท็บ) โดยไม่ต้องเอาออกจาก OneTab ถ้าคุณตั้งค่ากลุ่มแท็บใด ๆของคุณเป็น 'ล็อค' แล้ว แท็บกลุ่มนั้นจะไม่ถูกลบออกจาก OneTab จนกว่าคุณจะปลดล็อคกลุ่มแท็บนั้นก่อน"
+   },
+   "optionRestoreRemovalKeep": {
+      "description": "",
+      "message": "เก็บพวกนี้ไว้ในรายการ OneTab ของคุณ"
+   },
+   "optionRestoreRemovalKeepDesc": {
+      "description": "",
+      "message": "คุณสามารถลบรายการด้วยตนเองโดยอยู่เหนือรายการนั้นและคลิกที่ไอคอน X หรือคลิกที่ปุ่ม 'ลบทั้งหมด'"
+   },
+   "optionRestoreRemovalTitle": {
+      "description": "",
+      "message": "เมื่อคลิก 'เรียกคืนทั้งหมด' หรือเรียกคืนแท็บเดียว:"
+   },
+   "optionStartupLaunchDisplay": {
+      "description": "",
+      "message": "แสดง OneTab เมื่อไหร่ก็ตามที่คุณเริ่มต้นเว็บเบราเซอร์ของคุณเป็นครั้งแรก"
+   },
+   "optionStartupLaunchNone": {
+      "description": "",
+      "message": "ห้ามเปิด OneTab โดยอัตโนมัติ"
+   },
+   "optionStartupLaunchNoneDesc": {
+      "description": "",
+      "message": "ในการเปิด OneTab ด้วยตนเอง ให้ใช้เมนูคลิกขวาและเลือก 'แสดง OneTab'"
+   },
+   "optionStartupLaunchTitle": {
+      "description": "'Startup' refers to when the user's web browser is started for the first time",
+      "message": "เริ่มต้น:"
+   },
+   "optionTabGroupRestoreCurrentWindowAlways": {
+      "description": "",
+      "message": "หน้าต่างปัจจุบันเสมอ"
+   },
+   "optionTabGroupRestoreNewWindow": {
+      "description": "",
+      "message": "หน้าต่างใหม่ เว้นแต่ OneTab เป็นแท็บเดียวที่เป็นหน้าต่างปัจจุบัน"
+   },
+   "optionTabGroupRestoreNewWindowAlways": {
+      "description": "",
+      "message": "หน้าต่างใหม่เสมอ"
+   },
+   "optionTabGroupRestoreTitle": {
+      "description": "This is a heading that will be followed by text options like: 'Always a new window'",
+      "message": "เมื่อกลุ่มแท็บมีการเรียกคืน ให้ส่งแท็บไปที่:"
+   },
+   "options": {
+      "description": "Display options, which are settings that can be changed for the software",
+      "message": "ตัวเลือก"
+   },
+   "pasteInUrlsInstructions": {
+      "description": "Note: ensure the word Import is consistent in the translation",
+      "message": "วางในรายการของ URL แล้วคลิก นำเข้า ที่ด้านล่าง"
+   },
+   "pleaseWaitTripleDot": {
+      "description": "Asks the user to wait briefly",
+      "message": "กรุณารอ..."
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "description": "",
+      "message": "ลดการใช้หน่วยความจำ 95%"
+   },
+   "restoreAll": {
+      "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser.",
+      "message": "เรียกคืนทั้งหมด"
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "description": "",
+      "message": "ประหยัดหน่วยความจำสูงสุดถึง 95% และลดความยุ่งเหยิงของแท็บใน Google Chrome"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "description": "",
+      "message": "ส่งแท็บทั้งหมดจากทุกหน้าต่างไปที่ OneTab"
+   },
+   "sendAllTabsAllWindowsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "ส่งแท็บทั้งหมดจากทุกหน้าต่างไปที่ PLACEHOLDER"
+   },
+   "sendAllTabsExceptThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "ส่งแท็บทั้งหมดยกเว้นแท็บนี้ไปที่ PLACEHOLDER"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "description": "",
+      "message": "ส่งแท็บทั้งหมดยกเว้นแท็บนี้ไปที่ OneTab"
+   },
+   "sendAllTabsToOneTab": {
+      "description": "",
+      "message": "ส่งแท็บทั้งหมดไปที่ OneTab"
+   },
+   "sendAllTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "ส่งแท็บทั้งหมดไปที่ PLACEHOLDER"
+   },
+   "sendCurrentTabToOneTab": {
+      "description": "",
+      "message": "ส่งแท็บปัจจุบันไปยัง OneTab"
+   },
+   "sendLeftTabsToOneTab": {
+      "description": "",
+      "message": "ส่งแท็บด้านซ้ายไปที่ OneTab"
+   },
+   "sendLeftTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "ส่งแท็บด้านซ้ายไปที่ PLACEHOLDER"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "description": "",
+      "message": "ส่งเฉพาะแท็บนี้ไปที่ OneTab"
+   },
+   "sendOnlyThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "ส่งเฉพาะแท็บนี้ไปที่ PLACEHOLDER"
+   },
+   "sendRightTabsToOneTab": {
+      "description": "",
+      "message": "ส่งแท็บด้านขวาไปที่ OneTab"
+   },
+   "sendRightTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "ส่งแท็บด้านขวาไปที่ PLACEHOLDER"
+   },
+   "sendThisWebLinkToOneTab": {
+      "description": "",
+      "message": "ส่งเว็บลิงค์นี้ไปที่ OneTab"
+   },
+   "sendThisWebLinkToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "ส่งเว็บลิงค์นี้ไปที่ PLACEHOLDER"
+   },
+   "shareAllAsWebPage": {
+      "description": "All tabs will be shared as a web page for other users to see",
+      "message": "แบ่งปันทั้งหมดในรูปแบบของหน้าเว็บ"
+   },
+   "shareAsWebPage": {
+      "description": "The selected tabs will be shared as a web page for other users to see",
+      "message": "แบ่งปันในรูปแบบของหน้าเว็บ"
+   },
+   "starTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "ติดดาวกลุ่มแท็บนี้"
+   },
+   "tab": {
+      "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'",
+      "message": "แท็บ"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "description": "",
+      "message": "แท็บมากเกินไป? แปลงแท็บของคุณให้อยู่ในรายการและเพิ่มความเร็วของ Firefox"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "description": "",
+      "message": "แท็บมากเกินไป? แปลงแท็บของคุณให้อยู่ในรายการและเพิ่มความเร็วของ Safari"
+   },
+   "total0Tabs": {
+      "description": "Indicating a total count of 0 tabs stored",
+      "message": "ทั้งหมด: 0 แท็บ"
+   },
+   "total1Tab": {
+      "description": "Indicating a total count of 1 tab stored",
+      "message": "ทั้งหมด: 1 แท็บ"
+   },
+   "total2Tabs": {
+      "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "ทั้งหมด: 2 แท็บ"
+   },
+   "unlockBeforeDeleting": {
+      "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation",
+      "message": "ในการลบกลุ่มแท็บนี้ คุณต้องปลดล็อคก่อน (ผ่านปุ่ม 'อื่น ๆ ...' )"
+   },
+   "unlockTabGroup": {
+      "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)",
+      "message": "ปลดล็อคกลุ่มแท็บนี้"
+   },
+   "unstarTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "เอาดาวออกจากกลุ่มแท็บนี้"
+   },
+   "userLanguage": {
+      "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into.",
+      "message": "ไทย"
+   }
+}

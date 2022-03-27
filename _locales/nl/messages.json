@@ -1,0 +1,382 @@
+{
+   "1tab": {
+      "description": "Indicating a tab count of 1",
+      "message": "1 tabblad"
+   },
+   "2tabs": {
+      "description": "Indicating a tab count of 2. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "2 tabbladen"
+   },
+   "95PctMemoryReduction": {
+      "description": "",
+      "message": "95% minder geheugen"
+   },
+   "OneTabAlsoAvailableForFirefox": {
+      "description": "",
+      "message": "OneTab is ook beschikbaar voor Firefox"
+   },
+   "about": {
+      "description": "Information about the software",
+      "message": "Over"
+   },
+   "addOneTabNow": {
+      "description": "This means the user can add (install) the OneTab software to their web browser",
+      "message": "OneTab nu toevoegen"
+   },
+   "afterInstantReliefRestoreLater": {
+      "description": "",
+      "message": "Na: directe opluchting, tabbladen later snel herstellen"
+   },
+   "areYouSureYouWantToDeleteTheseTabs": {
+      "description": "",
+      "message": "Weet u zeker dat u deze tabbladen wilt verwijderen?"
+   },
+   "areYouSureYouWantToDeleteThisTab": {
+      "description": "",
+      "message": "Weet u zeker dat u dit tabblad wilt verwijderen?"
+   },
+   "beforeLostInMessBrowserSlow": {
+      "description": "",
+      "message": "Voor: de weg kwijt in een puinhoop van tabbladen, browser is traag"
+   },
+   "bringAllTabsIntoOneTab": {
+      "description": "Takes all of the user's web browser tabs and stores them into the OneTab software",
+      "message": "Alle tabbladen naar OneTab overbrengen"
+   },
+   "convertTabsIntoAList": {
+      "description": "",
+      "message": "Tabbladen omzetten in een lijst"
+   },
+   "createdPreceedingDate": {
+      "description": "IMPORTANT: Translation will be followed by a date, e.g.: 'Created 12/03/2015'",
+      "message": "Gemaakt:"
+   },
+   "deleteAll": {
+      "description": "",
+      "message": "Alle verwijderen"
+   },
+   "displayOneTab": {
+      "description": "Displays the OneTab software. IMPORTANT: 'OneTab' is the name of the software application, so the word 'OneTab' should not be translated.",
+      "message": "OneTab weergeven"
+   },
+   "emptyOneTabInfoMsg": {
+      "description": "",
+      "message": "Wanneer er meerdere tabbladen zijn geopend, klikt u op het OneTab-pictogram in de browserwerkbalk om hier uw geopende tabbladen te laten verschijnen."
+   },
+   "excludeDomainFromOneTab": {
+      "description": "Note: preserve the text 'DOMAIN.COM' as a placeholder.",
+      "message": "DOMAIN.COM van OneTab uitsluiten"
+   },
+   "excludeWebSiteFromOneTab": {
+      "description": "",
+      "message": "Deze website van OneTab uitsluiten"
+   },
+   "export": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "Exporteren"
+   },
+   "exportImportUrls": {
+      "description": "Referrs to the importing or exporting of URLs into and out of the software",
+      "message": "URL’s exporteren/importeren"
+   },
+   "exportThenImportNote": {
+      "description": "",
+      "message": "De volgende lijst van URL’s kan ook weer op deze of een andere computer in OneTab worden geïmporteerd."
+   },
+   "exportUrls": {
+      "description": "Referrs to the exporting of URLs out of the software",
+      "message": "URL’s exporteren"
+   },
+   "features": {
+      "description": "Display a page with information about features of the software",
+      "message": "Functies"
+   },
+   "feedback": {
+      "description": "Displays a page where feedback can be given about the software",
+      "message": "Feedback"
+   },
+   "help": {
+      "description": "gives the user help information",
+      "message": "Hulp"
+   },
+   "import": {
+      "description": "Referrs to the importing of URLs into the software",
+      "message": "Importeren"
+   },
+   "importUrls": {
+      "description": "Referrs to the importing of URLs into and out of the software",
+      "message": "URL’s importeren"
+   },
+   "languageTitle": {
+      "description": "Title shown above the list of languages the user can choose from",
+      "message": "Taal:"
+   },
+   "lockTabGroup": {
+      "description": "Locked means changes cannot be made",
+      "message": "Deze tabbladgroep vergrendelen"
+   },
+   "manifestDescription": {
+      "description": "The description of the software. Note that 'tab' refers to web browser tabs.",
+      "message": "Bespaar tot 95% geheugen en verminder tabbladrommel"
+   },
+   "memoryAfter99": {
+      "description": "",
+      "message": "Na: slechts 99 MB gebruikt"
+   },
+   "memoryBefore1981": {
+      "description": "",
+      "message": "Voor: 1981 MB gebruikt"
+   },
+   "moreTripleDot": {
+      "description": "Clicking this will reveal more options",
+      "message": "Meer…"
+   },
+   "nameThisTabGroup": {
+      "description": "Allows the user to type a label to describe a group of browser tabs",
+      "message": "Deze tabbladgroep benoemen"
+   },
+   "namedTabGroups": {
+      "description": "Refers to groups of tabs that the user has assigned a name (i.e. a label)",
+      "message": "Benoemde tabbladgroepen"
+   },
+   "newExclamation": {
+      "description": "",
+      "message": "Nieuw!"
+   },
+   "noSignupRegistrationRequired": {
+      "description": "",
+      "message": "Geen inschrijving of registratie vereist"
+   },
+   "noTabsInOneTabYet": {
+      "description": "",
+      "message": "U hebt nog geen tabbladen in OneTab"
+   },
+   "nowAvailableInLanguage": {
+      "description": "Important: Please substitute the word 'English' for the name of the language (e.g. Deutsch/Francais/etc) you are translating into.",
+      "message": "OneTab is nu beschikbaar in het Nederlands!"
+   },
+   "optionDuplicatesAllow": {
+      "description": "",
+      "message": "Kopieën toestaan"
+   },
+   "optionDuplicatesReject": {
+      "description": "",
+      "message": "Kopieën stilzwijgend weigeren"
+   },
+   "optionDuplicatesRejectDesc": {
+      "description": "",
+      "message": "Als OneTab de URL van een tabblad al bevat, zal het tabblad niet meer worden toegevoegd. Dit geldt alleen wanneer u op het OneTab-pictogram klikt of het contextmenu gebruikt om meerdere tabbladen naar OneTab te sturen. Als u het contextmenu van OneTab gebruikt om alleen een bepaald tabblad naar OneTab te sturen, wordt de kopie van dat bepaalde tabblad toegestaan."
+   },
+   "optionDuplicatesTitle": {
+      "description": "",
+      "message": "Kopieën:"
+   },
+   "optionPinnedTabsAllow": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Toestaan dat vastgemaakte tabbladen naar OneTab worden gestuurd"
+   },
+   "optionPinnedTabsDontSend": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Vastgemaakte tabbladen niet naar OneTab sturen"
+   },
+   "optionPinnedTabsDontSendDesc": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "U kunt nog steeds handmatig een vastgemaakt tabblad naar OneTab sturen door met de rechtermuisknop op de webpagina te klikken om het OneTab-menu te openen, en daarna op ‘Alleen dit tabblad naar OneTab sturen’ te klikken."
+   },
+   "optionPinnedTabsNote": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Opmerking: een tabblad wordt ‘vastgemaakt’ wanneer u met de rechtermuisknop op het tabblad klikt en ‘Tabblad vastmaken’ selecteert. Sommige mensen willen graag websites zoals Facebook of Gmail vastmaken, zodat deze makkelijk zijn te vinden. OneTab zal onthouden of een tabblad is vastgemaakt wanneer u het herstelt."
+   },
+   "optionPinnedTabsTitle": {
+      "description": "Note: Please ensure the word 'pinned' is consistent with the translation used by the Google Chrome web browser to describe pinned tabs",
+      "message": "Vastgemaakte tabbladen:"
+   },
+   "optionRestoreRemovalDefault": {
+      "description": "",
+      "message": "Tabblad(en) openen en uit uw OneTab-lijst verwijderen"
+   },
+   "optionRestoreRemovalDefaultDesc": {
+      "description": "",
+      "message": "U kunt nog steeds op ctrl, cmd of shift drukken om tabbladen te herstellen zonder deze uit OneTab te verwijderen. Als u een van uw tabbladgroepen instelt als ‘vergrendeld’, zullen de tabbladen niet uit OneTab worden verwijderd, tenzij u die tabbladgroep eerst ontgrendelt."
+   },
+   "optionRestoreRemovalKeep": {
+      "description": "",
+      "message": "Deze in uw OneTab-lijst bewaren"
+   },
+   "optionRestoreRemovalKeepDesc": {
+      "description": "",
+      "message": "U kunt items handmatig verwijderen door de muisaanwijzer erboven te houden en op het X-pictogram te klikken, of door op de knop ‘Alle verwijderen’ te klikken."
+   },
+   "optionRestoreRemovalTitle": {
+      "description": "",
+      "message": "Bij het klikken op ‘Alle herstellen’ of het herstellen van één tabblad:"
+   },
+   "optionStartupLaunchDisplay": {
+      "description": "",
+      "message": "OneTab weergeven bij eerste keer starten van webbrowser"
+   },
+   "optionStartupLaunchNone": {
+      "description": "",
+      "message": "OneTab niet automatisch openen"
+   },
+   "optionStartupLaunchNoneDesc": {
+      "description": "",
+      "message": "Gebruik het contextmenu en kies ‘OneTab weergeven’ om OneTab handmatig te openen."
+   },
+   "optionStartupLaunchTitle": {
+      "description": "'Startup' refers to when the user's web browser is started for the first time",
+      "message": "Opstarten:"
+   },
+   "optionTabGroupRestoreCurrentWindowAlways": {
+      "description": "",
+      "message": "Altijd het huidige venster"
+   },
+   "optionTabGroupRestoreNewWindow": {
+      "description": "",
+      "message": "Een nieuw venster, tenzij OneTab het enige tabblad in het huidige venster is"
+   },
+   "optionTabGroupRestoreNewWindowAlways": {
+      "description": "",
+      "message": "Altijd een nieuw venster"
+   },
+   "optionTabGroupRestoreTitle": {
+      "description": "This is a heading that will be followed by text options like: 'Always a new window'",
+      "message": "Wanneer een tabbladgroep wordt hersteld, de tabbladen sturen naar:"
+   },
+   "options": {
+      "description": "Display options, which are settings that can be changed for the software",
+      "message": "Opties"
+   },
+   "pasteInUrlsInstructions": {
+      "description": "Note: ensure the word Import is consistent in the translation",
+      "message": "Plak een lijst van URL’s en klik daarna hieronder op Importeren."
+   },
+   "pleaseWaitTripleDot": {
+      "description": "Asks the user to wait briefly",
+      "message": "Even geduld…"
+   },
+   "reduceMemoryUsageBy95Pct": {
+      "description": "",
+      "message": "Verminder geheugengebruik met 95%"
+   },
+   "restoreAll": {
+      "description": "The user is looking at a list of tabs that have been closed, and this 'Restore All' button will 'restore' the tabs so that they are all re-opened and appear in the user's web browser.",
+      "message": "Alle herstellen"
+   },
+   "save95PctReduceTabClutterGoogleChrome": {
+      "description": "",
+      "message": "Bespaar tot 95% geheugen en verminder tabbladrommel in Google Chrome"
+   },
+   "sendAllTabsAllWindowsToOneTab": {
+      "description": "",
+      "message": "Alle tabbladen van alle vensters naar OneTab sturen"
+   },
+   "sendAllTabsAllWindowsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Alle tabbladen van alle vensters naar PLACEHOLDER sturen"
+   },
+   "sendAllTabsExceptThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Alle tabbladen behalve dit tabblad naar PLACEHOLDER sturen"
+   },
+   "sendAllTabsExceptThisToOneTab": {
+      "description": "",
+      "message": "Alle tabbladen behalve dit tabblad naar OneTab sturen"
+   },
+   "sendAllTabsToOneTab": {
+      "description": "",
+      "message": "Alle tabbladen naar OneTab sturen"
+   },
+   "sendAllTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Alle tabbladen naar PLACEHOLDER sturen"
+   },
+   "sendCurrentTabToOneTab": {
+      "description": "",
+      "message": "Het huidige tabblad naar OneTab sturen"
+   },
+   "sendLeftTabsToOneTab": {
+      "description": "",
+      "message": "Tabbladen aan de linkerkant naar OneTab sturen"
+   },
+   "sendLeftTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Tabbladen aan de linkerkant naar PLACEHOLDER sturen"
+   },
+   "sendOnlyThisTabToOneTab": {
+      "description": "",
+      "message": "Alleen dit tabblad naar OneTab sturen"
+   },
+   "sendOnlyThisTabToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Alleen dit tabblad naar PLACEHOLDER sturen"
+   },
+   "sendRightTabsToOneTab": {
+      "description": "",
+      "message": "Tabbladen aan de rechterkant naar OneTab sturen"
+   },
+   "sendRightTabsToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Tabbladen aan de rechterkant naar PLACEHOLDER sturen"
+   },
+   "sendThisWebLinkToOneTab": {
+      "description": "",
+      "message": "Deze webkoppeling naar OneTab sturen"
+   },
+   "sendThisWebLinkToPlaceholder": {
+      "description": "Important: Please leave the word PLACEHOLDER untranslated. The word PLACEHOLDER will be substituted with a folder name the user has previously specified",
+      "message": "Deze webkoppeling naar PLACEHOLDER sturen"
+   },
+   "shareAllAsWebPage": {
+      "description": "All tabs will be shared as a web page for other users to see",
+      "message": "Alle tabbladen delen als webpagina"
+   },
+   "shareAsWebPage": {
+      "description": "The selected tabs will be shared as a web page for other users to see",
+      "message": "Delen als webpagina"
+   },
+   "starTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "Deze tabbladgroep een ster geven"
+   },
+   "tab": {
+      "description": "IMPORTANT: The translation for 'tab' needs to be identical to what the Google Chrome web browser uses for the word 'tab'",
+      "message": "tabblad"
+   },
+   "tooManyTabsSpeedUpFirefox": {
+      "description": "",
+      "message": "Te veel tabbladen? Zet uw tabbladen om in een lijst en maakt Firefox sneller"
+   },
+   "tooManyTabsSpeedUpSafari": {
+      "description": "",
+      "message": "Te veel tabbladen? Zet uw tabbladen om in een lijst en maakt Safari sneller"
+   },
+   "total0Tabs": {
+      "description": "Indicating a total count of 0 tabs stored",
+      "message": "Totaal: 0 tabbladen"
+   },
+   "total1Tab": {
+      "description": "Indicating a total count of 1 tab stored",
+      "message": "Totaal: 1 tabblad"
+   },
+   "total2Tabs": {
+      "description": "Indicating a total count of 2 tabs stored. IMPORTANT that the numeral 2 is used in the translated version, because it may be replaced with a number greater than 2.",
+      "message": "Totaal: 2 tabbladen"
+   },
+   "unlockBeforeDeleting": {
+      "description": "Note: ensure that the translation here for 'More...' is consistent with the other 'More...' translation",
+      "message": "Om deze tabbladgroep te verwijderen, moet u deze eerst ontgrendelen (via de knop ‘Meer…’)"
+   },
+   "unlockTabGroup": {
+      "description": "Unlocking means allowing changes to be made (locked means changes cannot be made)",
+      "message": "Deze tabbladgroep ontgrendelen"
+   },
+   "unstarTabGroup": {
+      "description": "a starred group means it has been highlighted with a star",
+      "message": "Ster van deze tabbladgroep verwijderen"
+   },
+   "userLanguage": {
+      "description": "Important: Please substitute the word 'English' for the language (e.g. Deutsch/Francais/etc) you are translating this into.",
+      "message": "Nederlands"
+   }
+}

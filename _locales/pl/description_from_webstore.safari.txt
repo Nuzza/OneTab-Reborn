@@ -1,0 +1,7 @@
+Za każdym razem, gdy masz za dużo kart, kliknij ikonę OneTab, by zamienić wszystkie karty w listę. Gdy chcesz ponownie uzyskać do nich dostęp, możesz przywrócić wszystkie lub poszczególne karty.
+
+Gdy karty znajdują się na liście OneTab, zyskujesz do 95% pamięci, ponieważ w Safari jest otwartych mniej kart.
+
+Zapewnianie prywatności
+
+Informacje o Twoich kartach nigdy nie są przekazywane ani udostępniane deweloperom OneTab ani żadnym innym osobom. Jedynym wyjątkiem jest sytuacja, gdy celowo klikniesz funkcję „udostępnij jako stronę internetową”, by przesłać listę kart w postaci strony i udostępnić ją innym. Karty nigdy nie są udostępniane, jeśli nie użyjesz przycisku „udostępnij jako stronę internetową”.
