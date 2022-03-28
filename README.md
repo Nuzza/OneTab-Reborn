@@ -1,8 +1,11 @@
 # OneTab Reborn
-OneTab Reborn is a remake of the original OneTab extension to be more modern, responsive, and brings native dark mode support
+OneTab Reborn is a remake of the original OneTab extension to be more modern, responsive, and brings native dark mode support.
 
-## Note
-Make sure you backup/export your current OneTab tabs as you will have to uninstall OneTab in order to install OneTab Reborn. OneTab Reborn is completely compatible with OneTab URLs to you can easily move your existing URLs to OneTab Reborn through the Import/Export section.
+**Project Status: Active!**
+
+OneTab Reborn is completely compatible with OneTab URLs to you can easily move your existing URLs to OneTab Reborn through the Import/Export section.
+
+**Make sure you backup/export your current OneTab tabs as you will have to uninstall OneTab in order to install OneTab Reborn.**
 
 ## How to install OneTab Reborn
 1. Click 'Code' and select 'Download ZIP'
