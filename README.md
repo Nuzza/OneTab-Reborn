@@ -24,3 +24,6 @@ OneTab Reborn is completely compatible with OneTab URLs to you can easily move y
 1. Make sure you backup/export your current OneTab Reborn tabs as updating will reset OneTab Reborn.
 2. Uninstall OneTab Reborn (this is just a precaution as not doing so might cause multiple versions of OneTab Reborn to be installed and conflict with one another)
 3. Follow the same steps under 'How to install OneTab Reborn'
+
+## OneTab Reborn in action!
+![OneTab Reborn Demo](https://user-images.githubusercontent.com/29596317/160380486-6eb9a81b-d492-4a3b-a34d-7fd0e0b61302.gif)
