@@ -1,46 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8"/>
+    <meta charset="utf-8">
     <title>OneTab Reborn Options</title>
     <link href="onetab.css" rel="stylesheet" type="text/css" />
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
-    <style>
-
-      input[type='radio'] {
-        margin:0;
-        padding:0;
-        outline:none;
-        font-family:inherit; box-sizing:border-box
-      }
-
-      input[type="radio"],
-      input[type="checkbox"] {
-          position: absolute; top: -99999em;
-      }
-
-      input[type="radio"] + label:before,
-      input[type="checkbox"] + label:before {
-        content:'';
-        display: inline-block;
-        position:relative;
-        top:7px;
-        width:25px;
-        height:25px;
-        background-image:url(images/checkboxradiosprite.png);
-      }
-
-      input[type="checkbox"] + label:before { background-position: 0 -25px;} input[type="checkbox"]:checked + label:before {background-position: 0 0 ; }
-      input[type="radio"] + label:before { background-position: -25px -25px;} input[type="radio"]:checked + label:before { background-position: -25px 0;}
-
-    </style>
-
   </head>
 
   <body>
-    <div style="padding:50px 50px 10px 50px" id="contentAreaDiv"></div>
-    <div style="padding-left:36px; padding-top:10px; padding-bottom: 10px">
-      <div style="font-size:10px; color:#aaa">OneTab Reborn version: 0.1 BETA</div>
+    <div id="contentAreaDiv"></div>
+    <div>
+      <div>OneTab Reborn version: 0.1 BETA</div>
     </div>
     <script src="ext-onetab-concatenated-sources-options.js"></script>
   </body>
