@@ -1,6 +1,6 @@
 // Copyright 2021 OneTab Ltd.  All rights reserved.
 
-const i = "0.1";
+const i = "0.2";
 
 const o = false;
 

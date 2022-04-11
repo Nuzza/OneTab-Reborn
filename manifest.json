@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "OneTab Reborn",
-  "version": "0.1",
+  "version": "0.2",
   "background": {
     "scripts": [
       "ext-onetab-concatenated-sources-background.js"
