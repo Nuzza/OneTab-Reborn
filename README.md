@@ -11,7 +11,7 @@ OneTab Reborn is a remake of the original OneTab extension to be more modern, re
 - OneTab Reborn can work alongside OneTab although it is recommended to uninstall OneTab when you have finished setting up OneTab Reborn.
 
 ## How to install OneTab Reborn
-1. Click 'Code' and select 'Download ZIP'
+1. Head to the Releases page [here](https://github.com/Nuzza/OneTab-Reborn/releases) and download the latest version available.
 2. Once downloaded extract 'OneTab-Reborn-main.zip' to a directory where it most likely won't be moved or accidently deleted.
 3. Open Google Chrome/Microsoft Edge and go to 'chrome://extensions/' for Google Chrome or 'edge://extensions/' for Microsoft Edge
 4. Enable 'Developer mode' if not already enabled
