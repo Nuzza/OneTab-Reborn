@@ -2651,11 +2651,7 @@ function bo(e) {
 
 function wo() {
 	let e = document.createElement("span");
-	let o = document.createElement("span");
-	o.style.fontStyle = "italic";
-	o.appendChild(document.createTextNode("One"));
-	e.appendChild(o);
-	e.appendChild(document.createTextNode("Tab"));
+	e.appendChild(document.createTextNode("OneTab Reborn"));
 	return e;
 }
 

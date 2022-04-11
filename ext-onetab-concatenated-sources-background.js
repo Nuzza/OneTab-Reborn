@@ -1863,7 +1863,7 @@ async function Ze() {
 	Ke.Zt = await Ge(undefined, {
 		type: "normal",
 		contexts: [ "all" ],
-		title: "OneTab"
+		title: "OneTab Reborn"
 	});
 	Ke.te = await Ee(Ke.Zt, {
 		type: "normal",
@@ -2519,7 +2519,7 @@ class aa {
 		this.assert(Ke.te.isEnabled);
 		this.assert(Ke.we.isEnabled);
 		this.assert(!Ke.we.Ht);
-		this.assert(Ke.we.title === "Exclude localhost from OneTab");
+		this.assert(Ke.we.title === "Exclude localhost from OneTab Reborn");
 		await this.Ve(t.Be[1]);
 		await H(200);
 		this.assert(Ke.se.length > 0 && Ke.se.every((t => t.isEnabled)));
@@ -2532,7 +2532,7 @@ class aa {
 		this.assert(Ke.te.isEnabled);
 		this.assert(Ke.we.isEnabled);
 		this.assert(!Ke.we.Ht);
-		this.assert(Ke.we.title === "Exclude localhost from OneTab");
+		this.assert(Ke.we.title === "Exclude localhost from OneTab Reborn");
 		await this.Ve(t.aa[0][0]);
 		await H(200);
 		this.assert(Ke.se.length > 0 && Ke.se.every((t => !t.isEnabled)));
@@ -2545,7 +2545,7 @@ class aa {
 		this.assert(Ke.te.isEnabled);
 		this.assert(Ke.we.isEnabled);
 		this.assert(!Ke.we.Ht);
-		this.assert(Ke.we.title === "Exclude localhost from OneTab");
+		this.assert(Ke.we.title === "Exclude localhost from OneTab Reborn");
 		await this.Ve(t.aa[1][1]);
 		await H(200);
 		this.assert(Ke.se.length > 0 && Ke.se.every((t => t.isEnabled)));
@@ -2557,7 +2557,7 @@ class aa {
 		this.assert(Ke.te.isEnabled);
 		this.assert(Ke.we.isEnabled);
 		this.assert(!Ke.we.Ht);
-		this.assert(Ke.we.title === "Exclude localhost from OneTab");
+		this.assert(Ke.we.title === "Exclude localhost from OneTab Reborn");
 		await Ft.P();
 		await this.Je({
 			Be: Ne["pinned"] ? [ oe, ...t.aa[1] ] : [ ...t.aa[1], oe ],
@@ -2590,7 +2590,7 @@ class aa {
 		this.assert(Ke.te.isEnabled);
 		this.assert(Ke.we.isEnabled);
 		this.assert(!Ke.we.Ht);
-		this.assert(Ke.we.title === "Exclude localhost from OneTab");
+		this.assert(Ke.we.title === "Exclude localhost from OneTab Reborn");
 		await this.Ve(t.aa[0][0]);
 		await this.Fe(t.aa[0][0]);
 		await Ft.P();
@@ -2609,7 +2609,7 @@ class aa {
 		this.assert(Ke.te.isEnabled);
 		this.assert(Ke.we.isEnabled);
 		this.assert(!Ke.we.Ht);
-		this.assert(Ke.we.title === "Exclude localhost from OneTab");
+		this.assert(Ke.we.title === "Exclude localhost from OneTab Reborn");
 		await this.qe(t.aa[1][0]);
 		await H(200);
 		this.assert(Ke.ae.length > 0 && Ke.ae.every((t => !t.isEnabled)));
@@ -2634,12 +2634,12 @@ class aa {
 		await H(200);
 		this.assert(Ke.we.isEnabled);
 		this.assert(!Ke.we.Ht);
-		this.assert(Ke.we.title === "Exclude localhost from OneTab");
+		this.assert(Ke.we.title === "Exclude localhost from OneTab Reborn");
 		this.Ve(t.aa[1][1]);
 		await H(200);
 		this.assert(Ke.we.isEnabled);
 		this.assert(!Ke.we.Ht);
-		this.assert(Ke.we.title === "Exclude 127.0.0.1 from OneTab");
+		this.assert(Ke.we.title === "Exclude 127.0.0.1 from OneTab Reborn");
 		await Ft.yt("127.0.0.1");
 		{
 			let t = await Ft.getSettings();
@@ -2650,18 +2650,18 @@ class aa {
 		await H(200);
 		this.assert(Ke.we.isEnabled);
 		this.assert(!Ke.we.Ht);
-		this.assert(Ke.we.title === "Exclude localhost from OneTab");
+		this.assert(Ke.we.title === "Exclude localhost from OneTab Reborn");
 		this.Ve(t.Be[0]);
 		await H(200);
 		this.assert(Ke.we.isEnabled);
 		this.assert(Ke.we.Ht);
-		this.assert(Ke.we.title === "Exclude 127.0.0.1 from OneTab");
+		this.assert(Ke.we.title === "Exclude 127.0.0.1 from OneTab Reborn");
 		await Ft.gt("127.0.0.1");
 		await _e();
 		await H(200);
 		this.assert(Ke.we.isEnabled);
 		this.assert(!Ke.we.Ht);
-		this.assert(Ke.we.title === "Exclude 127.0.0.1 from OneTab");
+		this.assert(Ke.we.title === "Exclude 127.0.0.1 from OneTab Reborn");
 	}
 	async Te() {
 		console.log("begin testIgnoreOneTabContentPages");
