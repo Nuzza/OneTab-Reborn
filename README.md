@@ -7,7 +7,7 @@ OneTab Reborn is a remake of the original OneTab extension to be more modern, re
 **Development Status: Active!**
 
 ## Compatability
-- OneTab Reborn is completely compatible with OneTab URLs to you can easily move your existing URLs to OneTab Reborn through the Import/Export section.
+- OneTab Reborn is completely compatible with OneTab URLs so you can easily move your existing URLs to OneTab Reborn through the Import/Export section.
 - OneTab Reborn can work alongside OneTab although it is recommended to uninstall OneTab when you have finished setting up OneTab Reborn.
 
 ## How to install OneTab Reborn
