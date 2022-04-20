@@ -32,10 +32,15 @@ OneTab Reborn is a remake of the original OneTab extension to be more modern, re
 
 ## Q & A
 Q: Is OneTab Reborn safe?
+
 A: OneTab Reborn is an exact copy of the original OneTab with mainly style changes and slight html/js changes being the name change.
+
 Q: Can OneTab Reborn work alongside the original OneTab extension?
+
 A: Yes, as referred to the 'Compatibility' section above, you may keep the original OneTab installed, but I don't see a reason why you would want to do that.
+
 Q: When will updates occur?
+
 A: When I have free time and development status (under the 'Info' section above) is set to 'Active!'
 
 ## OneTab Reborn in action!
