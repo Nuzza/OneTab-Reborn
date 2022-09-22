@@ -1,42 +1,33 @@
 {
-  "manifest_version": 2,
-  "name": "OneTab Reborn",
-  "version": "0.2",
   "background": {
-    "scripts": [
-      "ext-onetab-concatenated-sources-background.js"
-    ]
+    "scripts": [ "ext-onetab-concatenated-sources-background.js" ]
   },
   "browser_action": {
     "default_icon": {
-      "96": "images/onetab.png"
+       "96": "images/onetab.png"
     }
   },
   "commands": {
     "display-onetab": {
-      "description": "__MSG_displayOneTab__",
-      "suggested_key": {
-        "default": "Alt+Shift+1"
-      }
+       "description": "__MSG_displayOneTab__",
+       "suggested_key": {
+          "default": "Alt+Shift+1"
+       }
     },
     "send-current-tab-to-onetab": {
-      "description": "__MSG_sendCurrentTabToOneTab__"
+       "description": "__MSG_sendCurrentTabToOneTab__"
     }
   },
-  "content_security_policy": "script-src 'self'; object-src 'self'; img-src 'self' data: https://s2.googleusercontent.com chrome://favicon;",
+  "content_security_policy": "script-src 'self'; object-src 'self'; img-src 'self' data: https://t2.gstatic.com chrome://favicon;",
   "default_locale": "en",
   "description": "__MSG_manifestDescription__",
   "icons": {
-    "96": "images/onetab.png"
+   "96": "images/onetab.png"
   },
-  "options_page": "options.html",
-  "permissions": [
-    "chrome://favicon/",
-    "unlimitedStorage",
-    "storage",
-    "tabs",
-    "contextMenus",
-    "activeTab"
-  ],
-  "update_url": "https://github.com/Nuzza/OneTab-Reborn"
+  "manifest_version": 2,
+  "name": "OneTab Reborn",
+  "options_page": "settings.html",
+  "permissions": [ "chrome://favicon/", "unlimitedStorage", "storage", "tabs", "contextMenus", "activeTab" ],
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "0.3"
 }

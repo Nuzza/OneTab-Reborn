@@ -1,564 +1,499 @@
-// Copyright 2021 OneTab Ltd.  All rights reserved.
-
-const i = "0.2";
-
+// Copyright 2022 OneTab Ltd.  All rights reserved.
 const o = false;
-
 const u = false;
-
 const c = false;
-
-const l = false;
-
 const f = false;
-
+const l = false;
 const s = false;
-
-const d = true;
-
-const a = "chrome://";
-
-const p = "chrome://newtab/";
-
-const w = "https://www.one-tab.com";
-
-const m = false;
-
+const a = true;
+const d = "chrome://";
+const w = "chrome://newtab/";
+const h = "https://www.one-tab.com";
+const p = false;
 async function x() {
 	return new Promise(((t, e) => {
-		if (document.readyState === "complete") {
+		if(document.readyState === "complete") {
 			t();
-		} else {
+		}
+		else {
 			document.addEventListener("readystatechange", (e => {
-				if (document.readyState === "complete") t();
+				if(document.readyState === "complete") t();
 			}));
 		}
 	}));
 }
-
-let Xt = {};
-
-async function Yt() {
-	Xt = Ft.M();
+let Rt = {};
+async function Ot() {
+	Rt = Mt.O();
 }
 
-function Dt(t) {
-	return Xt[t];
+function St(t) {
+	return Rt[t];
+}
+const Mt = window.chrome.extension.getBackgroundPage().core;
+async function jt() {
+	It();
+	await Ot();
 }
 
-const Ft = window.chrome.extension.getBackgroundPage().core;
-
-async function Lt() {
-	Nt();
-	await Yt();
+function Lt(t) {
+	if(typeof t === "string") t = document.getElementById(t);
+	if(!t) return;
+	while(t.childNodes.length > 0) t.childNodes[0].remove();
 }
 
-function Ut(t) {
-	if (typeof t === "string") t = document.getElementById(t);
-	if (!t) return;
-	while (t.childNodes.length > 0) t.childNodes[0].remove();
-}
-
-function zt(t) {
-	return P(undefined, "div", {
-		style: {
-			fontSize: "1px",
-			height: t + "px",
-			width: 1 + "px"
-		}
+function $t(t) {
+	return J(undefined, "div", {
 	}).t;
 }
+let Ct = navigator["language"] || navigator["userLanguage"];
 
-let Pt = navigator["language"] || navigator["userLanguage"];
-
-function Wt() {
-	let t = [ "ar", "he", "fa", "ps", "ur" ];
-	let e = Pt.split("-", 1)[0];
+function Et() {
+	let t = ["ar", "he", "fa", "ps", "ur"];
+	let e = Ct.split("-", 1)[0];
 	return t.indexOf(e) >= 0 ? "rtl" : "ltr";
 }
+let Pt = Et();
 
-let $t = Wt();
-
-function Ht() {
-	return $t !== "rtl";
+function Bt() {
+	return Pt !== "rtl";
 }
 
-function Nt() {
-	document.getElementsByTagName("html")[0]["dir"] = $t;
+function It() {
+	document.getElementsByTagName("html")[0]["dir"] = Pt;
 }
 
-function Gt() {
-	return Ht() ? "Left" : "Right";
+function zt() {
+	return Bt() ? "Left" : "Right";
 }
 
-function Jt() {
-	return Ht() ? "Right" : "Left";
+function Ft() {
+	return Bt() ? "Right" : "Left";
 }
 
-function qt() {
-	return Ht() ? "left" : "right";
+function Ut() {
+	return Bt() ? "left" : "right";
 }
 
-function Kt() {
-	return Ht() ? "right" : "left";
+function Wt() {
+	return Bt() ? "right" : "left";
 }
 
-function Qt(t, e) {
-	if (Ht()) t.style.left = e; else t.style.right = e;
+function Ht(t, e) {
 }
 
-function Vt(t, e) {
-	if (Ht()) t.style.right = e; else t.style.left = e;
+function At(t, e) {
 }
 
-function Zt(t, e) {
-	if (Ht()) t.style.paddingLeft = e; else t.style.paddingRight = e;
+function Dt(t, e) {
 }
 
-function _t(t, e) {
-	if (Ht()) t.style.paddingRight = e; else t.style.paddingLeft = e;
+function Gt(t, e) {
 }
 
-function te(t, e) {
-	if (Ht()) t.style.marginLeft = e; else t.style.marginRight = e;
+function Jt(t, e) {
 }
 
-function h(t) {
-	return P(undefined, "div", {
+function m(t) {
+	return J(undefined, "div", {
 		id: "headerText",
-		style: {
-			paddingTop: "40px",
-			paddingBottom: "24px",
-			[`padding${Gt()}`]: "268px",
-			fontSize: "18px",
-			color: "#777",
-			fontWeight: "300",
-			borderBottom: "1px dashed #ddd",
-			marginBottom: "10px"
-		},
 		textContent: t
 	}).t;
 }
 
-function g() {
-	return P(undefined, "img", {
-		style: {
-			height: 114 / 2 + "px",
-			// width: 414 / 2 + "px",
-			position: "absolute",
-			top: "16px",
-			[`${qt()}`]: "22px"
-		},
-		src: "images/onetab" + (Ht() ? "" : "-rtl") + ".png"
+function g(t, e, n) {
+	return J(undefined, "picture", {
+		...e,
+		children: {
+			i: J(undefined, "source", {
+				srcset: n(true),
+				media: "(prefers-color-scheme: light)"
+			}),
+			o: J(undefined, "source", {
+				srcset: n(false),
+				media: "(prefers-color-scheme: dark)"
+			}),
+			u: J(undefined, "img", {
+			})
+		}
 	}).t;
 }
 
-function y(t, e, n) {
+// function y() {
+// 	return g({
+// 		width: 416 / 2 + "px",
+// 		height: 114 / 2 + "px",
+// 		position: "absolute",
+// 		top: "16px",
+// 		[`${Ut()}`]: "19px"
+// 	}, {}, (t => `images/top-left-logo-${t?"light":"dark"}${Bt()?"":"-rtl"}.png`));
+// }
+
+function b(t, e, n) {
+	let o = document.createElement("div");
 	let i = document.createElement("div");
-	let o = document.createElement("div");
-	Zt(o, "30px");
-	o.style.position = "relative";
-	o.style.color = "#777";
-	let r = document.createElement("img");
-	r.src = t ? "images/twister-open.png" : "images/twister-closed" + (Ht() ? "" : "-rtl") + ".png";
-	r.style.width = 48 / 2 + "px";
-	r.style.height = 50 / 2 + "px";
-	r.style.position = "absolute";
-	Qt(r, "0px");
-	r.style.top = "0px";
-	o.textContent = e;
-	o.style.fontSize = "16px";
-	o.style.cursor = "pointer";
-	i.appendChild(o);
-	o.appendChild(r);
-	let u = document.createElement("div");
-	Zt(u, "30px");
-	u.style.paddingTop = "10px";
-	u.appendChild(n.t);
-	u.style.display = t ? "block" : "none";
-	i.appendChild(u);
-	o.onclick = () => {
+	Dt(i, "30px");
+	i.textContent = e;
+	o.appendChild(i);
+	// i.appendChild(r);
+	let l = document.createElement("div");
+	Dt(l, "30px");
+	l.appendChild(n.t);
+	o.appendChild(l);
+	i.onclick = () => {
 		t = !t;
-		r.src = t ? "images/twister-open.png" : "images/twister-closed" + (Ht() ? "" : "-rtl") + ".png";
-		u.style.display = t ? "block" : "none";
+		// r.src = t ? "images/twister-open.png" : "images/twister-closed" + (Bt() ? "" : "-rtl") + ".png";
 	};
-	let l = {
-		i: n.t
+	let u = {
+		l: n.t
 	};
-	Object.assign(l, n);
-	l.t = i;
-	return l;
+	Object.assign(u, n);
+	u.t = o;
+	return u;
 }
 
-function v(t, e, n, i) {
-	let o = document.createElement("div");
-	o.style.fontSize = e + "px";
-	o.className = "clickable";
-	let r = document.createElement("span");
-	if (i) {
-		let t = document.createElement("span");
-		t.style.color = "#f00";
-		t.textContent = Dt("newExclamation") + " ";
-		r.appendChild(t);
-	}
-	if (typeof t === "string") {
-		r.appendChild(document.createTextNode(t));
-	} else {
-		r.appendChild(t);
-	}
-	r.style.verticalAlign = "middle";
-	r.onclick = t => {
-		n(r);
-	};
-	o.appendChild(r);
-	return o;
+// function v(t, e, n, o) {
+// 	let i = document.createElement("div");
+// 	i.className = "clickable";
+// 	let r = document.createElement("span");
+// 	if(o) {
+// 		let t = document.createElement("span");
+// 		t.textContent = St("newExclamation") + " ";
+// 		r.appendChild(t);
+// 	}
+// 	if(typeof t === "string") {
+// 		r.appendChild(document.createTextNode(t));
+// 	}
+// 	else {
+// 		r.appendChild(t);
+// 	}
+// 	r.onclick = t => {
+// 		n(r);
+// 	};
+// 	i.appendChild(r);
+// 	return i;
+// }
+const k = window.chrome.runtime.getURL("onetab.html");
+const T = k.substr(0, k.length - "onetab.html".length);
+
+function R(t) {
+	let e = O(t);
+	if(e.toLowerCase().startsWith("www.")) return e.substring("www.".length);
+	else return e;
 }
 
-function j(t) {
-	let e = b(t);
-	if (e.toLowerCase().startsWith("www.")) return e.substring("www.".length); else return e;
-}
-
-function b(t) {
-	if (!t) return "undefined";
-	if (t.indexOf("//") === 0) t = "http:" + t;
-	if (t.indexOf("://") === -1) t = "http://" + t;
+function O(t) {
+	if(!t) return "undefined";
+	if(t.indexOf("//") === 0) t = "http:" + t;
+	if(t.indexOf("://") === -1) t = "http://" + t;
 	t = t.substring(t.indexOf("://") + "://".length);
-	if (t.indexOf("/") !== -1) t = t.substring(0, t.indexOf("/"));
-	if (t.indexOf(":") !== -1) t = t.substring(0, t.indexOf(":"));
-	if (t.indexOf("?") !== -1) t = t.substring(0, t.indexOf("?"));
-	if (t.indexOf("#") !== -1) t = t.substring(0, t.indexOf("#"));
+	if(t.indexOf("/") !== -1) t = t.substring(0, t.indexOf("/"));
+	if(t.indexOf(":") !== -1) t = t.substring(0, t.indexOf(":"));
+	if(t.indexOf("?") !== -1) t = t.substring(0, t.indexOf("?"));
+	if(t.indexOf("#") !== -1) t = t.substring(0, t.indexOf("#"));
 	return t.toLowerCase();
 }
 
-function A(t) {
-	if (t.indexOf("://") === -1) return "https://";
+function S(t) {
+	if(t.indexOf("://") === -1) return "https://";
 	t = t.substring(0, t.indexOf("://") + "://".length);
 	return t.toLowerCase();
 }
+let M = ["com", "co.uk", "org.uk", "net", "org", "de", "ru", "info", "xyz", "nl"];
 
-let E = [ "com", "co.uk", "org.uk", "net", "org", "de", "ru", "info", "xyz", "nl" ];
-
-function T(t) {
-	let e = b(t);
+function j(t) {
+	let e = O(t);
 	try {
-		for (let t in E) {
-			let n = "." + E[t];
-			if (F(e, n)) {
+		for(let t in M) {
+			let n = "." + M[t];
+			if(H(e, n)) {
 				e = e.substr(0, e.length - n.length);
-				while (e.indexOf(".") !== -1) e = e.substring(e.indexOf(".") + 1);
+				while(e.indexOf(".") !== -1) e = e.substring(e.indexOf(".") + 1);
 				e = e + n;
 				break;
 			}
 		}
-		if (e.indexOf("www.") === 0) e = e.substring("www.".length);
+		if(e.indexOf("www.") === 0) e = e.substring("www.".length);
 		return e;
-	} catch (t) {
+	}
+	catch (t) {
 		return e;
 	}
 }
 
-function O(t) {
-	t["noCacheRandom"] = S();
+function L(t) {
+	t["noCacheRandom"] = $();
 }
 
-function S() {
+function $() {
 	return (new Date).getTime() + Math.round(Math.random() * 1e4) + "";
 }
-
-async function k(t, e) {
-	O(e);
+async function C(t, e) {
+	L(e);
 	let n = JSON.stringify(e);
-	let i = await R(t, n);
-	return await i.json();
+	let o = await E(t, n);
+	return await o.json();
 }
-
-async function R(t, e) {
+async function E(t, e) {
 	let n = {};
-	if (e) {
+	if(e) {
 		n.method = "POST";
 		n.body = e;
-	} else {
+	}
+	else {
 		n.method = "GET";
 	}
 	n.headers = new Headers;
 	n.headers.append("Content-Type", "text/json");
-	let i = await fetch(t, n);
-	if (i.status === 200) return i; else throw new Error("http response code" + i.status);
+	let o = await fetch(t, n);
+	if(o.status === 200) return o;
+	else throw new Error("http response code" + o.status);
 }
 
-function C() {
+function P() {
 	return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (t => {
-		let e = Math.random() * 16 | 0, n = t == "x" ? e : e & 3 | 8;
+		let e = Math.random() * 16 | 0,
+			n = t == "x" ? e : e & 3 | 8;
 		return n.toString(16);
 	}));
 }
-
 const B = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_".split("");
 
 function I(t, e) {
-	let n = B, i = [], o = 0;
+	let n = B,
+		o = [],
+		i = 0;
 	e = e || n.length;
 	t = t || 22;
-	for (o = 0; o < t; o++) i[o] = n[0 | Math.random() * e];
-	return i.join("");
+	for(i = 0; i < t; i++) o[i] = n[0 | Math.random() * e];
+	return o.join("");
 }
 
-function M() {
+function z() {
 	return I();
 }
 
-function X(t) {
-	if (t === null || t === undefined) return "";
+function F(t) {
+	if(t === null || t === undefined) return "";
 	return t.replace(/^\s+/, "").replace(/\s+$/, "");
 }
+const U = (t, e) => !!e["starred"] - !!t["starred"] || t["starred"] && e["starred"] && e["starredDate"] - t["starredDate"] || e["createDate"] - t["createDate"];
 
-const Y = (t, e) => !!e["starred"] - !!t["starred"] || t["starred"] && e["starred"] && e["starredDate"] - t["starredDate"] || e["createDate"] - t["createDate"];
-
-function D(t) {
-	if (!t) t = "";
+function W(t) {
+	if(!t) t = "";
 	return t.replace(/[\x00-\x1F\x7F-\x9F]/g, "");
 }
 
-function F(t, e) {
-	if (!t) return false;
+function H(t, e) {
+	if(!t) return false;
 	return t.indexOf(e, t.length - e.length) !== -1;
 }
-
-const L = {
-	restoreWindow: "newWindow",
+const A = {
+	restoreWindow: "currentWindow",
 	pinnedTabs: "ignore",
-	startupLaunch: "displayOneTab",
+	startupLaunch: "none",
 	restoreRemoval: "default",
 	duplicates: "allow"
 };
 
-function U(t, e) {
-	if (e[t]) return e[t]; else return L[t];
+function D(t, e) {
+	if(e[t]) return e[t];
+	else return A[t];
 }
 
-function z(t, e, n) {
-	if (t.parentNode) t.remove();
+function G(t, e, n) {
+	if(t.parentNode) t.remove();
 	e.insertBefore(t, n === undefined || n >= e.children.length || e.children.length === 0 ? null : e.children[Math.max(0, n)]);
 }
 
-function P(t, e, n) {
-	let i = e === undefined ? t : document.createElement(e);
-	let o = {};
-	if (n) {
-		if (n.style) Object.assign(i.style, n.style);
-		for (let t of Object.keys(n)) {
-			if (t !== "style" && t !== "children") i[t] = n[t];
+function J(t, e, n) {
+	let o = e === undefined ? t : document.createElement(e);
+	let i = {};
+	if(n) {
+		// if(n.style) Object.assign(o.style, n.style);
+		for(let t of Object.keys(n)) {
+			if(t !== "style" && t !== "children") o[t] = n[t];
 		}
-		if (n.children) {
-			for (const [t, e] of Object.entries(n.children)) {
-				o[t] = e;
-				i.appendChild(e instanceof HTMLElement ? e : e.t);
+		if(n.children) {
+			for(const [t, e] of Object.entries(n.children)) {
+				i[t] = e;
+				o.appendChild(e instanceof HTMLElement ? e : e.t);
 			}
 		}
-		if (n.o) i.appendChild(n.o);
-		if (n.init) n.init(i);
+		if(n.h) o.appendChild(n.h);
+		if(n.init) n.init(o);
 	}
-	if (e !== undefined && t) t.appendChild(i);
+	if(e !== undefined && t) t.appendChild(o);
 	let r = {
-		t: i
+		t: o
 	};
-	Object.assign(r, o);
+	Object.assign(r, i);
 	return r;
 }
+const N = "about:reader?url=";
 
-const W = "about:reader?url=";
-
-function $(t) {
-	if (!t) return "";
-	if (t.indexOf(":") === -1) return "http://" + t;
-	if (t.indexOf(W) === 0) return decodeURIComponent(t.substring(W.length));
+function X(t) {
+	if(!t) return "";
+	if(t.indexOf(":") === -1) return "https://" + t;
+	if(t.indexOf(N) === 0) return decodeURIComponent(t.substring(N.length));
+	if(t.startsWith(`${T}placeholder.html?`)) {
+		const e = new URLSearchParams(t.substring(t.indexOf("?")));
+		return e.get("url");
+	}
 	return t;
 }
-
-async function H(t) {
+async function Y(t) {
 	return new Promise((e => setTimeout(e, t)));
 }
 
-function N(t) {
+function q(t) {
 	return parseInt(t.match(/\d+/)[0]);
 }
+const K = [...new Array(30)].map(((t, e) => parseInt(10 + Math.pow(1.6, e))));
 
-const G = [ ...new Array(30) ].map(((t, e) => parseInt(10 + Math.pow(1.6, e))));
-
-function* J(t) {
+function* Q(t) {
 	let e = 0;
-	while (G.slice(0, e).reduce(((t, e) => t + e), 0) < t) {
-		yield G[e++];
+	while(K.slice(0, e).reduce(((t, e) => t + e), 0) < t) {
+		yield K[e++];
 	}
 }
-
-async function q(t, e, n) {
-	for (let e of J(t)) {
-		if (await n()) return; else {
-			await H(e);
+async function V(t, e, n) {
+	let o = 0;
+	for(let e of Q(t)) {
+		if(await n(o)) return;
+		else {
+			await Y(e);
+			o += e;
 		}
 	}
 	throw new Error(`Timeout waiting for condition ${e}`);
 }
-
 setTimeout((async () => {
-	await Lt();
-	await ee();
+	await jt();
+	await re();
 }), 1);
 
-function ee() {
-	ne();
+function re() {
+	oe();
 }
 
-function ne() {
-	P(document.getElementById("contentAreaDiv"), undefined, {
-		style: {
-			paddingTop: "0px",
-			[`padding${Gt()}`]: "0px"
-		},
+function oe() {
+	J(document.getElementById("contentAreaDiv"), undefined, {
 		children: {
-			X: g(),
-			tn: h(Dt("options")),
-			en: P(undefined, "div", {
-				style: {
-					paddingTop: "24px",
-					[`padding${Gt()}`]: "36px"
-				},
+			// F: y(),
+			// tn: m(St("options")),
+			en: J(undefined, "div", {
 				children: {
-					nn: tn("restoreWindow", Dt("optionTabGroupRestoreTitle"), [ {
-						settingValue: "newWindow",
-						title: Dt("optionTabGroupRestoreNewWindow")
+					nn: tn("restoreWindow", St("optionTabGroupRestoreTitle"), [{
+						settingValue: "currentWindow",
+						title: St("optionTabGroupRestoreCurrentWindowAlways")
 					}, {
 						settingValue: "newWindowAlways",
-						title: Dt("optionTabGroupRestoreNewWindowAlways")
+						title: St("optionTabGroupRestoreNewWindowAlways")
 					}, {
-						settingValue: "currentWindow",
-						title: Dt("optionTabGroupRestoreCurrentWindowAlways")
-					} ]),
-					on: tn("pinnedTabs", Dt("optionPinnedTabsTitle"), [ {
+						settingValue: "newWindow",
+						title: St("optionTabGroupRestoreNewWindow")
+					}]),
+
+					on: tn("pinnedTabs", St("optionPinnedTabsTitle"), [{
 						settingValue: "ignore",
-						title: Dt("optionPinnedTabsDontSend"),
-						rn: Dt("optionPinnedTabsDontSendDesc")
+						title: St("optionPinnedTabsDontSend"),
+						rn: St("optionPinnedTabsDontSendDesc")
 					}, {
 						settingValue: "allow",
-						title: Dt("optionPinnedTabsAllow")
-					} ], Dt("optionPinnedTabsNote")),
-					un: tn("startupLaunch", Dt("optionStartupLaunchTitle"), [ {
-						settingValue: "displayOneTab",
-						title: Dt("optionStartupLaunchDisplay")
-					}, {
+						title: St("optionPinnedTabsAllow")
+					}], St("optionPinnedTabsNote")),
+
+					ln: tn("startupLaunch", St("optionStartupLaunchTitle"), [{
 						settingValue: "none",
-						title: Dt("optionStartupLaunchNone"),
-						rn: Dt("optionStartupLaunchNoneDesc")
-					} ]),
-					ln: tn("restoreRemoval", Dt("optionRestoreRemovalTitle"), [ {
+						title: St("optionStartupLaunchNone"),
+						rn: St("optionStartupLaunchNoneDesc")
+					}, {
+						settingValue: "displayOneTab",
+						title: St("optionStartupLaunchDisplay")
+					}]),
+
+					un: tn("restoreRemoval", St("optionRestoreRemovalTitle"), [{
 						settingValue: "default",
-						title: Dt("optionRestoreRemovalDefault"),
-						rn: Dt("optionRestoreRemovalDefaultDesc")
+						title: St("optionRestoreRemovalDefault"),
+						rn: St("optionRestoreRemovalDefaultDesc")
 					}, {
 						settingValue: "keep",
-						title: Dt("optionRestoreRemovalKeep"),
-						rn: Dt("optionRestoreRemovalKeepDesc")
-					} ]),
-					an: tn("duplicates", Dt("optionDuplicatesTitle"), [ {
+						title: St("optionRestoreRemovalKeep"),
+						rn: St("optionRestoreRemovalKeepDesc")
+					}]),
+
+					an: tn("duplicates", St("optionDuplicatesTitle"), [{
 						settingValue: "allow",
-						title: Dt("optionDuplicatesAllow")
+						title: St("optionDuplicatesAllow")
 					}, {
 						settingValue: "reject",
-						title: Dt("optionDuplicatesReject"),
-						rn: Dt("optionDuplicatesRejectDesc")
-					} ])
+						title: St("optionDuplicatesReject"),
+						rn: St("optionDuplicatesRejectDesc")
+					}])
 				}
 			})
 		}
 	});
 }
 
-function tn(t, e, n, i) {
-	let o = P(undefined, "div", {
-		style: {
-			paddingBottom: "40px",
-			maxWidth: "600px"
-		},
+function tn(t, e, n, o) {
+	let i = J(undefined, "div", {
+		className: "tabGroup",
 		children: {
-			heading: P(undefined, "div", {
-				style: {
-					fontSize: "14px",
-					paddingBottom: "0px"
-				},
+			heading: J(undefined, "h4", {
 				textContent: e
 			})
 		}
 	}).t;
-	n.forEach((e => o.appendChild(nn(t, `optionGroup-${t}`, e))));
-	if (i) {
-		P(o, "div", {
-			style: {
-				fontSize: "12.25px",
-				color: "#666",
-				paddingTop: "10px",
-				paddingLeft: "0px"
-			},
-			textContent: i
+	n.forEach((e => i.appendChild(nn(t, `optionGroup-${t}`, e))));
+	if(o) {
+		J(i, "div", {
+			className: "note",
+			textContent: o
 		});
 	}
-	return o;
+	return i;
 }
-
 let en = 0;
 
 function nn(t, e, n) {
-	let i = "optionId" + en++;
-	let o = n.settingValue;
-	let r = P(undefined, "div", {
-		style: {
-			paddingBottom: "0px"
-		}
+	let o = "optionId" + en++;
+	let i = n.settingValue;
+	let r = J(undefined, "div", {
 	}).t;
-	let u = P(undefined, "input", {
-		style: {
-			cursor: "pointer"
-		},
-		id: i,
+	let l = J(undefined, "input", {
+		id: o,
 		type: "radio",
 		name: e
 	}).t;
-	Ft.ht(t).then((t => {
-		if (t === o) u.checked = true;
+	Mt.Tt(t).then((t => {
+		if(t === i) l.checked = true;
 	}));
-	u.addEventListener("click", (() => {
+	l.addEventListener("click", (() => {
 		(async () => {
-			let e = await Ft.getSettings();
-			e[t] = o;
-			await Ft.wt(e);
+			let e = await Mt.getSettings();
+			e[t] = i;
+			await Mt.bt(e);
 		})();
 	}));
-	let l = P(undefined, "label", {
-		style: {
-			fontSize: "14px",
-			cursor: "pointer"
-		},
-		["htmlFor"]: i,
+	let u = J(undefined, "label", {
+		["htmlFor"]: o,
 		textContent: " " + n.title
 	}).t;
-	r.appendChild(u);
 	r.appendChild(l);
-	te(r, "-5px");
-	let a = P(undefined, "div", {
-		style: {
-			color: "#666",
-			fontSize: "12.25px",
-			paddingTop: "4px",
-			[`padding${Gt()}`]: "30px"
-		}
+	r.appendChild(u);
+	Jt(r, "-5px");
+	let a = J(undefined, "div", {
 	}).t;
-	if (n.rn) a.textContent = n.rn;
+	if(n.rn) {
+		a.textContent = n.rn;
+		a.className = "note";
+	}
 	r.appendChild(a);
 	return r;
 }
-
 window["populateWithTestData"] = async () => {
-	await Ft.lt();
+	await Mt.ft();
 	console.log("populateWithTestData done");
 };

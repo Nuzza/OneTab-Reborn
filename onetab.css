@@ -10,8 +10,6 @@
 
 * {
   font-family: SegoeUI;
-  border-radius: 6px;
-  color: black;
   box-sizing: border-box;
 
   user-select:none;
@@ -23,41 +21,151 @@
 
 body {
   background-color: rgb(255, 255, 255);
+  margin: 0;
 }
 
-textarea, #settingsDiv, .moreButton > div {
+body > div {
+  pointer-events: none;
+  z-index: 2;
+  position: absolute;
+}
+
+header {
+  background-color: rgb(248, 248, 248);
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1), 0 1px 8px rgba(0,0,0,.2);
+  top: 0;
+}
+
+main {
+  margin-top: 100px;
+}
+
+body > div {
+  width: calc(100% - 10px);
+  border-radius: 6px;
+}
+
+input {
+  background-color: rgb(30, 30, 30);
+}
+
+textarea {
+  width: calc(100% - 10px);
+  height: 100px;
+  color: black;
+}
+
+.tabGroup {
+  border-radius: 6px;
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(248, 248, 248);
+}
+
+.tabOptions div.clickable, textarea {
+  border-radius: 6px;
   background-color: rgb(240, 240, 240);
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.note {
+  font-style: italic;
+  color: grey;
+}
+
+.tab {
+  border-radius: 6px;
+  background-color: rgb(240, 240, 240);
+  margin: 5px;
+  width: calc(100% - 10px);
+  padding: 2px;
+}
+
+.tabOptions div.clickable:hover, .tab:hover, .setting:hover, #Import:hover {
+  background-color: rgb(224, 224, 224);
+}
+
+.tab > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon {
+  font-family: 'SegoeIcons';
+}
+
+.tabOptions > .icon {
+  font-size: 20px;
+}
+
+.favicon {
+  width: 20px;
+  height: 20px;
+}
+
+.title {
+  margin-left: 5px;
+}
+
+.delete {
+  font-size: 16px;
+  text-align: center;
+  padding: 8px;
+  margin-right: 5px;
+  border-radius: 6px;
+  visibility: hidden;
+}
+
+.delete:hover {
+  background-color: red;
+  color: white;
+}
+
+.moreButton > div {
+  display: none;
 }
 
 .clickable {
   cursor:pointer;
 }
 
-.tab {
-  border: 0;
-  padding: 7px 12px;
-  background-color: rgb(251, 251, 251);
-  box-shadow: 0 0.4px 1px rgba(0,0,0,.3);
-  margin-bottom: 6px;
+#Logo {
+  height: 50px;
+  margin: 10px;
 }
 
-.icon {
-  font-family: SegoeIcons;
+#settingsDiv {
+  float: right;
+  margin: 20px 5px 5px 10px;
 }
 
 #headerText {
-  padding-left: 70px!important;
+  margin: 0 5px 5px 5px;
 }
 
-/* input[type=text] {
-  padding: 4px 4px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  box-shadow: 2px 2px 3px #ddd;
-  -moz-box-shadow: 2px 2px 3px #ddd;
-  outline: 0;
-  -webkit-appearance: textfield;
-} */
+.setting {
+  margin: 0 5px 5px 0;
+  border-radius: 6px;
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  display: inline-block;
+}
+
+#Import {
+  margin: 5px;
+  border-radius: 6px;
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  text-align: center;
+}
+
+.setting > span {
+  padding-right: 5px;
+}
 
 @media (prefers-color-scheme: dark) {
   * {
@@ -65,14 +173,22 @@ textarea, #settingsDiv, .moreButton > div {
   }
 
   body {
+    background-color: rgb(15, 15, 15);
+  }
+
+  body > div, .tabOptions div.clickable, .tab, .setting, textarea, #Import {
     background-color: rgb(30, 30, 30);
   }
 
-  textarea, #settingsDiv, .moreButton > div {
-    background-color: rgb(0, 0, 0)!important;
+  textarea {
+    color: white;
   }
 
-  .tab {
-    background-color: rgb(45,45,45);
+  .tabOptions div.clickable:hover, .tab:hover, .setting:hover, #Import:hover {
+    background-color: rgb(46, 46, 46);
+  }
+
+  .tabGroup, header {
+    background-color: rgb(0, 0, 0)
   }
 }

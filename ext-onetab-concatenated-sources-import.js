@@ -1,102 +1,80 @@
-// Copyright 2021 OneTab Ltd.  All rights reserved.
-
-const i = "0.2";
-
+// Copyright 2022 OneTab Ltd.  All rights reserved.
 const o = false;
-
 const u = false;
-
 const c = false;
-
-const l = false;
-
 const f = false;
-
+const l = false;
 const s = false;
-
-const d = true;
-
-const a = "chrome://";
-
-const p = "chrome://newtab/";
-
-const w = "https://www.one-tab.com";
-
-const m = false;
-
+const a = true;
+const d = "chrome://";
+const w = "chrome://newtab/";
+const h = "https://www.one-tab.com";
+const p = false;
 async function x() {
 	return new Promise(((t, e) => {
-		if (document.readyState === "complete") {
+		if(document.readyState === "complete") {
 			t();
-		} else {
+		}
+		else {
 			document.addEventListener("readystatechange", (e => {
-				if (document.readyState === "complete") t();
+				if(document.readyState === "complete") t();
 			}));
 		}
 	}));
 }
 
-function h(t) {
-	return P(undefined, "div", {
+function m(t) {
+	return J(undefined, "div", {
 		id: "headerText",
-		style: {
-			paddingTop: "40px",
-			paddingBottom: "24px",
-			[`padding${Gt()}`]: "268px",
-			fontSize: "18px",
-			color: "#777",
-			fontWeight: "300",
-			borderBottom: "1px dashed #ddd",
-			marginBottom: "10px"
-		},
 		textContent: t
 	}).t;
 }
 
-function g() {
-	return P(undefined, "img", {
-		style: {
-			height: 114 / 2 + "px",
-			// width: 414 / 2 + "px",
-			position: "absolute",
-			top: "16px",
-			[`${qt()}`]: "22px"
-		},
-		src: "images/onetab" + (Ht() ? "" : "-rtl") + ".png"
+function g(t, e, n) {
+	return J(undefined, "picture", {
+		...e,
+		children: {
+			i: J(undefined, "source", {
+				srcset: n(true),
+				media: "(prefers-color-scheme: light)"
+			}),
+			o: J(undefined, "source", {
+				srcset: n(false),
+				media: "(prefers-color-scheme: dark)"
+			}),
+			u: J(undefined, "img", {
+			})
+		}
 	}).t;
 }
 
-function y(t, e, n) {
+// function y() {
+// 	return g({
+// 		width: 416 / 2 + "px",
+// 		height: 114 / 2 + "px",
+// 		position: "absolute",
+// 		top: "16px",
+// 		[`${Ut()}`]: "19px"
+// 	}, {}, (t => `images/top-left-logo-${t?"light":"dark"}${Bt()?"":"-rtl"}.png`));
+// }
+
+function b(t, e, n) {
 	let i = document.createElement("div");
 	let r = document.createElement("div");
-	Zt(r, "30px");
-	r.style.position = "relative";
-	r.style.color = "#777";
-	let o = document.createElement("img");
-	o.src = t ? "images/twister-open.png" : "images/twister-closed" + (Ht() ? "" : "-rtl") + ".png";
-	o.style.width = 48 / 2 + "px";
-	o.style.height = 50 / 2 + "px";
-	o.style.position = "absolute";
-	Qt(o, "0px");
-	o.style.top = "0px";
+	Dt(r, "30px");
 	r.textContent = e;
-	r.style.fontSize = "16px";
-	r.style.cursor = "pointer";
 	i.appendChild(r);
-	r.appendChild(o);
+	// r.appendChild(o);
 	let u = document.createElement("div");
-	Zt(u, "30px");
-	u.style.paddingTop = "10px";
+	Dt(u, "30px");
 	u.appendChild(n.t);
-	u.style.display = t ? "block" : "none";
 	i.appendChild(u);
 	r.onclick = () => {
 		t = !t;
-		o.src = t ? "images/twister-open.png" : "images/twister-closed" + (Ht() ? "" : "-rtl") + ".png";
-		u.style.display = t ? "block" : "none";
+		// o.src = t ? "images/twister-open.png" : "images/twister-closed" + (Bt() ? "" : "-rtl") + ".png";
 	};
 	let c = {
-		i: n.t
+		l: n.t
 	};
 	Object.assign(c, n);
 	c.t = i;
@@ -105,140 +83,142 @@ function y(t, e, n) {
 
 function v(t, e, n, i) {
 	let r = document.createElement("div");
-	r.style.fontSize = e + "px";
 	r.className = "clickable";
+	r.id = "Import";
 	let o = document.createElement("span");
-	if (i) {
+	if(i) {
 		let t = document.createElement("span");
-		t.style.color = "#f00";
-		t.textContent = Dt("newExclamation") + " ";
+		t.textContent = St("newExclamation") + " ";
 		o.appendChild(t);
 	}
-	if (typeof t === "string") {
+	if(typeof t === "string") {
 		o.appendChild(document.createTextNode(t));
-	} else {
+	}
+	else {
 		o.appendChild(t);
 	}
-	o.style.verticalAlign = "middle";
 	o.onclick = t => {
 		n(o);
 	};
 	r.appendChild(o);
 	return r;
 }
+const k = window.chrome.runtime.getURL("onetab.html");
+const T = k.substr(0, k.length - "onetab.html".length);
 
-function j(t) {
-	let e = b(t);
-	if (e.toLowerCase().startsWith("www.")) return e.substring("www.".length); else return e;
+function R(t) {
+	let e = O(t);
+	if(e.toLowerCase().startsWith("www.")) return e.substring("www.".length);
+	else return e;
 }
 
-function b(t) {
-	if (!t) return "undefined";
-	if (t.indexOf("//") === 0) t = "http:" + t;
-	if (t.indexOf("://") === -1) t = "http://" + t;
+function O(t) {
+	if(!t) return "undefined";
+	if(t.indexOf("//") === 0) t = "http:" + t;
+	if(t.indexOf("://") === -1) t = "http://" + t;
 	t = t.substring(t.indexOf("://") + "://".length);
-	if (t.indexOf("/") !== -1) t = t.substring(0, t.indexOf("/"));
-	if (t.indexOf(":") !== -1) t = t.substring(0, t.indexOf(":"));
-	if (t.indexOf("?") !== -1) t = t.substring(0, t.indexOf("?"));
-	if (t.indexOf("#") !== -1) t = t.substring(0, t.indexOf("#"));
+	if(t.indexOf("/") !== -1) t = t.substring(0, t.indexOf("/"));
+	if(t.indexOf(":") !== -1) t = t.substring(0, t.indexOf(":"));
+	if(t.indexOf("?") !== -1) t = t.substring(0, t.indexOf("?"));
+	if(t.indexOf("#") !== -1) t = t.substring(0, t.indexOf("#"));
 	return t.toLowerCase();
 }
 
-function A(t) {
-	if (t.indexOf("://") === -1) return "https://";
+function S(t) {
+	if(t.indexOf("://") === -1) return "https://";
 	t = t.substring(0, t.indexOf("://") + "://".length);
 	return t.toLowerCase();
 }
+let M = ["com", "co.uk", "org.uk", "net", "org", "de", "ru", "info", "xyz", "nl"];
 
-let E = [ "com", "co.uk", "org.uk", "net", "org", "de", "ru", "info", "xyz", "nl" ];
-
-function T(t) {
-	let e = b(t);
+function j(t) {
+	let e = O(t);
 	try {
-		for (let t in E) {
-			let n = "." + E[t];
-			if (F(e, n)) {
+		for(let t in M) {
+			let n = "." + M[t];
+			if(H(e, n)) {
 				e = e.substr(0, e.length - n.length);
-				while (e.indexOf(".") !== -1) e = e.substring(e.indexOf(".") + 1);
+				while(e.indexOf(".") !== -1) e = e.substring(e.indexOf(".") + 1);
 				e = e + n;
 				break;
 			}
 		}
-		if (e.indexOf("www.") === 0) e = e.substring("www.".length);
+		if(e.indexOf("www.") === 0) e = e.substring("www.".length);
 		return e;
-	} catch (t) {
+	}
+	catch (t) {
 		return e;
 	}
 }
 
-function O(t) {
-	t["noCacheRandom"] = S();
+function L(t) {
+	t["noCacheRandom"] = $();
 }
 
-function S() {
+function $() {
 	return (new Date).getTime() + Math.round(Math.random() * 1e4) + "";
 }
-
-async function k(t, e) {
-	O(e);
+async function C(t, e) {
+	L(e);
 	let n = JSON.stringify(e);
-	let i = await R(t, n);
+	let i = await E(t, n);
 	return await i.json();
 }
-
-async function R(t, e) {
+async function E(t, e) {
 	let n = {};
-	if (e) {
+	if(e) {
 		n.method = "POST";
 		n.body = e;
-	} else {
+	}
+	else {
 		n.method = "GET";
 	}
 	n.headers = new Headers;
 	n.headers.append("Content-Type", "text/json");
 	let i = await fetch(t, n);
-	if (i.status === 200) return i; else throw new Error("http response code" + i.status);
+	if(i.status === 200) return i;
+	else throw new Error("http response code" + i.status);
 }
 
-function C() {
+function P() {
 	return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (t => {
-		let e = Math.random() * 16 | 0, n = t == "x" ? e : e & 3 | 8;
+		let e = Math.random() * 16 | 0,
+			n = t == "x" ? e : e & 3 | 8;
 		return n.toString(16);
 	}));
 }
-
 const B = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_".split("");
 
 function I(t, e) {
-	let n = B, i = [], r = 0;
+	let n = B,
+		i = [],
+		r = 0;
 	e = e || n.length;
 	t = t || 22;
-	for (r = 0; r < t; r++) i[r] = n[0 | Math.random() * e];
+	for(r = 0; r < t; r++) i[r] = n[0 | Math.random() * e];
 	return i.join("");
 }
 
-function M() {
+function z() {
 	return I();
 }
 
-function X(t) {
-	if (t === null || t === undefined) return "";
+function F(t) {
+	if(t === null || t === undefined) return "";
 	return t.replace(/^\s+/, "").replace(/\s+$/, "");
 }
+const U = (t, e) => !!e["starred"] - !!t["starred"] || t["starred"] && e["starred"] && e["starredDate"] - t["starredDate"] || e["createDate"] - t["createDate"];
 
-const Y = (t, e) => !!e["starred"] - !!t["starred"] || t["starred"] && e["starred"] && e["starredDate"] - t["starredDate"] || e["createDate"] - t["createDate"];
-
-function D(t) {
-	if (!t) t = "";
+function W(t) {
+	if(!t) t = "";
 	return t.replace(/[\x00-\x1F\x7F-\x9F]/g, "");
 }
 
-function F(t, e) {
-	if (!t) return false;
+function H(t, e) {
+	if(!t) return false;
 	return t.indexOf(e, t.length - e.length) !== -1;
 }
-
-const L = {
+const A = {
 	restoreWindow: "newWindow",
 	pinnedTabs: "ignore",
 	startupLaunch: "displayOneTab",
@@ -246,153 +226,161 @@ const L = {
 	duplicates: "allow"
 };
 
-function U(t, e) {
-	if (e[t]) return e[t]; else return L[t];
+function D(t, e) {
+	if(e[t]) return e[t];
+	else return A[t];
 }
 
-function z(t, e, n) {
-	if (t.parentNode) t.remove();
+function G(t, e, n) {
+	if(t.parentNode) t.remove();
 	e.insertBefore(t, n === undefined || n >= e.children.length || e.children.length === 0 ? null : e.children[Math.max(0, n)]);
 }
 
-function P(t, e, n) {
+function J(t, e, n) {
 	let i = e === undefined ? t : document.createElement(e);
 	let r = {};
-	if (n) {
-		if (n.style) Object.assign(i.style, n.style);
-		for (let t of Object.keys(n)) {
-			if (t !== "style" && t !== "children") i[t] = n[t];
+	if(n) {
+		for(let t of Object.keys(n)) {
+			if(t !== "style" && t !== "children") i[t] = n[t];
 		}
-		if (n.children) {
-			for (const [t, e] of Object.entries(n.children)) {
+		if(n.children) {
+			for(const [t, e] of Object.entries(n.children)) {
 				r[t] = e;
 				i.appendChild(e instanceof HTMLElement ? e : e.t);
 			}
 		}
-		if (n.o) i.appendChild(n.o);
-		if (n.init) n.init(i);
+		if(n.h) i.appendChild(n.h);
+		if(n.init) n.init(i);
 	}
-	if (e !== undefined && t) t.appendChild(i);
+	if(e !== undefined && t) t.appendChild(i);
 	let o = {
 		t: i
 	};
 	Object.assign(o, r);
 	return o;
 }
+const N = "about:reader?url=";
 
-const W = "about:reader?url=";
-
-function $(t) {
-	if (!t) return "";
-	if (t.indexOf(":") === -1) return "http://" + t;
-	if (t.indexOf(W) === 0) return decodeURIComponent(t.substring(W.length));
+function X(t) {
+	if(!t) return "";
+	if(t.indexOf(":") === -1) return "https://" + t;
+	if(t.indexOf(N) === 0) return decodeURIComponent(t.substring(N.length));
+	if(t.startsWith(`${T}placeholder.html?`)) {
+		const e = new URLSearchParams(t.substring(t.indexOf("?")));
+		return e.get("url");
+	}
 	return t;
 }
-
-async function H(t) {
+async function Y(t) {
 	return new Promise((e => setTimeout(e, t)));
 }
 
-function N(t) {
+function q(t) {
 	return parseInt(t.match(/\d+/)[0]);
 }
+const K = [...new Array(30)].map(((t, e) => parseInt(10 + Math.pow(1.6, e))));
 
-const G = [ ...new Array(30) ].map(((t, e) => parseInt(10 + Math.pow(1.6, e))));
-
-function* J(t) {
+function* Q(t) {
 	let e = 0;
-	while (G.slice(0, e).reduce(((t, e) => t + e), 0) < t) {
-		yield G[e++];
+	while(K.slice(0, e).reduce(((t, e) => t + e), 0) < t) {
+		yield K[e++];
 	}
 }
-
-async function q(t, e, n) {
-	for (let e of J(t)) {
-		if (await n()) return; else {
-			await H(e);
+async function V(t, e, n) {
+	let i = 0;
+	for(let e of Q(t)) {
+		if(await n(i)) return;
+		else {
+			await Y(e);
+			i += e;
 		}
 	}
 	throw new Error(`Timeout waiting for condition ${e}`);
 }
+let Xt, Yt, Nt, qt, Kt;
+let Qt, Vt;
+let Zt, _t;
+let te = "ontouchstart" in window;
 
-let K, Q, V, Z, _;
-
-let tt, et;
-
-let nt, it;
-
-let rt = "ontouchstart" in window;
-
-function ot({event: t, element: e, u: n, l: i, p: r, m: o}) {
-	K = e;
-	Q = n;
-	V = i;
-	Z = r;
-	_ = o;
-	nt = 0;
-	it = 0;
-	if (rt && t instanceof TouchEvent) {
-		if (t.touches.length > 1) {
+function ee({
+	event: t,
+	element: e,
+	j: n,
+	A: i,
+	S: r,
+	C: o
+}) {
+	Xt = e;
+	Yt = n;
+	Nt = i;
+	qt = r;
+	Kt = o;
+	Zt = 0;
+	_t = 0;
+	if(te && t instanceof TouchEvent) {
+		if(t.touches.length > 1) {
 			return;
 		}
-		tt = t.touches.item(0).pageX;
-		et = t.touches.item(0).pageY;
-		document.addEventListener("touchmove", ut, false);
-		document.addEventListener("touchend", ct, false);
-		t.preventDefault();
-	} else {
-		tt = t.clientX + window.scrollX;
-		et = t.clientY + window.scrollY;
-		document.addEventListener("mousemove", ut, false);
-		document.addEventListener("mouseup", ct, false);
+		Qt = t.touches.item(0).pageX;
+		Vt = t.touches.item(0).pageY;
+		document.addEventListener("touchmove", ne, false);
+		document.addEventListener("touchend", ie, false);
 		t.preventDefault();
 	}
-	V({
-		h: K,
-		g: Q,
-		v: tt,
-		j: et
+	else {
+		Qt = t.clientX + window.scrollX;
+		Vt = t.clientY + window.scrollY;
+		document.addEventListener("mousemove", ne, false);
+		document.addEventListener("mouseup", ie, false);
+		t.preventDefault();
+	}
+	Nt({
+		B: Xt,
+		I: Yt,
+		M: Qt,
+		X: Vt
 	});
 }
 
-function ut(t) {
+function ne(t) {
 	let e, n, i, r;
-	if (rt && t instanceof TouchEvent) {
-		if (t.touches.length > 1) {
+	if(te && t instanceof TouchEvent) {
+		if(t.touches.length > 1) {
 			i = 0;
 			r = 0;
-			Z({
-				h: K,
-				g: Q,
+			qt({
+				B: Xt,
+				I: Yt,
 				dx: i,
 				dy: r,
-				v: tt,
-				j: et,
+				M: Qt,
+				X: Vt,
 				pageX: e,
 				pageY: n
 			});
-			return ct(t);
+			return ie(t);
 		}
 		e = t.touches.item(0).pageX;
 		n = t.touches.item(0).pageY;
-	} else {
+	}
+	else {
 		e = t.clientX + window.scrollX;
 		n = t.clientY + window.scrollY;
 	}
-	i = e - tt;
-	r = n - et;
+	i = e - Qt;
+	r = n - Vt;
 	let o = false;
-	if (nt !== i || it !== r) o = true;
-	nt = i;
-	it = r;
-	if (o) {
-		Z({
-			h: K,
-			g: Q,
+	if(Zt !== i || _t !== r) o = true;
+	Zt = i;
+	_t = r;
+	if(o) {
+		qt({
+			B: Xt,
+			I: Yt,
 			dx: i,
 			dy: r,
-			v: tt,
-			j: et,
+			M: Qt,
+			X: Vt,
 			pageX: e,
 			pageY: n
 		});
@@ -400,390 +388,354 @@ function ut(t) {
 	t.preventDefault();
 }
 
-function ct(t) {
-	if (rt && t instanceof TouchEvent) {
-		document.removeEventListener("touchmove", ut, false);
-		document.removeEventListener("touchend", ct, false);
-	} else {
-		document.removeEventListener("mousemove", ut, false);
-		document.removeEventListener("mouseup", ct, false);
+function ie(t) {
+	if(te && t instanceof TouchEvent) {
+		document.removeEventListener("touchmove", ne, false);
+		document.removeEventListener("touchend", ie, false);
 	}
-	_({
-		h: K,
-		g: Q,
-		A: nt,
-		T: it,
-		v: tt,
-		j: et
+	else {
+		document.removeEventListener("mousemove", ne, false);
+		document.removeEventListener("mouseup", ie, false);
+	}
+	Kt({
+		B: Xt,
+		I: Yt,
+		Y: Zt,
+		D: _t,
+		M: Qt,
+		X: Vt
 	});
 }
-
-class lt {
+class Z {
 	constructor(t, e) {
 		this.x = t;
 		this.y = e;
 	}
-	O(t) {
-		return new lt(this.x - t.x, this.y - t.y);
+	p(t) {
+		return new Z(this.x - t.x, this.y - t.y);
+	}
+}
+class _ {
+	constructor(t, e, n, i) {
+		this.m = t;
+		this.type = e;
+		this.listener = n;
+		this.g = i;
+	}
+	remove() {
+		this.m.removeEventListener(this.type, this.listener, this.g);
 	}
 }
 
-class ft {
-	constructor(t, e, n, i) {
-		this.S = t;
-		this.type = e;
-		this.listener = n;
-		this.k = i;
-	}
-	remove() {
-		this.S.removeEventListener(this.type, this.listener, this.k);
-	}
+function tt(t, e) {
+	t.onmousemove = n => {
+		e(new xt(t, n));
+	};
+}
+
+function nt(t, e) {
+	t.onmousedown = n => {
+		e(new xt(t, n));
+	};
+}
+
+function et(t, e) {
+	t.onmouseover = n => {
+		e(new xt(t, n));
+	};
+}
+
+function it(t, e) {
+	t.onmouseup = n => {
+		e(new xt(t, n));
+	};
+}
+
+function rt(t, e) {
+	t.onmouseout = n => {
+		e(new xt(t, n));
+	};
+}
+
+function ot(t, e) {
+	t.onclick = n => {
+		e(new xt(t, n));
+	};
+}
+
+function ut(t, e) {
+	t.ondblclick = n => {
+		e(new xt(t, n));
+	};
+}
+
+function ct(t, e) {
+	mt(t, "click", e);
+}
+
+function ft(t, e) {
+	mt(t, "dblclick", e);
+}
+
+function lt(t, e) {
+	return mt(t, "mouseover", e);
 }
 
 function st(t, e) {
-	t.onmousemove = n => {
-		e(new Ot(t, n));
-	};
-}
-
-function dt(t, e) {
-	t.onmousedown = n => {
-		e(new Ot(t, n));
-	};
+	return mt(t, "mouseup", e);
 }
 
 function at(t, e) {
-	t.onmouseover = n => {
-		e(new Ot(t, n));
-	};
-}
-
-function pt(t, e) {
-	t.onmouseup = n => {
-		e(new Ot(t, n));
-	};
-}
-
-function wt(t, e) {
-	t.onmouseout = n => {
-		e(new Ot(t, n));
-	};
-}
-
-function mt(t, e) {
-	t.onclick = n => {
-		e(new Ot(t, n));
-	};
-}
-
-function xt(t, e) {
-	t.ondblclick = n => {
-		e(new Ot(t, n));
-	};
-}
-
-function ht(t, e) {
-	St(t, "click", e);
-}
-
-function gt(t, e) {
-	St(t, "dblclick", e);
-}
-
-function yt(t, e) {
-	return St(t, "mouseover", e);
-}
-
-function vt(t, e) {
-	return St(t, "mouseup", e);
-}
-
-function jt(t, e) {
 	let n;
 	n = n => {
 		let i, r;
 		i = n.currentTarget;
 		r = n.relatedTarget;
-		if (i === t && i !== r && !Tt(i, r)) {
-			e(new Ot(t, n));
+		if(i === t && i !== r && !pt(i, r)) {
+			e(new xt(t, n));
 		}
 	};
 	t.addEventListener("mouseout", n, false);
-	return new ft(t, "mouseout", n, false);
+	return new _(t, "mouseout", n, false);
 }
 
-function bt(t, e) {
+function dt(t, e) {
 	t.onmouseout = n => {
 		let i, r;
 		i = n.currentTarget;
 		r = n.relatedTarget;
-		if (i === t && i !== r && !Tt(i, r)) {
-			e(new Ot(t, n));
+		if(i === t && i !== r && !pt(i, r)) {
+			e(new xt(t, n));
 		}
 	};
 }
 
-function At(t, e) {
-	for (let n of t) {
-		n.onmouseout = Et(n, t, e);
+function wt(t, e) {
+	for(let n of t) {
+		n.onmouseout = ht(n, t, e);
 	}
 }
 
-function Et(t, e, n) {
+function ht(t, e, n) {
 	return i => {
 		let r, o;
 		r = i.currentTarget;
 		o = i.relatedTarget;
-		if (r === t && r !== o && !Tt(r, o)) {
-			for (let t of e) if (o === t) return;
-			n(new Ot(t, i));
+		if(r === t && r !== o && !pt(r, o)) {
+			for(let t of e)
+				if(o === t) return;
+			n(new xt(t, i));
 		}
 	};
 }
 
-function Tt(t, e) {
+function pt(t, e) {
 	try {
-		if (!e) return false;
-		while (e.parentNode) if ((e = e.parentNode) === t) return true;
+		if(!e) return false;
+		while(e.parentNode)
+			if((e = e.parentNode) === t) return true;
 		return false;
-	} catch (t) {
+	}
+	catch (t) {
 		return false;
 	}
 }
-
-class Ot {
+class xt {
 	constructor(t, e) {
 		this.element = t;
 		this.event = e;
-		this.R = null;
-		this.C = null;
+		this.v = null;
+		this.k = null;
 	}
-	B() {
-		if (this.R === null) {
-			let t = Rt(this.element);
-			this.R = t.x;
-			this.C = t.y;
+	T() {
+		if(this.v === null) {
+			let t = yt(this.element);
+			this.v = t.x;
+			this.k = t.y;
 		}
-		return this.R;
+		return this.v;
 	}
-	I() {
-		if (this.R === null) {
-			this.B();
+	R() {
+		if(this.v === null) {
+			this.T();
 		}
-		return this.C;
+		return this.k;
 	}
 }
 
-function St(t, e, n) {
+function mt(t, e, n) {
 	let i = e => {
-		let i = new Ot(t, e);
+		let i = new xt(t, e);
 		n(i);
 	};
 	t.addEventListener(e, i, false);
-	return new ft(t, e, i, false);
+	return new _(t, e, i, false);
 }
 
-function kt(t) {
-	return Ct(t);
+function gt(t) {
+	return bt(t);
 }
 
-function Rt(t, e) {
-	return Ct(e).O(Bt(t));
+function yt(t, e) {
+	return bt(e).p(vt(t));
 }
 
-function Ct(t) {
+function bt(t) {
 	let e, n;
 	e = t.clientX + window.scrollX;
 	n = t.clientY + window.scrollY;
-	return new lt(e, n);
+	return new Z(e, n);
 }
 
-function Bt(t) {
+function vt(t) {
 	let e = t;
 	let n = 0;
 	let i = 0;
-	while (true) {
+	let loop =true;
+	while(loop) {
 		let t = e.offsetParent;
-		if (t === null) break;
+		if(t === null) loop=false;
 		n += e.offsetLeft;
 		i += e.offsetTop;
 		e = t;
 	}
-	return new lt(n, i);
+	return new Z(n, i);
 }
 
-function It() {
+function kt() {
 	return window.scrollY;
 }
 
-function Mt() {
+function Tt() {
 	return window.scrollX;
 }
-
-let Xt = {};
-
-async function Yt() {
-	Xt = Ft.M();
+let Rt = {};
+async function Ot() {
+	Rt = Mt.O();
 }
 
-function Dt(t) {
-	return Xt[t];
+function St(t) {
+	return Rt[t];
+}
+const Mt = window.chrome.extension.getBackgroundPage().core;
+async function jt() {
+	It();
+	await Ot();
 }
 
-const Ft = window.chrome.extension.getBackgroundPage().core;
-
-async function Lt() {
-	Nt();
-	await Yt();
+function Lt(t) {
+	if(typeof t === "string") t = document.getElementById(t);
+	if(!t) return;
+	while(t.childNodes.length > 0) t.childNodes[0].remove();
 }
 
-function Ut(t) {
-	if (typeof t === "string") t = document.getElementById(t);
-	if (!t) return;
-	while (t.childNodes.length > 0) t.childNodes[0].remove();
-}
-
-function zt(t) {
-	return P(undefined, "div", {
-		style: {
-			fontSize: "1px",
-			height: t + "px",
-			width: 1 + "px"
-		}
+function $t(t) {
+	return J(undefined, "div", {
 	}).t;
 }
+let Ct = navigator["language"] || navigator["userLanguage"];
 
-let Pt = navigator["language"] || navigator["userLanguage"];
-
-function Wt() {
-	let t = [ "ar", "he", "fa", "ps", "ur" ];
-	let e = Pt.split("-", 1)[0];
+function Et() {
+	let t = ["ar", "he", "fa", "ps", "ur"];
+	let e = Ct.split("-", 1)[0];
 	return t.indexOf(e) >= 0 ? "rtl" : "ltr";
 }
+let Pt = Et();
 
-let $t = Wt();
-
-function Ht() {
-	return $t !== "rtl";
+function Bt() {
+	return Pt !== "rtl";
 }
 
-function Nt() {
-	document.getElementsByTagName("html")[0]["dir"] = $t;
+function It() {
+	document.getElementsByTagName("html")[0]["dir"] = Pt;
 }
 
-function Gt() {
-	return Ht() ? "Left" : "Right";
+function zt() {
+	return Bt() ? "Left" : "Right";
 }
 
-function Jt() {
-	return Ht() ? "Right" : "Left";
+function Ft() {
+	return Bt() ? "Right" : "Left";
 }
 
-function qt() {
-	return Ht() ? "left" : "right";
+function Ut() {
+	return Bt() ? "left" : "right";
 }
 
-function Kt() {
-	return Ht() ? "right" : "left";
+function Wt() {
+	return Bt() ? "right" : "left";
 }
 
-function Qt(t, e) {
-	if (Ht()) t.style.left = e; else t.style.right = e;
+function Ht(t, e) {
 }
 
-function Vt(t, e) {
-	if (Ht()) t.style.right = e; else t.style.left = e;
+function At(t, e) {
 }
 
-function Zt(t, e) {
-	if (Ht()) t.style.paddingLeft = e; else t.style.paddingRight = e;
+function Dt(t, e) {
 }
 
-function _t(t, e) {
-	if (Ht()) t.style.paddingRight = e; else t.style.paddingLeft = e;
+function Gt(t, e) {
 }
 
-function te(t, e) {
-	if (Ht()) t.style.marginLeft = e; else t.style.marginRight = e;
+function Jt(t, e) {
 }
-
 setTimeout((async () => {
-	await Lt();
-	await ee();
+	await jt();
+	await re();
 }), 1);
-
-async function ee() {
-	let t = Ft.getState();
-	ne(t);
+async function re() {
+	let t = Mt.getState();
+	oe(t);
 }
 
-function ne() {
-	let {content: t} = P(document.getElementById("contentAreaDiv"), undefined, {
-		style: {
-			paddingTop: "0px",
-			paddingLeft: "0px",
-			paddingBottom: "30px"
-		},
+function oe() {
+	let {
+		content: t
+	} = J(document.getElementById("contentAreaDiv"), undefined, {
 		children: {
-			X: g(),
-			Y: h(Dt("import") + " / " + Dt("export")),
-			content: P(undefined, "div", {
-				style: {
-					paddingTop: "14px",
-					["padding" + Gt()]: "36px"
-				},
+			// L: m(St("import") + " / " + St("export")),
+			content: J(undefined, "div", {
 				children: {
-					D: y(false, Dt("importUrls"), P(undefined, "div", {
-						style: {},
+					$: b(false, "", J(undefined, "div", {
+						className: "tabGroup",
 						children: {
-							info: P(undefined, "div", {
-								style: {
-									color: "#777",
-									paddingBottom: "10px"
-								},
-								textContent: Dt("pasteInUrlsInstructions")
+							import: J(undefined, "h1", {
+								textContent: "Import"
 							}),
-							F: P(undefined, "textArea", {
-								style: {
-									width: "800px",
-									height: "200px"
-								}
+							info: J(undefined, "div", {
+								textContent: St("pasteInUrlsInstructions")
 							}),
-							L: v(Dt("import"), 16, (() => {
+							U: J(undefined, "textArea", {
+							}),
+							P: v(St("import"), 16, (() => {
 								(async () => {
-									await Ft.U(t.D.F.t.value);
-									await Ft.P();
+									await Mt.W(t.$.U.t.value);
+									await Mt.H();
 									setTimeout((() => window.close()), 100);
 								})();
 							}))
 						}
 					})),
-					W: zt(16),
-					$: y(true, Dt("exportUrls"), P(undefined, "div", {
-						style: {
-							paddingBottom: "30px"
-						},
+					N: $t(16),
+					G: b(true, "", J(undefined, "div", {
+						className: "tabGroup",
 						children: {
-							H: P(undefined, "div", {
-								style: {
-									color: "#777",
-									paddingBottom: "10px"
-								},
-								textContent: Dt("exportThenImportNote")
+							export: J(undefined, "h1", {
+								textContent: "Export"
 							}),
-							N: P(undefined, "textArea", {
-								style: {
-									width: "800px",
-									height: "500px"
-								},
+							J: J(undefined, "div", {
+								textContent: St("exportThenImportNote")
+							}),
+							q: J(undefined, "textArea", {
 								init: t => {
 									(async () => {
-										let e = await Ft.getState();
+										let e = await Mt.getState();
 										let n = e["tabGroups"];
-										if (!n) n = [];
+										if(!n) n = [];
 										t.value = n.map((t => t["tabsMeta"].map((t => {
 											let e = t["url"];
-											if (b($(t["url"])) !== t["title"]) e += " | " + D(t["title"]);
+											if(O(X(t["url"])) !== t["title"]) e += " | " + W(t["title"]);
 											return e + "\n";
 										})).join(""))).join("\n");
 									})();
