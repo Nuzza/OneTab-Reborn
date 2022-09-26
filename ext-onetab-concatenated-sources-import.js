@@ -97,7 +97,7 @@ function v(t, e, n, i) {
 	else {
 		o.appendChild(t);
 	}
-	o.onclick = t => {
+	r.onclick = t => {
 		n(o);
 	};
 	r.appendChild(o);

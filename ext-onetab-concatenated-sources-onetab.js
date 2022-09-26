@@ -124,7 +124,7 @@ function settingsDiv(e, o, t, n) {
 	else {
 		c.appendChild(e);
 	}
-	c.onclick = e => {
+	i.onclick = e => {
 		t(c);
 	};
 	i.appendChild(c);
