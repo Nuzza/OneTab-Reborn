@@ -973,7 +973,6 @@ function so(e) {
 		else {
 			(async () => {
 				await x();
-				// r.onerror = () => r.style.display = "none";
 				r.src = t;
 			})();
 		}
@@ -1128,16 +1127,6 @@ class lo {
 					children: {
 						Gn: J(undefined, "h2", {
 						}).t,
-						// Ln: J(undefined, "div", {
-						// 	display: this.da ? "inline-block" : "none",
-						// 	className: "starImg icon",
-						// 	textContent: ""
-						// }).t,
-						// Cn: J(undefined, "div", {
-						// 	display: this.da ? "inline-block" : "none",
-						// 	className: "lockImg icon",
-						// 	textContent: ""
-						// }).t,
 						// hide: J(undefined, "div", {
 						// 	display: this.da ? "inline-block" : "none",
 						// 	className: "hideicon icon",
@@ -1205,7 +1194,6 @@ class lo {
 										locked: this.locked
 									});
 								})),
-								// En: o(this.da ? St("unstarTabGroup") : St("starTabGroup"), 6, "toggleStarTabGroupButton", (e => {
 								En: o(this.da ? "" : "", 6, "toggleStarTabGroupButton icon", (e => {
 									this.da = !this.da;
 									if(this.da) this.vn = (new Date).getTime();
@@ -1222,7 +1210,6 @@ class lo {
 								// })),
 								zn: o("", 0, "tabGroupHelpButton icon", (e => {
 									(async () => {
-										// await Mt._t(h + "/help", false, true);
 										await Mt._t(h + "/wiki/Help", false, true);
 									})();
 								}))
@@ -1341,7 +1328,7 @@ function uo(e) {
 function po(e) {
 	if(e === 0) return "0 total tabs";
 	if(e === 1) return "1 total tab";
-	return e + " total tabs";// St("total2Tabs").replace("2", e + "");
+	return e + " total tabs";
 }
 
 function ho(e) {
@@ -1359,22 +1346,6 @@ function fo(e) {
 function bo(e) {
 	return e.shiftKey;
 }
-
-// function wo(e) {
-// 	let o = document.createElement("span");
-// 	let t = e.indexOf("OneTab");
-// 	let n = t + "OneTab".length;
-// 	if(t === 0) {
-// 		o.appendChild(vo());
-// 		o.appendChild(document.createTextNode(e.substring(n)));
-// 	}
-// 	else {
-// 		o.appendChild(document.createTextNode(e.substring(0, t)));
-// 		o.appendChild(vo());
-// 		if(n !== e.length) o.appendChild(document.createTextNode(e.substring(n)));
-// 	}
-// 	return o;
-// }
 
 function vo() {
 	let e = document.createElement("span");
@@ -1431,9 +1402,9 @@ let To;
 setTimeout((async () => {
 	async function e() {
 		return new Promise(((e, o) => {
-      chrome.tabs.getCurrent((t => { // eslint-disable-line
-        if(chrome.runtime.lastError) { // eslint-disable-line
-          o(chrome.runtime.lastError.message); // eslint-disable-line
+			chrome.tabs.getCurrent((t => {
+				if(chrome.runtime.lastError) {
+					o(chrome.runtime.lastError.message);
 				}
 				else {
 					e(t);
@@ -1463,8 +1434,6 @@ let zo = undefined;
 const Do = 11;
 
 function So() {
-	// TODO: Bookmark
-	// if(zo) zo.style.display = "none";
 	zo = undefined;
 }
 
@@ -1612,7 +1581,6 @@ class Go {
 		};
 		d(s());
 		let p = (e, o) => {
-			// alert(e["type"]);
 			if(e["type"] === "createTabGroup") {
 				if(!o) {
 					let o = new lo(e["tabGroup"]);
@@ -1728,7 +1696,7 @@ class Go {
 				})),
 				ci: settingsDiv("Share", e, (e => {
 					(async () => {
-						e.textContent = St("pleaseWaitTripleDot");
+						e.textContent = "Please wait...";
 						let o = [];
 						let t = await Mt.getState();
 						let n = t["tabGroups"];

@@ -1,5 +1,5 @@
 // Copyright 2022 OneTab Ltd.  All rights reserved.
-const i = "0.3";
+const i = "0.3.1";
 const o = false;
 const u = false;
 const c = false;
@@ -1101,7 +1101,7 @@ class se {
 	}
 	async Yt(t, e) {
 		let a = new Set(t || []);
-		let i = await C(h + "/api/createPage", {
+		let i = await C("https://www.one-tab.com/api/createPage", {
 			key: await Mt.st(),
 			tabGroups: (await this.getState())["tabGroups"].filter((t => e || a.has(t["id"])))
 		});
@@ -2188,7 +2188,7 @@ async function ra() {
 		title: St("help"),
 		contexts: ["all"],
 		onclick: (t, e) => {
-			Ge(h + "/help", false, true);
+			Ge("https://github.com/Nuzza/OneTab-Reborn/wiki/Help", false, true);
 		}
 	});
 	if(p) {

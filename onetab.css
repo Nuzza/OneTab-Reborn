@@ -9,8 +9,10 @@
 }
 
 * {
+  color: black;
   font-family: SegoeUI;
   box-sizing: border-box;
+  border-radius: 6px;
 
   user-select:none;
   -moz-user-select: none;
@@ -24,49 +26,48 @@ body {
   margin: 0;
 }
 
-body > div {
-  pointer-events: none;
-  z-index: 2;
-  position: absolute;
+header, .tabGroup {
+  background-color: rgb(248, 248, 248);
+}
+
+textarea, .tabOptions > .clickable, .tab, .setting, #Import {
+  background-color: rgb(240, 240, 240);
+}
+
+.tabOptions > .clickable:hover, .tab:hover, .setting:hover, #Import:hover {
+  background-color: rgb(224, 224, 224);
 }
 
 header {
-  background-color: rgb(248, 248, 248);
   position: fixed;
   width: 100%;
   box-shadow: 0 10px 30px rgba(0,0,0,.1), 0 1px 8px rgba(0,0,0,.2);
   top: 0;
-}
-
-main {
-  margin-top: 100px;
+  border-radius: 0;
 }
 
 body > div {
+  pointer-events: none;
+  z-index: 1;
+  position: absolute;
   width: calc(100% - 10px);
-  border-radius: 6px;
 }
 
-input {
-  background-color: rgb(30, 30, 30);
+main {
+  margin-top: 80px;
 }
 
 textarea {
   width: calc(100% - 10px);
   height: 100px;
-  color: black;
 }
 
 .tabGroup {
-  border-radius: 6px;
   margin: 5px;
   padding: 5px;
-  background-color: rgb(248, 248, 248);
 }
 
-.tabOptions div.clickable, textarea {
-  border-radius: 6px;
-  background-color: rgb(240, 240, 240);
+.tabOptions .clickable, textarea {
   margin: 5px;
   padding: 5px;
   display: inline-block;
@@ -78,15 +79,9 @@ textarea {
 }
 
 .tab {
-  border-radius: 6px;
-  background-color: rgb(240, 240, 240);
   margin: 5px;
   width: calc(100% - 10px);
   padding: 2px;
-}
-
-.tabOptions div.clickable:hover, .tab:hover, .setting:hover, #Import:hover {
-  background-color: rgb(224, 224, 224);
 }
 
 .tab > div {
@@ -116,7 +111,6 @@ textarea {
   text-align: center;
   padding: 8px;
   margin-right: 5px;
-  border-radius: 6px;
   visibility: hidden;
 }
 
@@ -133,6 +127,12 @@ textarea {
   cursor:pointer;
 }
 
+.setting {
+  margin-right: 5px;
+  padding: 10px;
+  display: inline-block;
+}
+
 #Logo {
   height: 50px;
   margin: 10px;
@@ -144,27 +144,16 @@ textarea {
 }
 
 #headerText {
-  margin: 0 5px 5px 5px;
-}
-
-.setting {
-  margin: 0 5px 5px 0;
-  border-radius: 6px;
-  background-color: rgb(240, 240, 240);
-  padding: 10px;
   display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 55px;
 }
 
 #Import {
   margin: 5px;
-  border-radius: 6px;
-  background-color: rgb(240, 240, 240);
   padding: 10px;
   text-align: center;
-}
-
-.setting > span {
-  padding-right: 5px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -176,19 +165,15 @@ textarea {
     background-color: rgb(15, 15, 15);
   }
 
-  body > div, .tabOptions div.clickable, .tab, .setting, textarea, #Import {
+  header, .tabGroup {
+    background-color: rgb(0, 0, 0)
+  }
+
+  textarea, .tabOptions > .clickable, .tab, .setting, #Import {
     background-color: rgb(30, 30, 30);
   }
 
-  textarea {
-    color: white;
-  }
-
-  .tabOptions div.clickable:hover, .tab:hover, .setting:hover, #Import:hover {
+  .tabOptions .clickable:hover, .tab:hover, .setting:hover, #Import:hover {
     background-color: rgb(46, 46, 46);
-  }
-
-  .tabGroup, header {
-    background-color: rgb(0, 0, 0)
   }
 }
