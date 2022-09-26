@@ -51,7 +51,7 @@ A: OneTab Reborn is a fork of the original OneTab with significant code improvem
 
 Q: Can OneTab Reborn work alongside the original OneTab extension?
 
-A: No, as referred to the `Compatibility` section above, OneTab Reborn v0.3.1 and highly are no longer able to be installed alongside OneTab. Therefore, it is highly recommended to uninstall OneTab before installing OneTab Reborn to avoid protentional conflicts.
+A: No, as referred to the `Compatibility` section above, OneTab Reborn v0.3.1 and higher are no longer able to be installed alongside OneTab. Therefore, it is highly recommended to uninstall OneTab before installing OneTab Reborn to avoid protentional conflicts.
 
 Q: When will updates occur?
 
