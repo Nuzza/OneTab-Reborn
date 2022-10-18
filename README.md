@@ -2,7 +2,7 @@
 OneTab Reborn is a remake of the original OneTab extension to have a more modern appearance.
 
 ## General Info
-- Current Version: `0.3.1 Beta`
+- Current Version: `0.3.1.1 Beta`
 - Dev Status: `Active!`
 
 ## Announcements
