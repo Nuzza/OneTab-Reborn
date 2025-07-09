@@ -1,20 +1,10 @@
 # OneTab Reborn
 OneTab Reborn is a remake of the original OneTab extension to have a more modern appearance.
 
-## General Info
-- Current Version: `0.3.1.1 Beta`
-- Dev Status: `Active!`
-
-## Announcements
-- Update (21/08/22): The development of OneTab Reborn has continued as I have found some extra time and motivation to go through the obscure JS files and understand how they work. Since the Devs of the original OneTab extension have added native dark mode support in the latest version, OneTab Reborn will now be primarily focussed on UI alterations bringing a fresh coat of paint to the original OneTab extension. I don't have a release date planned for 0.3, but expect it sometime next month as I work on finalising the new UI changes.
-
-- Update (20/04/22): Due to how complex and cryptic the original OneTab JS files are as well as Uni taking priority, I have decided to put the development of OneTab Reborn on hold until I get the time to rework the JS files.
-
 ## Compatibility
 - OneTab Reborn is compatible with OneTab URLs so you can easily move your existing URLs to OneTab Reborn through the Import/Export page.
 
-- ~~OneTab Reborn can work alongside OneTab although it is recommended to uninstall OneTab when you have finished setting up OneTab Reborn.~~ **As of v0.3.1, it is no longer possible to have OneTab installed alongside OneTab Reborn. See the release notes for v0.3.1 for more info.**
-
+- OnTab Reborn is not compatible with the existing OneTab extension as it uses the same key for the sharing feature to work. Please uninstall any OneTab intances before attempting to install OneTab Reborn.
 
 ## How to install OneTab Reborn
 1. Head to the Releases page [here](https://github.com/Nuzza/OneTab-Reborn/releases) and download the latest version available.
@@ -23,18 +13,17 @@ OneTab Reborn is a remake of the original OneTab extension to have a more modern
 
 3. Open your chromium browser and navigate to your browser's extensions page or by entering the following address: `chrome://extensions/`
 
-4. Enable `Developer mode` if not already enabled
+4. Enable `Developer mode` if not already enabled then select `Load unpacked` and navigate to the directory where you extracted `OneTab-Reborn-main`.
 
-5. Select `Load unpacked` and navigate to the directory where you extracted `OneTab-Reborn-main`.
+![1](https://github.com/user-attachments/assets/f1148069-5e76-418c-85bb-0aaeabd608e1)
 
-6. Open the main folder and any subfolders until you see the following folders:
-- `_locales`
-- `fonts`
-- `images`
+6. Open the folder and any subfolders until you see the folders below then click `Select Folder` and OneTab Reborn should be successfully installed.
 
-7. Click `Select Folder` and OneTab Reborn should be successfully installed.
+![2](https://github.com/user-attachments/assets/4168152e-37aa-4f04-8773-96bd18645b80)
 
 8. If you can't see OneTab Reborn in the extensions toolbar, make sure it isn't hidden in the menu.
+
+![3](https://github.com/user-attachments/assets/0d9b3e09-edcd-4bc3-b6ff-3e85d448034e)
 
 ## How to update OneTab Reborn
 
@@ -44,25 +33,12 @@ OneTab Reborn is a remake of the original OneTab extension to have a more modern
 
 3. Follow the same steps under `How to install OneTab Reborn`
 
-## Q & A
-Q: How is this different from the original OneTab extension?
-
-A: OneTab Reborn is a fork of the original OneTab with significant code improvements, optimisations, and a completely overhauled user interface.
-
-Q: Can OneTab Reborn work alongside the original OneTab extension?
-
-A: No, as referred to the `Compatibility` section above, OneTab Reborn v0.3.1 and higher are no longer able to be installed alongside OneTab. Therefore, it is highly recommended to uninstall OneTab before installing OneTab Reborn to avoid protentional conflicts.
-
-Q: When will updates occur?
-
-A: When I have free time and development status (under the `Info` section above) is set to `Active!`
-
 ## OneTab Reborn in action!
 ### Managing Tabs
-![Managing Tabs](https://user-images.githubusercontent.com/29596317/191797273-f9c0cdca-5e71-40a5-b586-103f47dd07a0.gif)
+![1](https://github.com/user-attachments/assets/7ba2f739-e6bb-4999-891c-8461c8e4e8ea)
 
 ### Import/Export tabs
-![Import and Export](https://user-images.githubusercontent.com/29596317/191797380-f4570911-56a9-4ddf-b5c8-ed40a1e8c044.gif)
+![2](https://github.com/user-attachments/assets/38a58e10-fdab-475e-8489-7af73d03a38e)
 
-### Settings, About, Help, and light mode
-![Settings, About, Help, and light mode](https://user-images.githubusercontent.com/29596317/191799570-1c11fd25-2690-42d8-9315-01ee89a9be5d.gif)
+### Settings and light mode (flashbang warning)
+![3](https://github.com/user-attachments/assets/e496ef25-de1c-4890-9dc3-743219f51ac6)
