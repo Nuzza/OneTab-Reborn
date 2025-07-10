@@ -1,34 +1,43 @@
 {
   "background": {
-    "scripts": [ "ext-onetab-concatenated-sources-background.js" ]
+    "scripts": [
+      "ext-onetab-concatenated-sources-background.js"
+    ]
   },
   "browser_action": {
     "default_icon": {
-       "96": "images/onetab.png"
+      "96": "images/onetab.png"
     }
   },
   "commands": {
     "display-onetab": {
-       "description": "__MSG_displayOneTab__",
-       "suggested_key": {
-          "default": "Alt+Shift+1"
-       }
+      "description": "__MSG_displayOneTab__",
+      "suggested_key": {
+        "default": "Alt+Shift+1"
+      }
     },
     "send-current-tab-to-onetab": {
-       "description": "__MSG_sendCurrentTabToOneTab__"
+      "description": "__MSG_sendCurrentTabToOneTab__"
     }
   },
   "content_security_policy": "script-src 'self'; object-src 'self'; img-src 'self' data: https://t2.gstatic.com chrome://favicon;",
   "default_locale": "en",
   "description": "__MSG_manifestDescription__",
   "icons": {
-   "96": "images/onetab.png"
+    "96": "images/onetab.png"
   },
   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0ebhBE+zuqhSvfwItlphxs6e8LN4e9i83ZllJBw3oGgApxyJY9pn9LYgMXg+eNY/0/ZaVYDUfi+aWwykIC3YOc4yZ1wxNZgZXAcxWjtjW2UJXDOs8+h9NchZkbgPpbHAxRvbhYsyOuPgI9Pg7AbT8fSbBx05JUTBKH09hJds8uXLkjS1Y970dB3r0z8VF0Rc0h6rFLSoV3//m1mffUuVEVn7EXgCcocKoPrJHv8Ad+r4vUUYj2zsx54hXfOPtjiWmPisF1V9/iMiO7o/nT0HeQtAhH94Spz4GYmDwSlcry7zSwes1NJvM6j/Hbvzc9NNQnLPpV3NICzhfQPFNeZkhQIDAQAB",
   "manifest_version": 2,
   "name": "OneTab Reborn",
   "options_page": "settings.html",
-  "permissions": [ "chrome://favicon/", "unlimitedStorage", "storage", "tabs", "contextMenus", "activeTab" ],
+  "permissions": [
+    "chrome://favicon/",
+    "unlimitedStorage",
+    "storage",
+    "tabs",
+    "contextMenus",
+    "activeTab"
+  ],
   "update_url": "https://clients2.google.com/service/update2/crx",
-  "version": "0.3.1"
+  "version": "0.4.0"
 }

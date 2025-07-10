@@ -1243,7 +1243,6 @@ class lo {
 			},
 			value: this.label,
 			Bo: 24,
-			fontWeight: "300",
 			Io: "tabGroupTitleText",
 			Oo: () => this.locked,
 			Ro: undefined

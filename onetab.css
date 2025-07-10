@@ -1,3 +1,5 @@
+/* --- Global --- */
+
 @font-face {
   font-family: SegoeIcons;
   src: url(../fonts/SegoeIcons.ttf);
@@ -13,90 +15,126 @@
   font-family: SegoeUI;
   box-sizing: border-box;
   border-radius: 6px;
-
-  user-select:none;
+  user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
-  -ms-user-select:none;
-  -o-user-select:none;
+  -ms-user-select: none;
+  -o-user-select: none;
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: #E6E6E6;
   margin: 0;
 }
 
-header, .tabGroup {
-  background-color: rgb(248, 248, 248);
+header,
+.tabGroupTitleText,
+.tabGroup {
+  background-color: #F2F2F2;
 }
 
-textarea, .tabOptions > .clickable, .tab, .setting, #Import {
-  background-color: rgb(240, 240, 240);
+.tabGroupTitleText {
+  outline: none;
+  border: none;
 }
 
-.tabOptions > .clickable:hover, .tab:hover, .setting:hover, #Import:hover {
-  background-color: rgb(224, 224, 224);
+textarea,
+.tabOptions>.clickable,
+.tab,
+.setting,
+.tabGroup>div>input[type="radio"]+label:before,
+.tabGroup>div>input[type="radio"]:checked+label:after,
+#Import {
+  background-color: #FFFFFF;
+}
+
+textarea:hover,
+.tabOptions>.clickable:hover,
+.tab:hover,
+.setting:hover,
+.tabGroupTitleText:focus,
+#Import:hover,
+.tabGroup>div>input[type="radio"]:hover+label:before,
+.tabGroup>div>input[type="radio"]:checked:hover+label:after {
+  background-color: #e6e6e6;
 }
 
 header {
   position: fixed;
   width: 100%;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1), 0 1px 8px rgba(0,0,0,.2);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
   top: 0;
   border-radius: 0;
+  z-index: 2;
 }
 
-body > div {
+#Logo {
+  height: 50px;
+}
+
+header>* {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* --- Main Page --- */
+
+body>div {
   pointer-events: none;
   z-index: 1;
   position: absolute;
-  width: calc(100% - 10px);
+  width: 50%;
 }
 
 main {
-  margin-top: 80px;
-}
-
-textarea {
-  width: calc(100% - 10px);
-  height: 100px;
+  margin-top: 55px;
 }
 
 .tabGroup {
   margin: 5px;
   padding: 5px;
+  border-radius: 8px;
+  display: grid;
 }
 
-.tabOptions .clickable, textarea {
-  margin: 5px;
-  padding: 5px;
-  display: inline-block;
+h1,
+h2,
+h4 {
+  margin: 0;
 }
 
-.note {
-  font-style: italic;
-  color: grey;
+h4 {
+  font-size: 16px;
+}
+
+.tabOptions>.clickable {
+  margin: 5px 5px 0 0;
 }
 
 .tab {
-  margin: 5px;
-  width: calc(100% - 10px);
-  padding: 2px;
+  width: 100%;
+  margin-top: 5px;
 }
 
-.tab > div {
+.tab>div {
   display: inline-block;
   vertical-align: middle;
 }
 
 .icon {
   font-family: 'SegoeIcons';
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.tab>div:has(.favicon) {
+  height: 18px;
 }
 
 .favicon {
-  width: 20px;
-  height: 20px;
+  height: 18px;
+  border-radius: 0;
 }
 
 .title {
@@ -104,9 +142,8 @@ textarea {
 }
 
 .delete {
-  font-size: 16px;
   text-align: center;
-  padding: 8px;
+  padding: 5px;
   margin-right: 5px;
   visibility: hidden;
 }
@@ -116,41 +153,88 @@ textarea {
   color: white;
 }
 
-.moreButton > div {
+.moreButton>div {
   display: none;
 }
 
 .clickable {
-  cursor:pointer;
+  padding: 5px;
+  display: inline-block;
 }
 
 .setting {
   margin-right: 5px;
-  padding: 10px;
-  display: inline-block;
 }
 
-#Logo {
-  height: 50px;
-  margin: 10px;
+/* --- Settings Page --- */
+
+.note {
+  font-style: italic;
+  color: grey;
+  margin: 5px 0 0 0;
 }
 
-#settingsDiv {
-  float: right;
-  margin: 20px 5px 5px 10px;
+.tabGroup>div:has(label) {
+  margin: 5px 0;
 }
 
-#headerText {
-  display: inline-block;
+.tabGroup>div>input[type="radio"] {
+  display: none;
+}
+
+.tabGroup>div>input[type="radio"]+label {
+  position: relative;
+  padding-left: 30px;
+}
+
+.tabGroup>div>input[type="radio"]+label:before {
+  content: '';
   position: absolute;
   left: 0;
-  top: 55px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
 }
 
+.tabGroup>div>input[type="radio"]:checked+label:before {
+  background-color: #0c87e0;
+}
+
+.tabGroup>div>input[type="radio"]:checked+label:after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transition: all 0.1s ease;
+}
+
+.tabGroup>div>input[type="radio"]:checked:hover+label:after {
+  left: 4px;
+  width: 12px;
+  height: 12px;
+}
+
+/* --- Import Page --- */
+
 #Import {
-  margin: 5px;
-  padding: 10px;
+  margin-top: 5px;
   text-align: center;
+  width: 80px;
+}
+
+textarea {
+  margin-top: 5px;
+  resize: vertical;
+  height: 200px;
+  padding: 5px;
+  border: none;
+  outline: none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -159,18 +243,37 @@ textarea {
   }
 
   body {
-    background-color: rgb(15, 15, 15);
+    background-color: #0D0D0D;
   }
 
-  header, .tabGroup {
-    background-color: rgb(0, 0, 0)
+  header,
+  .tabGroupTitleText,
+  .tabGroup {
+    background-color: #191919;
   }
 
-  textarea, .tabOptions > .clickable, .tab, .setting, #Import {
-    background-color: rgb(30, 30, 30);
+  textarea,
+  .tabOptions>.clickable,
+  .tab,
+  .setting,
+  #Import,
+  .tabGroup>div>input[type="radio"]+label:before,
+  .tabGroup>div>input[type="radio"]:checked+label:after {
+    background-color: #262626;
   }
 
-  .tabOptions .clickable:hover, .tab:hover, .setting:hover, #Import:hover {
-    background-color: rgb(46, 46, 46);
+  textarea:hover,
+  .tabOptions .clickable:hover,
+  .tab:hover,
+  .setting:hover,
+  .tabGroupTitleText:focus,
+  .tabGroup>div>input[type="radio"]:hover+label:before,
+  .tabGroup>div>input[type="radio"]:checked:hover+label:after,
+  #Import:hover {
+    background-color: #333333;
+  }
+
+  .tabGroup>div>input[type="radio"]:checked:hover+label:before {
+    background-color: #0c87e0;
   }
 }
