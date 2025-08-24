@@ -6,7 +6,7 @@ OneTab Reborn is a remake of the original OneTab extension to have a more modern
 ## Compatibility
 - OneTab Reborn is compatible with OneTab URLs, so you can easily move your existing URLs to OneTab Reborn through the Import/Export page.
 
-- OnTab Reborn is not compatible with the existing OneTab extension, as it uses the same key for the sharing feature to work. Please uninstall any OneTab instances before attempting to install OneTab Reborn.
+- OneTab Reborn is not compatible with the existing OneTab extension, as it uses the same key for the sharing feature to work. Please uninstall any OneTab instances before attempting to install OneTab Reborn.
 
 ## How to install OneTab Reborn
 1. Head to the Releases page [here](https://github.com/Nuzza/OneTab-Reborn/releases) and download the latest version available.
