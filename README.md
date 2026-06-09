@@ -1,46 +1,25 @@
 # OneTab Reborn
-OneTab Reborn is a remake of the original OneTab extension to have a more modern appearance.
+OneTab Reborn is a restyled fork of the original OneTab (pre‑2.0) with an interface inspired by WinUI. It began as a dark‑mode alternative when the original OneTab extension lacked the support and later became a full visual restyle.
 
-![OneTab Reborn](https://github.com/user-attachments/assets/569d5fda-834b-48f6-b93f-c52489179a66)
+<img width="3840" height="1912" alt="OneTab_Reborn_01" src="https://github.com/user-attachments/assets/af06a194-3f2c-40cf-ae1a-d8838e46424e" />
+
+Please know that I will not be implementing features from OneTab 2.0 onwards out of respect for the original developers, though I may apply minor visual tweaks/improvements.
+
+This project is unofficial and not affiliated with the OneTab developers. If you like OneTab, please consider rating the official extension 5 stars on the [Chrome](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/onetab/), or [Edge](https://microsoftedge.microsoft.com/addons/detail/onetab/hoimpamkkoehapgenciaoajfkfkpgfop) web stores; this project only exists thanks to their original work.
 
 ## Compatibility
-- OneTab Reborn is compatible with OneTab URLs, so you can easily move your existing URLs to OneTab Reborn through the Import/Export page.
-
-- OneTab Reborn is not compatible with the existing OneTab extension, as it uses the same key for the sharing feature to work. Please uninstall any OneTab instances before attempting to install OneTab Reborn.
+- OneTab Reborn is compatible with OneTab URLs, so you can import/export your existing URLs via the Import/Export page.
+- OneTab Reborn is not compatible with the official OneTab extension because both rely on the same sharing key. Please uninstall OneTab before installing OneTab Reborn. Make sure to back up/export your OneTab URLs before uninstalling the extension.
 
 ## How to install OneTab Reborn
-1. Head to the Releases page [here](https://github.com/Nuzza/OneTab-Reborn/releases) and download the latest version available.
-
-2. Once downloaded, extract `OneTab-Reborn-main.zip` to a directory where it most likely won't be moved or accidently deleted.
-
-3. Open your Chromium browser and navigate to your browser's extensions page or by entering the following address: `chrome://extensions/`
-
-4. Enable `Developer mode` if not already enabled, then select `Load unpacked` and navigate to the directory where you extracted `OneTab-Reborn-main`.
-
-![1](https://github.com/user-attachments/assets/f1148069-5e76-418c-85bb-0aaeabd608e1)
-
-6. Open the folder and any subfolders until you see the folders below then click `Select Folder` and OneTab Reborn should be successfully installed.
-
-![2](https://github.com/user-attachments/assets/4168152e-37aa-4f04-8773-96bd18645b80)
-
-8. If you can't see OneTab Reborn in the extensions' toolbar, make sure it isn't hidden in the menu.
-
-![3](https://github.com/user-attachments/assets/0d9b3e09-edcd-4bc3-b6ff-3e85d448034e)
+1. Go to the [releases](https://github.com/Nuzza/OneTab-Reborn/releases) page and download the latest release.
+2. Extract `OneTab-Reborn-main.zip` to a safe directory where it won't be moved or accidentally deleted.
+3. In your Chromium-based browser, navigate to your browser's extensions page by entering the following address: `chrome://extensions`
+4. Enable 'Developer mode' and click the 'Load unpacked' button. A folder picker should open.
+5. In the folder picker, go to the directory where you extracted `OneTab-Reborn-main.zip` and navigate inside the extracted directory until you see folders called '_locals', 'fonts', and 'images'. Then, click 'Select Folder' to install OneTab Reborn.
+6. If OneTab Reborn doesn't appear in the toolbar, check the extensions menu to ensure it's not hidden.
 
 ## How to update OneTab Reborn
-
-1. Make sure you back up/export your current OneTab Reborn tabs, as **updating will reset** OneTab Reborn.
-
-2. Uninstall OneTab Reborn from Chrome/Edge and delete the folder where you initially extracted OneTab Reborn (this is just a precaution, as not doing so might cause multiple versions of OneTab Reborn to be installed and conflict with one another).
-
-3. Follow the same steps under `How to install OneTab Reborn`
-
-## OneTab Reborn in action!
-### Managing Tabs
-![1](https://github.com/user-attachments/assets/7ba2f739-e6bb-4999-891c-8461c8e4e8ea)
-
-### Import/Export tabs
-![2](https://github.com/user-attachments/assets/38a58e10-fdab-475e-8489-7af73d03a38e)
-
-### Settings and light mode (flashbang warning)
-![3](https://github.com/user-attachments/assets/e496ef25-de1c-4890-9dc3-743219f51ac6)
+1. Back up/export your OneTab Reborn tabs, as updating will reset the extension.
+2. Uninstall OneTab Reborn from your browser and delete the folder where you extracted it (prevents conflicting multiple installs).
+3. Reinstall the new release by following the steps under [How to install OneTab Reborn](#how-to-install-onetab-reborn).
