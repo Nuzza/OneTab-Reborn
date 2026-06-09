@@ -1,7 +1,7 @@
 # OneTab Reborn
 OneTab Reborn is a restyled fork of the original OneTab (pre‑2.0) with an interface inspired by WinUI. It began as a dark‑mode alternative when the original OneTab extension lacked the support and later became a full visual restyle.
 
-<img width="3840" height="1912" alt="OneTab_Reborn_01" src="https://github.com/user-attachments/assets/af06a194-3f2c-40cf-ae1a-d8838e46424e" />
+<img alt="OneTab_Reborn_01" src="https://github.com/user-attachments/assets/af06a194-3f2c-40cf-ae1a-d8838e46424e" />
 
 Please know that I will not be implementing features from OneTab 2.0 onwards out of respect for the original developers, though I may apply minor visual tweaks/improvements.
 
