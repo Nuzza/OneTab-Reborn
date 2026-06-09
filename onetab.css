@@ -14,7 +14,7 @@
   color: black;
   font-family: SegoeUI;
   box-sizing: border-box;
-  border-radius: 6px;
+  border-radius: 5px;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -23,14 +23,57 @@
 }
 
 body {
-  background-color: #E6E6E6;
+  background-color: #e6e6e6;
   margin: 0;
 }
 
 header,
 .tabGroupTitleText,
 .tabGroup {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
+}
+
+.tabGroup {
+  max-width: 1000px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 8px;
+  display: grid;
+  border: 1px solid #d9d9d9;
+}
+
+textarea,
+.clickable,
+.tab,
+.tabGroup>div>input[type="radio"]+label:before,
+.tabGroup>div>input[type="radio"]:checked+label:after {
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
+}
+
+textarea {
+  border-bottom: 1px solid #8a8a8a;
+}
+
+textarea:hover,
+.clickable:hover,
+.tab:hover,
+.tabGroupTitleText:focus,
+.tabGroup>div>input[type="radio"]:hover+label:before,
+.tabGroup>div>input[type="radio"]:checked:hover+label:after {
+  background-color: #fafafa;
+}
+
+textarea:focus {
+  border-bottom: 2px solid #0c87e0;
+  background-color: #ffffff;
+}
+
+.tab:active,
+.clickable:active,
+.tabGroup>div>input[type="radio"]:active+label:before,
+.tabGroup>div>input[type="radio"]:checked:active+label:after {
+  background-color: #f2f2f2;
 }
 
 .tabGroupTitleText {
@@ -38,45 +81,36 @@ header,
   border: none;
 }
 
-textarea,
-.tabOptions>.clickable,
-.tab,
-.setting,
-.tabGroup>div>input[type="radio"]+label:before,
-.tabGroup>div>input[type="radio"]:checked+label:after,
-#Import {
-  background-color: #FFFFFF;
-}
-
-textarea:hover,
-.tabOptions>.clickable:hover,
-.tab:hover,
-.setting:hover,
-.tabGroupTitleText:focus,
-#Import:hover,
-.tabGroup>div>input[type="radio"]:hover+label:before,
-.tabGroup>div>input[type="radio"]:checked:hover+label:after {
-  background-color: #e6e6e6;
-}
-
 header {
-  position: fixed;
+  position: sticky;
+  top: 0;
+  z-index: 2;
   width: 100%;
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
-  top: 0;
   border-radius: 0;
-  z-index: 2;
-}
-
-#Logo {
-  height: 50px;
 }
 
 header>* {
   display: inline-block;
   vertical-align: middle;
+}
+
+#headerText {
+  margin: 5px;
+}
+
+#Logo {
+  height: 40px;
+  margin: 5px;
+}
+
+#contentAreaDiv {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* --- Main Page --- */
@@ -85,18 +119,8 @@ body>div {
   pointer-events: none;
   z-index: 1;
   position: absolute;
-  width: 50%;
-}
-
-main {
-  margin-top: 55px;
-}
-
-.tabGroup {
-  margin: 5px;
-  padding: 5px;
-  border-radius: 8px;
-  display: grid;
+  max-width: 980px;
+  width: calc(100% - 40px);
 }
 
 h1,
@@ -225,7 +249,6 @@ h4 {
 #Import {
   margin-top: 5px;
   text-align: center;
-  width: 80px;
 }
 
 textarea {
@@ -233,44 +256,66 @@ textarea {
   resize: vertical;
   height: 200px;
   padding: 5px;
-  border: none;
   outline: none;
+}
+
+@media screen and (max-width: 1000px) {
+  #tabGroupsDiv {
+    width: 100%;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   * {
     color: white;
+    scrollbar-color: #9f9f9f #2c2c2c;
   }
 
   body {
-    background-color: #0D0D0D;
+    background-color: #202020;
   }
 
   header,
   .tabGroupTitleText,
   .tabGroup {
-    background-color: #191919;
+    background-color: #2b2b2b;
+  }
+
+  .tabGroup {
+    border: 1px solid #363636;
   }
 
   textarea,
-  .tabOptions>.clickable,
+  .clickable,
   .tab,
-  .setting,
-  #Import,
   .tabGroup>div>input[type="radio"]+label:before,
   .tabGroup>div>input[type="radio"]:checked+label:after {
-    background-color: #262626;
+    background-color: #363636;
+    border: 1px solid #414141;
+  }
+
+  textarea {
+    border-bottom: 1px solid #9d9d9d;
   }
 
   textarea:hover,
-  .tabOptions .clickable:hover,
+  .clickable:hover,
   .tab:hover,
-  .setting:hover,
   .tabGroupTitleText:focus,
   .tabGroup>div>input[type="radio"]:hover+label:before,
-  .tabGroup>div>input[type="radio"]:checked:hover+label:after,
-  #Import:hover {
-    background-color: #333333;
+  .tabGroup>div>input[type="radio"]:checked:hover+label:after {
+    background-color: #3b3b3b;
+  }
+
+  textarea:focus {
+    background-color: #202020;
+  }
+
+  .tab:active,
+  .clickable:active,
+  .tabGroup>div>input[type="radio"]:active+label:before,
+  .tabGroup>div>input[type="radio"]:checked:active+label:after {
+    background-color: #2b2b2b;
   }
 
   .tabGroup>div>input[type="radio"]:checked:hover+label:before {

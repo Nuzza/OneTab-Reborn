@@ -1103,7 +1103,7 @@ class lo {
 			},
 			isEnabled: !this.locked,
 			Ho: e => {
-				if(!jo) alert(St("unlockBeforeDeleting"));
+				if(!jo) alert("To delete this tab group, you must unlock it first");
 			},
 			className: "deleteAllButton icon"
 		});
