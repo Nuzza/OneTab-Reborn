@@ -113,6 +113,11 @@ header>* {
   align-items: center;
 }
 
+#tabGroupsDiv {
+  width: 100%;
+  max-width: 1000px;
+}
+
 /* --- Main Page --- */
 
 body>div {
@@ -257,12 +262,6 @@ textarea {
   height: 200px;
   padding: 5px;
   outline: none;
-}
-
-@media screen and (max-width: 1000px) {
-  #tabGroupsDiv {
-    width: 100%;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
