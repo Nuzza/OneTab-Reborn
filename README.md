@@ -8,7 +8,7 @@ Please know that I will not be implementing features from OneTab 2.0 onwards out
 This project is unofficial and not affiliated with the OneTab developers. If you like OneTab, please consider rating the official extension 5 stars on the [Chrome](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/onetab/), or [Edge](https://microsoftedge.microsoft.com/addons/detail/onetab/hoimpamkkoehapgenciaoajfkfkpgfop) web stores; this project only exists thanks to their original work.
 
 ## Warning for browsers running Chromium v150 and higher
-This extension will no longer work on Chromium versions 150 and higher. I will attempt to update this extension to support these newer Chromium versions, but it may prove to be quite challenging given that I do not know much about Chromium extensions. If you want to continue using this extension, I advise you to avoid updating your browser until I figure out a solution.
+This extension will no longer work on Chromium versions 150 and higher due to MV2 extensions no longer being supported. I will attempt to update this extension to support these newer Chromium versions, but it may prove to be quite challenging given that I do not know much about Chromium extensions. If you want to continue using this extension, I advise you to avoid updating your browser until I figure out a solution.
 
 ## Compatibility
 - OneTab Reborn is compatible with OneTab URLs, so you can import/export your existing URLs via the Import/Export page.
